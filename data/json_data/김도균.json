@@ -1,0 +1,1981 @@
+{
+  "name": "김도균",
+  "start_date": "2024-04-21",
+  "search_query": "\"김도균\" lang:ko -is:retweet -is:nullcast",
+  "counts_query": "\"김도균\" lang:ko -is:retweet -is:nullcast",
+  "windows": {
+    "lag1_start_time": "2024-04-14T00:00:00Z",
+    "lag1_end_time": "2024-04-21T00:00:00Z",
+    "lag2_start_time": "2024-04-07T00:00:00Z",
+    "lag2_end_time": "2024-04-14T00:00:00Z",
+    "lag3_start_time": "2024-03-31T00:00:00Z",
+    "lag3_end_time": "2024-04-07T00:00:00Z",
+    "counts_start_time": "2024-03-31T00:00:00Z",
+    "counts_end_time": "2024-04-21T00:00:00Z"
+  },
+  "collected_at_utc": "2026-02-25T15:56:57Z",
+  "counts": {
+    "request": {
+      "query": "\"김도균\" lang:ko -is:retweet -is:nullcast",
+      "start_time": "2024-03-31T00:00:00Z",
+      "end_time": "2024-04-21T00:00:00Z",
+      "granularity": "day"
+    },
+    "rate_limit": {
+      "x-rate-limit-remaining": "288",
+      "x-rate-limit-reset": "1772035482"
+    },
+    "response": {
+      "data": [
+        {
+          "end": "2024-04-01T00:00:00.000Z",
+          "start": "2024-03-31T00:00:00.000Z",
+          "tweet_count": 15
+        },
+        {
+          "end": "2024-04-02T00:00:00.000Z",
+          "start": "2024-04-01T00:00:00.000Z",
+          "tweet_count": 18
+        },
+        {
+          "end": "2024-04-03T00:00:00.000Z",
+          "start": "2024-04-02T00:00:00.000Z",
+          "tweet_count": 13
+        },
+        {
+          "end": "2024-04-04T00:00:00.000Z",
+          "start": "2024-04-03T00:00:00.000Z",
+          "tweet_count": 15
+        },
+        {
+          "end": "2024-04-05T00:00:00.000Z",
+          "start": "2024-04-04T00:00:00.000Z",
+          "tweet_count": 12
+        },
+        {
+          "end": "2024-04-06T00:00:00.000Z",
+          "start": "2024-04-05T00:00:00.000Z",
+          "tweet_count": 8
+        },
+        {
+          "end": "2024-04-07T00:00:00.000Z",
+          "start": "2024-04-06T00:00:00.000Z",
+          "tweet_count": 12
+        },
+        {
+          "end": "2024-04-08T00:00:00.000Z",
+          "start": "2024-04-07T00:00:00.000Z",
+          "tweet_count": 18
+        },
+        {
+          "end": "2024-04-09T00:00:00.000Z",
+          "start": "2024-04-08T00:00:00.000Z",
+          "tweet_count": 5
+        },
+        {
+          "end": "2024-04-10T00:00:00.000Z",
+          "start": "2024-04-09T00:00:00.000Z",
+          "tweet_count": 12
+        },
+        {
+          "end": "2024-04-11T00:00:00.000Z",
+          "start": "2024-04-10T00:00:00.000Z",
+          "tweet_count": 12
+        },
+        {
+          "end": "2024-04-12T00:00:00.000Z",
+          "start": "2024-04-11T00:00:00.000Z",
+          "tweet_count": 8
+        },
+        {
+          "end": "2024-04-13T00:00:00.000Z",
+          "start": "2024-04-12T00:00:00.000Z",
+          "tweet_count": 21
+        },
+        {
+          "end": "2024-04-14T00:00:00.000Z",
+          "start": "2024-04-13T00:00:00.000Z",
+          "tweet_count": 2
+        },
+        {
+          "end": "2024-04-15T00:00:00.000Z",
+          "start": "2024-04-14T00:00:00.000Z",
+          "tweet_count": 2
+        },
+        {
+          "end": "2024-04-16T00:00:00.000Z",
+          "start": "2024-04-15T00:00:00.000Z",
+          "tweet_count": 9
+        },
+        {
+          "end": "2024-04-17T00:00:00.000Z",
+          "start": "2024-04-16T00:00:00.000Z",
+          "tweet_count": 5
+        },
+        {
+          "end": "2024-04-18T00:00:00.000Z",
+          "start": "2024-04-17T00:00:00.000Z",
+          "tweet_count": 41
+        },
+        {
+          "end": "2024-04-19T00:00:00.000Z",
+          "start": "2024-04-18T00:00:00.000Z",
+          "tweet_count": 4
+        },
+        {
+          "end": "2024-04-20T00:00:00.000Z",
+          "start": "2024-04-19T00:00:00.000Z",
+          "tweet_count": 3
+        },
+        {
+          "end": "2024-04-21T00:00:00.000Z",
+          "start": "2024-04-20T00:00:00.000Z",
+          "tweet_count": 4
+        }
+      ],
+      "meta": {
+        "total_tweet_count": 239
+      }
+    }
+  },
+  "search": {
+    "lag1w": {
+      "request": {
+        "query": "\"김도균\" lang:ko -is:retweet -is:nullcast",
+        "start_time": "2024-04-14T00:00:00Z",
+        "end_time": "2024-04-21T00:00:00Z",
+        "max_results": 50,
+        "max_pages": 1,
+        "sort_order": "relevancy",
+        "tweet.fields": [
+          "public_metrics",
+          "created_at"
+        ]
+      },
+      "rate_limit": {
+        "x-rate-limit-remaining": "266",
+        "x-rate-limit-reset": "1772035484"
+      },
+      "pages": [
+        {
+          "data": [
+            {
+              "created_at": "2024-04-15T22:51:16.000Z",
+              "text": "[#도누니]\n생일 축하해요! 예찬이 형! 형을 알고 난 후부터 행복한 일들이 많이 일어나는 것 같앜ㅎㅋㅎㅋㅎㅋ 앞으로 계속 행복하게 지내자☺\n\n#82MAJOR #82메이저 #에이티투메이저\n#김도균 #KIMDOGYUN https://t.co/rzCM6iJdKL",
+              "id": "1780006003557421377",
+              "public_metrics": {
+                "retweet_count": 190,
+                "reply_count": 21,
+                "like_count": 893,
+                "quote_count": 53,
+                "bookmark_count": 46,
+                "impression_count": 26184
+              },
+              "edit_history_tweet_ids": [
+                "1780006003557421377"
+              ]
+            },
+            {
+              "created_at": "2024-04-19T06:36:27.000Z",
+              "text": "[#도누니]\n성모 형!!! 생일 진심으로 축하해요!\n항상 형에게 의지를 많이 하는 것 같아서 고마워요😁\n평생 제 형으로 남아주세요 사랑합니데이~\n\n#82MAJOR #82메이저 #에이티투메이저\n#김도균 #KIMDOGYUN https://t.co/6CYCOl3usd",
+              "id": "1781210234977202662",
+              "public_metrics": {
+                "retweet_count": 163,
+                "reply_count": 7,
+                "like_count": 683,
+                "quote_count": 28,
+                "bookmark_count": 41,
+                "impression_count": 26646
+              },
+              "edit_history_tweet_ids": [
+                "1781210234977202662"
+              ]
+            },
+            {
+              "created_at": "2024-04-17T12:55:42.000Z",
+              "text": "240417 키움 시구\n\n#82MAJOR #에이티투메이저\n#김도균 #KIMDOGYUN https://t.co/NpbBtoibjz",
+              "id": "1780580899698163817",
+              "public_metrics": {
+                "retweet_count": 25,
+                "reply_count": 0,
+                "like_count": 59,
+                "quote_count": 3,
+                "bookmark_count": 3,
+                "impression_count": 2949
+              },
+              "edit_history_tweet_ids": [
+                "1780580899698163817"
+              ]
+            },
+            {
+              "created_at": "2024-04-17T12:14:16.000Z",
+              "text": "240417 키움 시구\n\n#82MAJOR #에이티투메이저\n#김도균 #KIMDOGYUN https://t.co/2Vlw0wCebi",
+              "id": "1780570470921933056",
+              "public_metrics": {
+                "retweet_count": 28,
+                "reply_count": 1,
+                "like_count": 55,
+                "quote_count": 16,
+                "bookmark_count": 4,
+                "impression_count": 4928
+              },
+              "edit_history_tweet_ids": [
+                "1780570470921933056"
+              ]
+            },
+            {
+              "created_at": "2024-04-16T09:12:20.000Z",
+              "text": "DMZ 찾은 주 유엔 미국대사 \"북한, 조건 없는 대화에 나서야\" #주유엔미국대사 #토머스그린필드 #DMZ https://t.co/SrDUgULv1c 김도균 기자",
+              "id": "1780162298172330481",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 2,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 980
+              },
+              "edit_history_tweet_ids": [
+                "1780162298172330481"
+              ]
+            },
+            {
+              "created_at": "2024-04-17T03:01:30.000Z",
+              "text": "강원 횡성서 발굴된 6·25전사자, 74년 만에 가족 품으로 #국유단 #고차말줄일병 https://t.co/VJbqWJA85G 김도균 기자",
+              "id": "1780431362891317623",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 708
+              },
+              "edit_history_tweet_ids": [
+                "1780431362891317623"
+              ]
+            },
+            {
+              "created_at": "2024-04-15T17:05:32.000Z",
+              "text": "하 ㅁㅊ 김도균이 쓴 “한국의 재분배 정치의 역사적 기원” 이거 근래 읽은 논문 중에 손에 꼽게 마음에 드네… 많이 안 길고 세금 관련 정치권 논쟁이나 한국의 사회정책 부재에 관한 특수성?이 잘 나타나 있음 추천 추천",
+              "id": "1779918993593364595",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 133
+              },
+              "edit_history_tweet_ids": [
+                "1779918993593364595"
+              ]
+            },
+            {
+              "created_at": "2024-04-18T07:15:11.000Z",
+              "text": "재외공관장회의 22일부터... '갑질 논란' 정재호 주중대사 참석 #재외공관장회의 #정재호 https://t.co/cKxD6a3Xbj 김도균 기자",
+              "id": "1780857591515770910",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 765
+              },
+              "edit_history_tweet_ids": [
+                "1780857591515770910"
+              ]
+            },
+            {
+              "created_at": "2024-04-20T13:02:57.000Z",
+              "text": "#케이스뮤지엄 #전시정보 #전시\n\n📍 전시 명: 시공時空 시나리오 Space Time Scenarios\n📍 참여작가: 구동희, 김도균, 김민애, 김예슬, 서도호, 오디너리피플, 윤현학, 박기원, 배종헌, 이희준, 칸디다 회퍼, 포스트 스탠다즈, 시공時空 시나리오\n📍 장소: 서울시립미술관\n📍 관람 시간: 10:00-20:00, https://t.co/QhvC0EfKUE",
+              "id": "1781669888232489080",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 2492
+              },
+              "edit_history_tweet_ids": [
+                "1781669888232489080"
+              ]
+            },
+            {
+              "created_at": "2024-04-20T10:27:40.000Z",
+              "text": "진짜 김도균 어머니 아닌지",
+              "id": "1781630809415487732",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 134
+              },
+              "edit_history_tweet_ids": [
+                "1781630809415487732"
+              ]
+            },
+            {
+              "created_at": "2024-04-17T07:16:27.000Z",
+              "text": "\"굴종외교!\"\n\nRT @ohmynews_korea 일본 언론 \"한일 정상, 17일 밤 전화 회담\" #윤석열 #기시다 김도균 기자 https://t.co/7fHdoWztxw \n\n&lt;마이니치&gt; \"일본 측이 먼저 전화 회담 제안\"",
+              "id": "1780495524526993703",
+              "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 2,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 68
+              },
+              "edit_history_tweet_ids": [
+                "1780495524526993703"
+              ]
+            },
+            {
+              "created_at": "2024-04-16T15:19:44.000Z",
+              "text": "군대에 김도균같은사람 없을거아는데 궁금한걸우짬 ......  애휴....",
+              "id": "1780254758265311245",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 33
+              },
+              "edit_history_tweet_ids": [
+                "1780254758265311245"
+              ]
+            },
+            {
+              "created_at": "2024-04-19T17:35:54.000Z",
+              "text": "1 하진\n2 김도균 https://t.co/9AmBotZyw6",
+              "id": "1781376189627822451",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 61
+              },
+              "edit_history_tweet_ids": [
+                "1781376189627822451"
+              ]
+            },
+            {
+              "created_at": "2024-04-15T07:37:51.000Z",
+              "text": "RT @ohmynews_korea 해병대 창설일, 대통령 \"사령관 중심\" 예비역 \"특검 수용\" #해병대창설 #김계환사령관 #박정훈대령 김도균 기자 https://t.co/f8n5tDdcMw",
+              "id": "1779776133363593278",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 12
+              },
+              "edit_history_tweet_ids": [
+                "1779776133363593278"
+              ]
+            },
+            {
+              "created_at": "2024-04-15T01:15:19.000Z",
+              "text": "히피펌,,반묶음하니까 넘 예쁘네,,,,걍 머리가,,,좀 발랄해보여^^데ㅔㅎㅅ 김도균아저씨같은데 맘에 들어 이게 히피의 맛인가",
+              "id": "1779679866977440091",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 6
+              },
+              "edit_history_tweet_ids": [
+                "1779679866977440091"
+              ]
+            },
+            {
+              "created_at": "2024-04-19T18:34:39.000Z",
+              "text": "220420 82major_official 공식 틱톡\n\nIn front of burger house🍔\n\n🔗 https://t.co/9DyavRnuGD\n\n#82MAJOR #에이티투메이저\n#김도균 #KIMDOGYUN https://t.co/fgMA07GSuC",
+              "id": "1781390975417684400",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 246
+              },
+              "edit_history_tweet_ids": [
+                "1781390975417684400"
+              ]
+            },
+            {
+              "created_at": "2024-04-17T17:50:44.000Z",
+              "text": "220418 82major_official 공식 틱톡\n\n다들 성공??😆\n\n🔗 https://t.co/CLlMH4V7Ui\n\n#82MAJOR #에이티투메이저\n#김도균 #KIMDOGYUN https://t.co/DCjKVkobgI",
+              "id": "1780655147351470163",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 2,
+                "bookmark_count": 1,
+                "impression_count": 562
+              },
+              "edit_history_tweet_ids": [
+                "1780655147351470163"
+              ]
+            },
+            {
+              "created_at": "2024-04-18T18:12:21.000Z",
+              "text": "220419 82major_official 공식 틱톡\n\nㅋㅋㅋㅋ미안,,,\n\n🔗 https://t.co/QeAUmxr821\n\n#82MAJOR #에이티투메이저\n#김도균 #KIMDOGYUN https://t.co/g2kxZsxCqs",
+              "id": "1781022975728455941",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 4,
+                "bookmark_count": 2,
+                "impression_count": 496
+              },
+              "edit_history_tweet_ids": [
+                "1781022975728455941"
+              ]
+            },
+            {
+              "created_at": "2024-04-15T12:16:44.000Z",
+              "text": "김도균 누구야",
+              "id": "1779846318216937623",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 178
+              },
+              "edit_history_tweet_ids": [
+                "1779846318216937623"
+              ]
+            },
+            {
+              "created_at": "2024-04-15T06:04:41.000Z",
+              "text": "에이티투메이저 82major 대면 영통 팬싸컷 \n\n💰1.5\n\nForeigner ⭕️\n 마감까지 3번 변동 알려드리겠습니다\n\n팬싸컷❣️\nhttps://t.co/9yNFCpVgaN\n\n양도 거래 교환 판매 포카 미공포 에이티투메이저 82메이저 조성일 남성모 황성빈 박석준 윤예찬 김도균 82major https://t.co/L0RvdfdX5v",
+              "id": "1779752688315769333",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 2,
+                "bookmark_count": 0,
+                "impression_count": 1451
+              },
+              "edit_history_tweet_ids": [
+                "1779752688315769333"
+              ]
+            },
+            {
+              "created_at": "2024-04-14T05:36:08.000Z",
+              "text": "에이티투메이저 82major 대면 영통 팬싸컷 \n\n💰1.5\n\nForeigner ⭕️\n 마감까지 3번 변동 알려드리겠습니다\n\n팬싸컷❣️\nhttps://t.co/9yNFCpVgaN\n\n양도 거래 교환 판매 포카 미공포 에이티투메이저 82메이저 조성일 남성모 황성빈 박석준 윤예찬 김도균 82major https://t.co/qCsV4FfCrm",
+              "id": "1779383114470691180",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 744
+              },
+              "edit_history_tweet_ids": [
+                "1779383114470691180"
+              ]
+            },
+            {
+              "created_at": "2024-04-20T13:40:30.000Z",
+              "text": "진짜 무슨 죽은사람 말 대변해주는 \n중대장님도 아니고 왜이리\n애들아 소대장 없어도 기죽지말고 힘내자!\n라는것처럼 보이지...\n김도균은 이제 기억되는 사람으로 남은거같음",
+              "id": "1781679337970045076",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 24
+              },
+              "edit_history_tweet_ids": [
+                "1781679337970045076"
+              ]
+            },
+            {
+              "created_at": "2024-04-20T13:45:07.000Z",
+              "text": "솔직히 김도균 앞에서 기지개하면 실수로 옷 들쳐서\n도균의 몸을 볼 수있을거같음 진짜",
+              "id": "1781680497816707565",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 47
+              },
+              "edit_history_tweet_ids": [
+                "1781680497816707565"
+              ]
+            }
+          ],
+          "meta": {
+            "newest_id": "1781680497816707565",
+            "oldest_id": "1779383114470691180",
+            "result_count": 23
+          }
+        }
+      ],
+      "count": 23,
+      "has_next_token": false
+    },
+    "lag2w": {
+      "request": {
+        "query": "\"김도균\" lang:ko -is:retweet -is:nullcast",
+        "start_time": "2024-04-07T00:00:00Z",
+        "end_time": "2024-04-14T00:00:00Z",
+        "max_results": 50,
+        "max_pages": 1,
+        "sort_order": "relevancy",
+        "tweet.fields": [
+          "public_metrics",
+          "created_at"
+        ]
+      },
+      "rate_limit": {
+        "x-rate-limit-remaining": "265",
+        "x-rate-limit-reset": "1772035484"
+      },
+      "pages": [
+        {
+          "data": [
+            {
+              "id": "1778042256072839558",
+              "edit_history_tweet_ids": [
+                "1778042256072839558"
+              ],
+              "text": "[#도누니]\n도균이의 거울셀카 모음\n\n#82MAJOR #82메이저 #에이티투메이저\n#김도균 #KIMDOGYUN https://t.co/JjltwhAk1K",
+              "public_metrics": {
+                "retweet_count": 216,
+                "reply_count": 43,
+                "like_count": 864,
+                "quote_count": 124,
+                "bookmark_count": 64,
+                "impression_count": 39880
+              },
+              "created_at": "2024-04-10T12:48:02.000Z"
+            },
+            {
+              "id": "1778697553372226016",
+              "edit_history_tweet_ids": [
+                "1778697553372226016"
+              ],
+              "text": "[🎥]\n우리의 과몰입 이유 = 82DE\n\n🔗 https://t.co/mtOV9PNMbh\n🔗 https://t.co/3zDealf2Ol\n\n#82MAJOR #82메이저 #에이티투메이저\n#김도균 #KIMDOGYUN\n#황성빈 #HWANGSEONGBIN\n#FreakyLove",
+              "public_metrics": {
+                "retweet_count": 33,
+                "reply_count": 4,
+                "like_count": 154,
+                "quote_count": 5,
+                "bookmark_count": 5,
+                "impression_count": 6121
+              },
+              "created_at": "2024-04-12T08:11:57.000Z"
+            },
+            {
+              "id": "1778022821941358875",
+              "edit_history_tweet_ids": [
+                "1778022821941358875"
+              ],
+              "text": "여기도 해볼만한데 ㅠㅠ\n주블리 영입인재 \n전 수도방위사령관 김도균 후보 https://t.co/PSRYhmHKsP",
+              "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 13,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 585
+              },
+              "created_at": "2024-04-10T11:30:49.000Z"
+            },
+            {
+              "id": "1778700899512365109",
+              "edit_history_tweet_ids": [
+                "1778700899512365109"
+              ],
+              "text": "총선 다음날 해병대사령관 \"말하지 못하는 고뇌 가득\" #채상병 #김계환 #박정훈 https://t.co/T5p0hVgpba 김도균 기자",
+              "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 1,
+                "like_count": 18,
+                "quote_count": 4,
+                "bookmark_count": 0,
+                "impression_count": 2487
+              },
+              "created_at": "2024-04-12T08:25:15.000Z"
+            },
+            {
+              "id": "1777558305822658894",
+              "edit_history_tweet_ids": [
+                "1777558305822658894"
+              ],
+              "text": "[📻]\n잠시 후 오후 2시!\nArirang Radio #KPOPPIN 에\n윤예찬 &amp; 김도균이 출연합니다!\n많은 청취와 응원 부탁드려요💙\n\n[On-Air / Livestream]\n🔗 https://t.co/wxj4a92LdD\n\n#82MAJOR #82메이저 #에이티투메이저",
+              "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 0,
+                "like_count": 152,
+                "quote_count": 2,
+                "bookmark_count": 1,
+                "impression_count": 5773
+              },
+              "created_at": "2024-04-09T04:45:00.000Z"
+            },
+            {
+              "id": "1778413758920233174",
+              "edit_history_tweet_ids": [
+                "1778413758920233174"
+              ],
+              "text": "김도균씨 힘내시길 https://t.co/p0XoTA2A1y",
+              "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 8,
+                "quote_count": 3,
+                "bookmark_count": 1,
+                "impression_count": 1118
+              },
+              "created_at": "2024-04-11T13:24:16.000Z"
+            },
+            {
+              "id": "1778718558459134083",
+              "edit_history_tweet_ids": [
+                "1778718558459134083"
+              ],
+              "text": "🎥 240412 — 82MAJOR Tiktok, Shorts &amp; Reels Update\n\n우리의 과몰입 이유 = 82DE\n🎵 Freaky Love - KINO\n\n#82MAJOR #82메이저 #에이티투메이저\n#김도균 #KIMDOGYUN\n#황성빈 #HWANGSEONGBIN\n#FreakyLove https://t.co/Jg7DdrbQh7",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 1,
+                "like_count": 18,
+                "quote_count": 2,
+                "bookmark_count": 0,
+                "impression_count": 1841
+              },
+              "created_at": "2024-04-12T09:35:25.000Z"
+            },
+            {
+              "id": "1777334030515699918",
+              "edit_history_tweet_ids": [
+                "1777334030515699918"
+              ],
+              "text": "🎥 240408 — 82MAJOR Tiktok, Shorts &amp; Reels Update\n\n82DE를 보고 말야🫶\n🎵 FATE - (G)I-DLE\n\n#82MAJOR #82메이저 #에이티투메이저\n#남성모 #박석준 #윤예찬 #조성일 #황성빈 #김도균 #아딱질챌린지 https://t.co/wijVH6QZYJ",
+              "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 1,
+                "like_count": 10,
+                "quote_count": 1,
+                "bookmark_count": 1,
+                "impression_count": 1169
+              },
+              "created_at": "2024-04-08T13:53:48.000Z"
+            },
+            {
+              "id": "1777035740200984913",
+              "edit_history_tweet_ids": [
+                "1777035740200984913"
+              ],
+              "text": "나에게는 김도균중위님이아직어렵다 (진짜존나… https://t.co/tNZro4czJX",
+              "public_metrics": {
+                "retweet_count": 12,
+                "reply_count": 0,
+                "like_count": 31,
+                "quote_count": 7,
+                "bookmark_count": 7,
+                "impression_count": 3253
+              },
+              "created_at": "2024-04-07T18:08:30.000Z"
+            },
+            {
+              "id": "1778768999628808475",
+              "edit_history_tweet_ids": [
+                "1778768999628808475"
+              ],
+              "text": "세계 햄스터의 날 덕에 내가 김도균 최고 귀요미 셀카를 받다니,, https://t.co/IzJJV2c2do",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 196
+              },
+              "created_at": "2024-04-12T12:55:52.000Z"
+            },
+            {
+              "id": "1776814887488143550",
+              "edit_history_tweet_ids": [
+                "1776814887488143550"
+              ],
+              "text": "아니어제 민통구 개잼잇어서 하루만에격파했는데\n김도균이라는남자 왤케그렇게 잘생긴것도아니고,앞니개큰데 보면흥분이되는지몰르겠음 하...ㅜ https://t.co/4wx4EDALZ4",
+              "public_metrics": {
+                "retweet_count": 12,
+                "reply_count": 0,
+                "like_count": 16,
+                "quote_count": 8,
+                "bookmark_count": 3,
+                "impression_count": 4390
+              },
+              "created_at": "2024-04-07T03:30:55.000Z"
+            },
+            {
+              "id": "1778722480653557904",
+              "edit_history_tweet_ids": [
+                "1778722480653557904"
+              ],
+              "text": "헤엑 아니 이번 컨셉 김도균이 주인공 아니냐? 🏀 https://t.co/reXP6KcLDB",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 136
+              },
+              "created_at": "2024-04-12T09:51:01.000Z"
+            },
+            {
+              "id": "1779180005538537902",
+              "edit_history_tweet_ids": [
+                "1779180005538537902"
+              ],
+              "text": "도태 먹고싶다..\n김도균은 알까? 자기 체중 무거운거",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 22
+              },
+              "created_at": "2024-04-13T16:09:03.000Z"
+            },
+            {
+              "id": "1776902182920470701",
+              "edit_history_tweet_ids": [
+                "1776902182920470701"
+              ],
+              "text": "팀명 : 김도균 상병의 너 위 내 밑으로 펜소\n\n팀원 : @xilocorey\n\n무한한 감사~~",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 228
+              },
+              "created_at": "2024-04-07T09:17:48.000Z"
+            },
+            {
+              "id": "1777915462137028993",
+              "edit_history_tweet_ids": [
+                "1777915462137028993"
+              ],
+              "text": "82MAJOR 팬싸 미공포 특전 포카 앨범 양도\n\n각0.3 \n0.6부터 거래가능⭕️\ndm or 옾챗https://t.co/LoT3WXk4Vj\n\n82major  에이티투메이저 에투메 poca sell\nPHOTOCARD 남성모 성모 박석준 석준 윤예찬 예찬 조성일 성일 황성빈 성빈 김도균 도균 SEONGMO SEOKJOON YECHAN SEONGIL SEONGBIN DOGYUN https://t.co/H85VEKlzJE",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 130
+              },
+              "created_at": "2024-04-10T04:24:12.000Z"
+            },
+            {
+              "id": "1777582894489149824",
+              "edit_history_tweet_ids": [
+                "1777582894489149824"
+              ],
+              "text": "▶ 셀럽 : 에이티투메이저 김도균\n▶ 어디 : 240408 82MAJOR 공식 인스타그램\n▶ 브랜드 : 팬츠 - 와이케이 (WAIKEI)\n▶ 모델명 : 커팅 라인 데님 팬츠 미디엄블루\n\n #82메이저 #KIMDOGYUN https://t.co/0EDcZCNtFT",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 4247
+              },
+              "created_at": "2024-04-09T06:22:42.000Z"
+            },
+            {
+              "id": "1777608696589164943",
+              "edit_history_tweet_ids": [
+                "1777608696589164943"
+              ],
+              "text": "82MAJOR 포카 앨포 양도\n\n일괄 5.0\nDM주세요!♡\n시세보다 낮게 양도합니다💗\n네고 가능!\n\n82메이저 에이티투메이저 에투메 예스24 예사 SHOWCASE PHOCA PHOTOCARD\n남성모 박석준 윤예찬 조성일 황성빈 김도균\nSUNGMO SEOKJOON YECHAN SEONGIL SUNGBIN DOGYUN 미공포 과잠 분철 받아요 사요 구해요 https://t.co/diTKsSJ8Y8",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 4,
+                "impression_count": 1271
+              },
+              "created_at": "2024-04-09T08:05:14.000Z"
+            },
+            {
+              "id": "1777979448652157357",
+              "edit_history_tweet_ids": [
+                "1777979448652157357"
+              ],
+              "text": "[K리그2 기자회견] 최고 전반→최악 후반...김도균 감독 \"브루노 실바 본받아야 해\"\n🔗https://t.co/W1qRXvyKsT\n\nhttps://t.co/W1qRXvyKsT",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 15
+              },
+              "created_at": "2024-04-10T08:38:28.000Z"
+            },
+            {
+              "id": "1777036298156736946",
+              "edit_history_tweet_ids": [
+                "1777036298156736946"
+              ],
+              "text": "이쯤되면 앵간한캐릭터 캐릭터그릴만큼그려봤다고 생각했는데 진짜 김도균님,개어려우시네요",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 373
+              },
+              "created_at": "2024-04-07T18:10:43.000Z"
+            },
+            {
+              "id": "1777401240781025653",
+              "edit_history_tweet_ids": [
+                "1777401240781025653"
+              ],
+              "text": "[4·10 총선 핫스팟] 강원 속·인·고·양, 김도균·이양수 공방 막판 판세",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 8
+              },
+              "created_at": "2024-04-08T18:20:52.000Z"
+            },
+            {
+              "id": "1778344918571942016",
+              "edit_history_tweet_ids": [
+                "1778344918571942016"
+              ],
+              "text": "▶ 셀럽 : 에이티투메이저 김도균\n▶ 어디 : 240408 82MAJOR 공식 인스타그램\n▶ 브랜드 : 셔츠 - 와이케이 (WAIKEI)\n▶ 모델명 : 레이어드 체크 셔츠 그린\n\n #82메이저 #KIMDOGYUN https://t.co/4C4Hj77HTA",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 2334
+              },
+              "created_at": "2024-04-11T08:50:43.000Z"
+            },
+            {
+              "id": "1778307387851788758",
+              "edit_history_tweet_ids": [
+                "1778307387851788758"
+              ],
+              "text": "신원식, 이임 앞둔 미 인태사령관 접견 \"전략자산 한반도 전개 중추적 역할\" #신원식 #인태사령부 #존아퀼리노 김도균 기자 https://t.co/sftpF1i7Wl",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 797
+              },
+              "created_at": "2024-04-11T06:21:35.000Z"
+            },
+            {
+              "id": "1776806155266019506",
+              "edit_history_tweet_ids": [
+                "1776806155266019506"
+              ],
+              "text": "도원경 씨 ㅋㅋㅋㅋㅋ\n\n김도균 머리 감는 거 도와주는데\n물 모자랄까 봐 중간에\n찬물 막 머리에 부어버림 ㅋㅋㅋㅋ\n\n영하 10도에 밖에서 머리 감는데 ㅋㅋㅋ",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 38
+              },
+              "created_at": "2024-04-07T02:56:13.000Z"
+            },
+            {
+              "id": "1777751657352397278",
+              "edit_history_tweet_ids": [
+                "1777751657352397278"
+              ],
+              "text": "비트로드 영통 미공포 양도\n\nset 4\n\n에이티투메이저 조성일 윤예찬 남성모 황성빈 박석준 김도균 포카 공방포카 팬싸 미공포 앨범 poca 82major https://t.co/PtLuZuRlSh",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 1184
+              },
+              "created_at": "2024-04-09T17:33:18.000Z"
+            },
+            {
+              "id": "1776896738063974615",
+              "edit_history_tweet_ids": [
+                "1776896738063974615"
+              ],
+              "text": "4월 7일 배우 이기영, 장동직 지지연설 #김도균 #이기영 #장동직 https://t.co/6BwdaeLaWt - @YouTube",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 72
+              },
+              "created_at": "2024-04-07T08:56:10.000Z"
+            },
+            {
+              "id": "1777648952856261010",
+              "edit_history_tweet_ids": [
+                "1777648952856261010"
+              ],
+              "text": "에이티투메이저 도균 포카 양도받아요 \nBuy⭕️ Sell❌ \n\nhttps://t.co/7WeLDgzs19\n\n디엠 주세요\n\n82major 남성모 박석준 윤예찬 조성일 황성빈 김도균 에투메 https://t.co/p411soh1JT",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 1217
+              },
+              "created_at": "2024-04-09T10:45:12.000Z"
+            },
+            {
+              "id": "1777947387694366994",
+              "edit_history_tweet_ids": [
+                "1777947387694366994"
+              ],
+              "text": "[K리그2 인터뷰] 오스마르 명단제외..김도균 감독 \"김포전서 근육 다쳤다\"\n🔗https://t.co/5yBD5qPubR\n\nhttps://t.co/5yBD5qPubR",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 52
+              },
+              "created_at": "2024-04-10T06:31:04.000Z"
+            },
+            {
+              "id": "1778815484705567217",
+              "edit_history_tweet_ids": [
+                "1778815484705567217"
+              ],
+              "text": "82major 에이티투메이저 메이크스타 미공포 앨범 포카 양도\n\n준등기0.2\ndm or kkt\n\n조성일 윤예찬 남성모 황성빈 박석준 김도균\n포카 공방포카 미공포 앨범 poca https://t.co/TZIytEA4NX",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 4,
+                "impression_count": 1461
+              },
+              "created_at": "2024-04-12T16:00:35.000Z"
+            },
+            {
+              "id": "1778321621750792277",
+              "edit_history_tweet_ids": [
+                "1778321621750792277"
+              ],
+              "text": "자각몽 꾸고싶다\n그럼 김도균 유사꿈 먹을수있을텐데",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 28
+              },
+              "created_at": "2024-04-11T07:18:08.000Z"
+            },
+            {
+              "id": "1778003702164631738",
+              "edit_history_tweet_ids": [
+                "1778003702164631738"
+              ],
+              "text": "김도균이겨라!",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 8
+              },
+              "created_at": "2024-04-10T10:14:50.000Z"
+            },
+            {
+              "id": "1778769538919886996",
+              "edit_history_tweet_ids": [
+                "1778769538919886996"
+              ],
+              "text": "김도균....너야? https://t.co/GhlqIrIzOt",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 1,
+                "bookmark_count": 0,
+                "impression_count": 202
+              },
+              "created_at": "2024-04-12T12:58:00.000Z"
+            },
+            {
+              "id": "1778303521718432148",
+              "edit_history_tweet_ids": [
+                "1778303521718432148"
+              ],
+              "text": "에이티투메이저 82major 대면 영통 팬싸컷 \n\n💰1.5\n\nForeigner ⭕️\n 마감까지 3번 변동 알려드리겠습니다\n\n팬싸컷❣️\nhttps://t.co/9yNFCpVgaN\n\n양도 거래 교환 판매 포카 미공포 에이티투메이저 82메이저 조성일 남성모 황성빈 박석준 윤예찬 김도균 82major https://t.co/xTHO1GDTDJ",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 641
+              },
+              "created_at": "2024-04-11T06:06:13.000Z"
+            },
+            {
+              "id": "1777910458173014171",
+              "edit_history_tweet_ids": [
+                "1777910458173014171"
+              ],
+              "text": "지역구?\n생깔려다. 민주당 김도균 찍음.\n여긴 어차피 민주당 안되거니까.\n어제 버스에서 마주친 유세차에서\n마주친 눈빛이 애잔해서...\n다음엔 새미래로 오길.\n\n비례는 당근빠따.\n6번.\n근데 위에서 4번째길래 3번확인후\n꽝찍!\n\n이제부터는 법대로~\n\n새미래 예상.\n지역 6  / 비례 9.",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 64
+              },
+              "created_at": "2024-04-10T04:04:19.000Z"
+            },
+            {
+              "id": "1776806228481753267",
+              "edit_history_tweet_ids": [
+                "1776806228481753267"
+              ],
+              "text": "김도균 : 으아아아아\n\nㅋㅋㅋㅋ",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 21
+              },
+              "created_at": "2024-04-07T02:56:30.000Z"
+            },
+            {
+              "id": "1779206312594964604",
+              "edit_history_tweet_ids": [
+                "1779206312594964604"
+              ],
+              "text": "230414 82major_official 공식 틱톡\n\nChoose your flower🌹\n\n🔗 https://t.co/EnsBGRyalM\n\n#82MAJOR #에이티투메이저\n#김도균 #KIMDOGYUN https://t.co/3uPvdfhxPV",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 1,
+                "bookmark_count": 2,
+                "impression_count": 286
+              },
+              "created_at": "2024-04-13T17:53:35.000Z"
+            },
+            {
+              "id": "1778838121465229337",
+              "edit_history_tweet_ids": [
+                "1778838121465229337"
+              ],
+              "text": "230413 82major_official 공식 유튜브\n\n오형제 EP.3 - 팀명\n\n🔗 https://t.co/lc257T2QlY\n\n#82MAJOR #에이티투메이저\n#김도균 #KIMDOGYUN https://t.co/lw9pfgBFcI",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 189
+              },
+              "created_at": "2024-04-12T17:30:32.000Z"
+            },
+            {
+              "id": "1778838282916515916",
+              "edit_history_tweet_ids": [
+                "1778838282916515916"
+              ],
+              "text": "230413 82major_official 공식 틱톡\n\n🔗 https://t.co/mH852Xja9x\n\n#82MAJOR #에이티투메이저\n#김도균 #KIMDOGYUN https://t.co/FMub4b64gT",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 207
+              },
+              "created_at": "2024-04-12T17:31:10.000Z"
+            },
+            {
+              "id": "1777997604242231318",
+              "edit_history_tweet_ids": [
+                "1777997604242231318"
+              ],
+              "text": "마지막까지 완벽했다 김도균 오렌지머리 진짜 사랑함 https://t.co/Ot3nNL1ZYL",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 110
+              },
+              "created_at": "2024-04-10T09:50:37.000Z"
+            },
+            {
+              "id": "1777940605844521098",
+              "edit_history_tweet_ids": [
+                "1777940605844521098"
+              ],
+              "text": "깨시민 동지들께!\n속초-양양 지인들께 밭갈이 부탁하여 \n더민주당 김도균(수방사 사령관 출신) 후보 투표 독려 부탁드리며,\n채상병 사건으로 출국금지 당한 신범철을 꼭 낙선시켜\n공수처 수사 받도록 해야합니다\nhttps://t.co/gOqlKvfbJy via @YouTube https://t.co/1l4as2UNlq",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 104
+              },
+              "created_at": "2024-04-10T06:04:07.000Z"
+            },
+            {
+              "id": "1777237169306042629",
+              "edit_history_tweet_ids": [
+                "1777237169306042629"
+              ],
+              "text": "자원소비사회에 대응하는 인간의 지혜를 모아, 강윤희 교수님과 서울새활용플라자🪴\n\n#국민대학교 #국민대 #탄소중립 #새활용 #재활용 #기후변화대응사업단 #서울새활용플라자 #KOOKMIN #university #recycling #upcycling\n\n촬영/편집: K*reator 김동준/김도균/신여진 https://t.co/gj1qQ6VysG",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 84
+              },
+              "created_at": "2024-04-08T07:28:55.000Z"
+            },
+            {
+              "id": "1778666446186529057",
+              "edit_history_tweet_ids": [
+                "1778666446186529057"
+              ],
+              "text": "에이티투메이저 82major 대면 영통 팬싸컷 \n\n💰1.5\n\nForeigner ⭕️\n 마감까지 3번 변동 알려드리겠습니다\n\n팬싸컷❣️\nhttps://t.co/9yNFCpVgaN\n\n양도 거래 교환 판매 포카 미공포 에이티투메이저 82메이저 조성일 남성모 황성빈 박석준 윤예찬 김도균 82major https://t.co/1xKj9uqlwt",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 1,
+                "bookmark_count": 0,
+                "impression_count": 850
+              },
+              "created_at": "2024-04-12T06:08:21.000Z"
+            },
+            {
+              "id": "1778627626149773678",
+              "edit_history_tweet_ids": [
+                "1778627626149773678"
+              ],
+              "text": "11~12일, 한미일 해상훈련... 제주 남방 공해상서 #한미일해상훈련 #서애류성룡함 #루즈벨트함 김도균 기자 https://t.co/ib6OXxz1MX",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 1,
+                "bookmark_count": 0,
+                "impression_count": 955
+              },
+              "created_at": "2024-04-12T03:34:06.000Z"
+            },
+            {
+              "id": "1778682206791331843",
+              "edit_history_tweet_ids": [
+                "1778682206791331843"
+              ],
+              "text": "함께 해온 모든 분들 감사합니다 #김도균 #선거운동원 #여정 https://t.co/pNcBLFw6oN - @YouTube",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 55
+              },
+              "created_at": "2024-04-12T07:10:59.000Z"
+            }
+          ],
+          "meta": {
+            "newest_id": "1779206312594964604",
+            "oldest_id": "1776806155266019506",
+            "result_count": 43
+          }
+        }
+      ],
+      "count": 43,
+      "has_next_token": false
+    },
+    "lag3w": {
+      "request": {
+        "query": "\"김도균\" lang:ko -is:retweet -is:nullcast",
+        "start_time": "2024-03-31T00:00:00Z",
+        "end_time": "2024-04-07T00:00:00Z",
+        "max_results": 50,
+        "max_pages": 1,
+        "sort_order": "relevancy",
+        "tweet.fields": [
+          "public_metrics",
+          "created_at"
+        ]
+      },
+      "rate_limit": {
+        "x-rate-limit-remaining": "264",
+        "x-rate-limit-reset": "1772035484"
+      },
+      "pages": [
+        {
+          "data": [
+            {
+              "edit_history_tweet_ids": [
+                "1775075799521198554"
+              ],
+              "id": "1775075799521198554",
+              "text": "우상호의원의 김도균 후보 지원연설 #김도균 #우상호 #국회의원 https://t.co/Fn11byyarA 출처 @YouTube",
+              "public_metrics": {
+                "retweet_count": 31,
+                "reply_count": 0,
+                "like_count": 46,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 1178
+              },
+              "created_at": "2024-04-02T08:20:24.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774693525520888274"
+              ],
+              "id": "1774693525520888274",
+              "text": "[🎥]\n이 정도는 해야줴😎 -성모\n\n🔗 https://t.co/pUiJ4NA7kl\n🔗 https://t.co/Qf6RbTTH3F\n\n#82MAJOR #82메이저 #에이티투메이저\n#김도균 #KIMDOGYUN\n#남성모 #NAMSEONGMO",
+              "public_metrics": {
+                "retweet_count": 16,
+                "reply_count": 1,
+                "like_count": 105,
+                "quote_count": 7,
+                "bookmark_count": 2,
+                "impression_count": 4743
+              },
+              "created_at": "2024-04-01T07:01:23.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775467919054709025"
+              ],
+              "id": "1775467919054709025",
+              "text": "김도균 후보!🥹\n\"최근 20년 간 민주당이 선거에서 단 한 번도 이긴 적 없는 강원 속초·인제·고성·양양에 도전장을 냈다. 주변 사람 모두가 비례대표로 나가라고 했지만 앞에서는 “알았다”고 하면서 속으로는 ‘무조건 내 고향 속초 출마’를 외쳤다고 한다.\"\nhttps://t.co/IudVpDAbwl https://t.co/ZJzyVmFjNV https://t.co/VCCWhPAL68",
+              "public_metrics": {
+                "retweet_count": 10,
+                "reply_count": 1,
+                "like_count": 3,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 675
+              },
+              "created_at": "2024-04-03T10:18:33.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775460237195292796"
+              ],
+              "id": "1775460237195292796",
+              "text": "김도균후보 안타깝다🥺\n\n속·인·고·양 이양수 53.0%, 김도균 32.6% [4·10총선 여론조사]\nhttps://t.co/fqCDsqPFdy",
+              "public_metrics": {
+                "retweet_count": 7,
+                "reply_count": 2,
+                "like_count": 2,
+                "quote_count": 2,
+                "bookmark_count": 0,
+                "impression_count": 1273
+              },
+              "created_at": "2024-04-03T09:48:01.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775753319799255344"
+              ],
+              "id": "1775753319799255344",
+              "text": "'신채호함' 해군 인도... SLBM 탑재 '전략 잠수함' 3척 확보 #신채호함 #SLBM 김도균 기자 https://t.co/MM6QwPemY2",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 2,
+                "bookmark_count": 0,
+                "impression_count": 1581
+              },
+              "created_at": "2024-04-04T05:12:37.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774246219793289696"
+              ],
+              "id": "1774246219793289696",
+              "text": "오 민주당에 3성장군 출신 후보가 또 있네? 속초인제고성양양 김도균 후보 수방사 사령관이었구나 https://t.co/CWjIJS8E0m",
+              "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 2,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 369
+              },
+              "created_at": "2024-03-31T01:23:57.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774727955111149783"
+              ],
+              "id": "1774727955111149783",
+              "text": "🎥 240401 — 82MAJOR Tiktok, Shorts &amp; Reels Update\n\n이 정도는 해야줴😎 -성모\n\n#82MAJOR #82메이저 #에이티투메이저\n#김도균 #KIMDOGYUN\n#남성모 #NAMSEONGMO https://t.co/IaWzujkjZS",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 1,
+                "like_count": 11,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 637
+              },
+              "created_at": "2024-04-01T09:18:12.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775465328077901832"
+              ],
+              "id": "1775465328077901832",
+              "text": "@suerte_todo 우리의 수도방위사령관 김도균! https://t.co/qGhEJ8xxfX",
+              "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 197
+              },
+              "created_at": "2024-04-03T10:08:15.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774599440042774599"
+              ],
+              "id": "1774599440042774599",
+              "text": "우상호의원의 김도균 후보 지원연설 #김도균 #우상호 #국회의원 https://t.co/nHpHDHhKBv via @YouTube",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 52
+              },
+              "created_at": "2024-04-01T00:47:31.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1776562166939930812"
+              ],
+              "id": "1776562166939930812",
+              "text": "NEW!\n4.4(목)-7.7(일)\n구동희, 김도균, 김민애, 김예슬, 서도호, 오디너리피플, 윤현학, 박기원, 배종헌, 이희준, 칸디다 회퍼, 포스트 스탠다즈\n시공時空 시나리오\n서울시립미술관 서소문본관\nhttps://t.co/bnrSEOzLDz\n#서울특별시 #시청 #미술🖼️ #서양미술🧚 #현대미술🚽 #사진📷 #전시👀 #건축🏠",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 833
+              },
+              "created_at": "2024-04-06T10:46:42.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774825983696347369"
+              ],
+              "id": "1774825983696347369",
+              "text": "사실 고민을 많이했어요\n하진을 할지 김도균을 할지\n근데 하진이 재밌긴 하다\n김도균을 하면 무난히 롱런할 수 있긴한데",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 211
+              },
+              "created_at": "2024-04-01T15:47:43.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774826121462448467"
+              ],
+              "id": "1774826121462448467",
+              "text": "김도균 하셨으면 백기원함(구라임)",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 71
+              },
+              "created_at": "2024-04-01T15:48:16.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1776516784683982980"
+              ],
+              "id": "1776516784683982980",
+              "text": "82major 메이크스타 미공포 양도\n각 0.5\n오픈채팅 주세요 🙏\nhttps://t.co/vfwOpGOc4Y\n\n박석준 남성모 김도균 윤예찬 조성일 황성빈 poca\n에이티투메이저 에투메 포카 https://t.co/TrQJvzE6Zm",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 6,
+                "impression_count": 1145
+              },
+              "created_at": "2024-04-06T07:46:22.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775059436748652970"
+              ],
+              "id": "1775059436748652970",
+              "text": "국민의 생명과 안위를 위하여\n이번 4.10총선은 \n1석 1석이 너무 중요하다...♬\n 힘내라...강원도 속초... 김도균 후보...💕\nhttps://t.co/OdS1E9UlYJ",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 35
+              },
+              "created_at": "2024-04-02T07:15:23.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1776148665377411130"
+              ],
+              "id": "1776148665377411130",
+              "text": "17개 유엔사 회원국, '한·유엔사 국방장관회의' 정례화 공감 #신원식 #유엔사 https://t.co/FqIfTbKJFa 김도균 기자",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 592
+              },
+              "created_at": "2024-04-05T07:23:35.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1776540100127781342"
+              ],
+              "id": "1776540100127781342",
+              "text": "이게다김도균때문이다 https://t.co/Rj5BLN77My",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 532
+              },
+              "created_at": "2024-04-06T09:19:01.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775109911644610678"
+              ],
+              "id": "1775109911644610678",
+              "text": "김도균 그는 대체 https://t.co/vyelCfX0iU https://t.co/696SPL0gEG",
+              "public_metrics": {
+                "retweet_count": 14,
+                "reply_count": 0,
+                "like_count": 22,
+                "quote_count": 2,
+                "bookmark_count": 2,
+                "impression_count": 2051
+              },
+              "created_at": "2024-04-02T10:35:57.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775553123924529256"
+              ],
+              "id": "1775553123924529256",
+              "text": "[4.10 총선, 강원의 선택] 이양수-김도균 지지율 격차 20.4%p로 벌어져",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 30
+              },
+              "created_at": "2024-04-03T15:57:07.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1776530769424621721"
+              ],
+              "id": "1776530769424621721",
+              "text": "[GOAL 목동] 공식전 4경기 연속 실점…김도균 감독 “집중력 더 끌어올려야”",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 18
+              },
+              "created_at": "2024-04-06T08:41:56.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775788989607559347"
+              ],
+              "id": "1775788989607559347",
+              "text": "[서울시립미술관] '시공 시나리오(Space Time Scenarios)' 7월 7일 / 전시작가: 구동희, 김도균, 김민애, 김예슬, 서도호, 오디너리피플, 윤현학, 박기원, 배종헌, 이희준, 칸디다 회퍼, 포스트 스탠다즈https://t.co/69GO16FF37",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 675
+              },
+              "created_at": "2024-04-04T07:34:22.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775076039628292525"
+              ],
+              "id": "1775076039628292525",
+              "text": "김태원도 독특한 캐인데\n(자뻑 잘난척파)\n\n김도균은 더 독특\n(고문관 답답과 그러나 어린이 같은.\n성가대 지휘하는 록커 ㅋㅋ)",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 110
+              },
+              "created_at": "2024-04-02T08:21:21.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775628250502570047"
+              ],
+              "id": "1775628250502570047",
+              "text": "[4.10 총선, 강원의 선택] 이양수-김도균 지지율 격차 20.4%p로 벌어져",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 37
+              },
+              "created_at": "2024-04-03T20:55:39.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775075567127400774"
+              ],
+              "id": "1775075567127400774",
+              "text": "김도균.. 그는 전통적인 록 기타리스트의 이미지를 깨버리는 캐릭터였던 거시다\n\n😱😱😱",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 24
+              },
+              "created_at": "2024-04-02T08:19:29.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774728171990200518"
+              ],
+              "id": "1774728171990200518",
+              "text": "이건 근데 준모보다 키 큰거 좋음\n애도 김도균 마냥 190 넘는거면 어캄ㅋㅋ\n개좋네",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 37
+              },
+              "created_at": "2024-04-01T09:19:03.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775352921825464695"
+              ],
+              "id": "1775352921825464695",
+              "text": "RT @ohmynews_korea 총선 앞두고 군 특별정신교육 논란... '윤 대통령 특강' 내용 #군정신교육 #지휘관특별정신교육 김도균 기자 https://t.co/hDQ33Goozs",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 10
+              },
+              "created_at": "2024-04-03T02:41:35.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1776633569139679674"
+              ],
+              "id": "1776633569139679674",
+              "text": "[GOAL 목동] 또 집중력 저하, 또 무너진 수비…“문제 많다” 김도균 감독, 어두운 표정 감추지 못했다",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 27
+              },
+              "created_at": "2024-04-06T15:30:25.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775148560331469073"
+              ],
+              "id": "1775148560331469073",
+              "text": "저기서 취향파괴범 \n김도균",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 17
+              },
+              "created_at": "2024-04-02T13:09:32.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774699115999613274"
+              ],
+              "id": "1774699115999613274",
+              "text": "남성모 김도균 누나 무서운 줄 모르고 이렇게 귀여운 거 막 올린다 https://t.co/zT9rU2AIp9",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 1,
+                "bookmark_count": 0,
+                "impression_count": 678
+              },
+              "created_at": "2024-04-01T07:23:36.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774803455745630514"
+              ],
+              "id": "1774803455745630514",
+              "text": "@fanvatar_tvlab #팬바타 #팬바타_82MAJOR질문\n\n【김도균】\n\n막내지만 이 형은 나보다 어린 것 같다! 동생같다! 하는 멤버는??",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 72
+              },
+              "created_at": "2024-04-01T14:18:12.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774757390409511409"
+              ],
+              "id": "1774757390409511409",
+              "text": "김도균 공편으로 자기소개 하네 https://t.co/kcdLUwHuht",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 78
+              },
+              "created_at": "2024-04-01T11:15:09.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1776582833798017309"
+              ],
+              "id": "1776582833798017309",
+              "text": "[GOAL 목동] 공식전 4경기 연속 실점…김도균 감독 “집중력 더 끌어올려야”",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 17
+              },
+              "created_at": "2024-04-06T12:08:49.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775423487257215276"
+              ],
+              "id": "1775423487257215276",
+              "text": "[2차 여론조사-속인고양] 김도균 32.6% vs 이양수 53.0%\n\n#총선 #410총선 #여론조사\n\nhttps://t.co/6pMsOamn8K https://t.co/In5vmpSIJD",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 1,
+                "bookmark_count": 0,
+                "impression_count": 151
+              },
+              "created_at": "2024-04-03T07:21:59.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774800495066144901"
+              ],
+              "id": "1774800495066144901",
+              "text": "@fanvatar_tvlab #팬바타 #팬바타_82MAJOR질문\n\n【김도균】\n\n막내라서 좋은 점은?? (마..만약에 있다면..)",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 64
+              },
+              "created_at": "2024-04-01T14:06:26.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775339231684280706"
+              ],
+              "id": "1775339231684280706",
+              "text": "RT @ohmynews_korea 총선 앞두고 군 특별정신교육 논란... '윤 대통령 특강' 내용 #군정신교육 #지휘관특별정신교육 김도균 기자 https://t.co/2C32BpvXVi \n\nCBS &lt;노컷뉴스&gt; \"이틀 전 공문 보내 '자유와 시장경제 가치' 교육 지시\"",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 21
+              },
+              "created_at": "2024-04-03T01:47:11.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774811488009732530"
+              ],
+              "id": "1774811488009732530",
+              "text": "@fanvatar_tvlab #팬바타 #팬바타_82MAJOR질문\n\n(김도균)\n\n너 좌우명이 뭐예요?",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 62
+              },
+              "created_at": "2024-04-01T14:50:07.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1776118282497687663"
+              ],
+              "id": "1776118282497687663",
+              "text": "@star_is_born475 루미아섬 파괴자 김도균 출동",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 78
+              },
+              "created_at": "2024-04-05T05:22:51.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774524876516180108"
+              ],
+              "id": "1774524876516180108",
+              "text": "@82Message 김도균아 너무 귀여워☹ ️",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 26
+              },
+              "created_at": "2024-03-31T19:51:14.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774485842188452013"
+              ],
+              "id": "1774485842188452013",
+              "text": "@fanvatar_tvlab #밴바타 #팬바타_82MAJOR질문 \n\n(김도균)\n\nQ: 로또 당첨 914억 vs 91400명 베뉴 공연",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 40
+              },
+              "created_at": "2024-03-31T17:16:07.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775798338971218297"
+              ],
+              "id": "1775798338971218297",
+              "text": "더 (feat.김도균) by 성빈(@escapefromxx) on #SoundCloud \nhttps://t.co/2eMZrRaHBs",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 84
+              },
+              "created_at": "2024-04-04T08:11:31.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774725382048215248"
+              ],
+              "id": "1774725382048215248",
+              "text": "아니 김도균 머리 색 미친",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 42
+              },
+              "created_at": "2024-04-01T09:07:58.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1775494829205823929"
+              ],
+              "id": "1775494829205823929",
+              "text": "@ROKAF595 이제 승강제 확대한다고 이야기 나오는 판인데 K리그2에 안주하다가는 모르죠.\n현재까진 염기훈이 초보감독 티가 나는게 들통나서 2패는 K리그 경험이 노련한 감독들(박진섭, 김도균) 대상으로 파훼당해서 나온 결과죠. 강등당해도 리얼블루를 고집하는 구단의 운영이 어떤 엔딩으로 끝날지는...",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 106
+              },
+              "created_at": "2024-04-03T12:05:29.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1774288329045131726"
+              ],
+              "id": "1774288329045131726",
+              "text": "@fanvatar_tvlab #팬바타 #팬바타_82MAJOR질문\n\n(김도균)\n에투메 막내로 살면서 좋은점과 힘들었던 점이 있나요??",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 133
+              },
+              "created_at": "2024-03-31T04:11:16.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1776662950927057184"
+              ],
+              "id": "1776662950927057184",
+              "text": "230407 82major_official 공식 유튜브\n\n오형제 EP.2 - 멤버\n\n🔗 https://t.co/MLESuKiOnp\n\n#82MAJOR #에이티투메이저\n#김도균 #KIMDOGYUN https://t.co/CrQwSesRFu",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 1,
+                "bookmark_count": 0,
+                "impression_count": 263
+              },
+              "created_at": "2024-04-06T17:27:10.000Z"
+            }
+          ],
+          "meta": {
+            "newest_id": "1776662950927057184",
+            "oldest_id": "1774246219793289696",
+            "result_count": 43
+          }
+        }
+      ],
+      "count": 43,
+      "has_next_token": false
+    }
+  },
+  "errors": []
+}

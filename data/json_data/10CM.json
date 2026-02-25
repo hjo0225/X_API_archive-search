@@ -1,0 +1,2445 @@
+{
+  "name": "10CM",
+  "start_date": "2024-01-14",
+  "search_query": "\"10CM\" lang:ko -is:retweet -is:nullcast",
+  "counts_query": "\"10CM\" lang:ko -is:retweet -is:nullcast",
+  "windows": {
+    "lag1_start_time": "2024-01-07T00:00:00Z",
+    "lag1_end_time": "2024-01-14T00:00:00Z",
+    "lag2_start_time": "2023-12-31T00:00:00Z",
+    "lag2_end_time": "2024-01-07T00:00:00Z",
+    "lag3_start_time": "2023-12-24T00:00:00Z",
+    "lag3_end_time": "2023-12-31T00:00:00Z",
+    "counts_start_time": "2023-12-24T00:00:00Z",
+    "counts_end_time": "2024-01-14T00:00:00Z"
+  },
+  "collected_at_utc": "2026-02-25T15:56:42Z",
+  "counts": {
+    "request": {
+      "query": "\"10CM\" lang:ko -is:retweet -is:nullcast",
+      "start_time": "2023-12-24T00:00:00Z",
+      "end_time": "2024-01-14T00:00:00Z",
+      "granularity": "day"
+    },
+    "rate_limit": {
+      "x-rate-limit-remaining": "291",
+      "x-rate-limit-reset": "1772035482"
+    },
+    "response": {
+      "data": [
+        {
+          "end": "2023-12-25T00:00:00.000Z",
+          "start": "2023-12-24T00:00:00.000Z",
+          "tweet_count": 14
+        },
+        {
+          "end": "2023-12-26T00:00:00.000Z",
+          "start": "2023-12-25T00:00:00.000Z",
+          "tweet_count": 10
+        },
+        {
+          "end": "2023-12-27T00:00:00.000Z",
+          "start": "2023-12-26T00:00:00.000Z",
+          "tweet_count": 7
+        },
+        {
+          "end": "2023-12-28T00:00:00.000Z",
+          "start": "2023-12-27T00:00:00.000Z",
+          "tweet_count": 13
+        },
+        {
+          "end": "2023-12-29T00:00:00.000Z",
+          "start": "2023-12-28T00:00:00.000Z",
+          "tweet_count": 21
+        },
+        {
+          "end": "2023-12-30T00:00:00.000Z",
+          "start": "2023-12-29T00:00:00.000Z",
+          "tweet_count": 8
+        },
+        {
+          "end": "2023-12-31T00:00:00.000Z",
+          "start": "2023-12-30T00:00:00.000Z",
+          "tweet_count": 8
+        },
+        {
+          "end": "2024-01-01T00:00:00.000Z",
+          "start": "2023-12-31T00:00:00.000Z",
+          "tweet_count": 11
+        },
+        {
+          "end": "2024-01-02T00:00:00.000Z",
+          "start": "2024-01-01T00:00:00.000Z",
+          "tweet_count": 7
+        },
+        {
+          "end": "2024-01-03T00:00:00.000Z",
+          "start": "2024-01-02T00:00:00.000Z",
+          "tweet_count": 8
+        },
+        {
+          "end": "2024-01-04T00:00:00.000Z",
+          "start": "2024-01-03T00:00:00.000Z",
+          "tweet_count": 17
+        },
+        {
+          "end": "2024-01-05T00:00:00.000Z",
+          "start": "2024-01-04T00:00:00.000Z",
+          "tweet_count": 13
+        },
+        {
+          "end": "2024-01-06T00:00:00.000Z",
+          "start": "2024-01-05T00:00:00.000Z",
+          "tweet_count": 20
+        },
+        {
+          "end": "2024-01-07T00:00:00.000Z",
+          "start": "2024-01-06T00:00:00.000Z",
+          "tweet_count": 11
+        },
+        {
+          "end": "2024-01-08T00:00:00.000Z",
+          "start": "2024-01-07T00:00:00.000Z",
+          "tweet_count": 18
+        },
+        {
+          "end": "2024-01-09T00:00:00.000Z",
+          "start": "2024-01-08T00:00:00.000Z",
+          "tweet_count": 21
+        },
+        {
+          "end": "2024-01-10T00:00:00.000Z",
+          "start": "2024-01-09T00:00:00.000Z",
+          "tweet_count": 12
+        },
+        {
+          "end": "2024-01-11T00:00:00.000Z",
+          "start": "2024-01-10T00:00:00.000Z",
+          "tweet_count": 17
+        },
+        {
+          "end": "2024-01-12T00:00:00.000Z",
+          "start": "2024-01-11T00:00:00.000Z",
+          "tweet_count": 14
+        },
+        {
+          "end": "2024-01-13T00:00:00.000Z",
+          "start": "2024-01-12T00:00:00.000Z",
+          "tweet_count": 18
+        },
+        {
+          "end": "2024-01-14T00:00:00.000Z",
+          "start": "2024-01-13T00:00:00.000Z",
+          "tweet_count": 16
+        }
+      ],
+      "meta": {
+        "total_tweet_count": 284
+      }
+    }
+  },
+  "search": {
+    "lag1w": {
+      "request": {
+        "query": "\"10CM\" lang:ko -is:retweet -is:nullcast",
+        "start_time": "2024-01-07T00:00:00Z",
+        "end_time": "2024-01-14T00:00:00Z",
+        "max_results": 50,
+        "max_pages": 1,
+        "sort_order": "relevancy",
+        "tweet.fields": [
+          "public_metrics",
+          "created_at"
+        ]
+      },
+      "rate_limit": {
+        "x-rate-limit-remaining": "275",
+        "x-rate-limit-reset": "1772035484"
+      },
+      "pages": [
+        {
+          "data": [
+            {
+              "text": "〰️이번주엔 스트리밍 뭐하지?〰️\n\n세아침\n월 #김준상\n\n정희\n월 #10CM\n화 #JDFamily #박서진\n수 #있지 #ITZY\n\n4시엔\n화 #이홍기\n\n두데\n수 #정영한\n금 #이하늬 #이종원\n\n별밤\n화 #조정식\n\n친한친구\n월 #이장준\n화 #영재\n수 #8TURN\n금 #김종현\n\n아이돌라디오(스페셜DJ SF9 영빈&amp;인성)\n월 #DKZ\n수 #SF9 https://t.co/zdb2v0B9lR",
+              "id": "1743920415288791414",
+              "created_at": "2024-01-07T09:00:02.000Z",
+              "public_metrics": {
+                "retweet_count": 344,
+                "reply_count": 1,
+                "like_count": 583,
+                "quote_count": 16,
+                "bookmark_count": 12,
+                "impression_count": 39003
+              },
+              "edit_history_tweet_ids": [
+                "1743920415288791414"
+              ]
+            },
+            {
+              "text": "🧸고잉하트틴 2차 수요조사🧸\n\n#rt 제작 확정시 RT추첨 3분께 원하시는 인형을 드려요\n\n수요조사 기간 1/10~1/20\n자세한 사항은 폼에서 확인해주세요🙇‍♀️\n🔗https://t.co/WKxR0KBQfI\n\n🙏꼭 구매하실 분들만 참여 부탁드립니다🙏\n\n#세븐틴 #10cm #인형 #고잉하트틴 #SVT #seventeen #10cm인형 https://t.co/KC0kf5DpSD",
+              "id": "1744526149026525646",
+              "created_at": "2024-01-09T01:07:00.000Z",
+              "public_metrics": {
+                "retweet_count": 516,
+                "reply_count": 1,
+                "like_count": 310,
+                "quote_count": 67,
+                "bookmark_count": 60,
+                "impression_count": 57404
+              },
+              "edit_history_tweet_ids": [
+                "1744526149026525646"
+              ]
+            },
+            {
+              "text": "🎤 샤이니 키 10cm 고양이 인형 키캣 🎤\n\nRT추첨하여 키캣을 보내드려요!\n📅 2024.01.14 20:00 - 01.28 23:00 \n💙폼의 공지를 모두 읽고 구입 부탁드려요!\n💜폼 작성 후 10분 내 입금 부탁드립니다!\nhttps://t.co/go8UapJHpE\n\n#샤이니 #10cm #키 #SHINEE #KEY #기범 #김기범 https://t.co/wxMhU9hUx9",
+              "id": "1746178112399048850",
+              "created_at": "2024-01-13T14:31:19.000Z",
+              "public_metrics": {
+                "retweet_count": 300,
+                "reply_count": 3,
+                "like_count": 141,
+                "quote_count": 65,
+                "bookmark_count": 43,
+                "impression_count": 32067
+              },
+              "edit_history_tweet_ids": [
+                "1746178112399048850"
+              ]
+            },
+            {
+              "text": "𝘏𝘖𝘞 𝘞𝘌 𝘔𝘈𝘒𝘌 𝟣𝟢𝘛𝘌𝘕?\n𝘗𝘶𝘻𝘻𝘭𝘦 𝘒𝘦𝘺 𝘊𝘩𝘢𝘪𝘯... 𝘸𝘪𝘵𝘩 𝘩𝘦𝘢𝘳𝘵💗\n\n십센치 겨울콘서트를 기념하여 키링을 나눔합니다💭\n\n💗수량/ 30개\n💗날짜/ 2024. 1. 28 일요일 막콘\n💗인증/ 해당 글 RT + 버블 200일 이상\n💗장소/ KSPO DOME 일대\n\n#10CM #십센치 #권정열 https://t.co/0Xz3pG8sNe",
+              "id": "1744260778100662341",
+              "created_at": "2024-01-08T07:32:30.000Z",
+              "public_metrics": {
+                "retweet_count": 148,
+                "reply_count": 1,
+                "like_count": 101,
+                "quote_count": 1,
+                "bookmark_count": 17,
+                "impression_count": 16120
+              },
+              "edit_history_tweet_ids": [
+                "1744260778100662341"
+              ]
+            },
+            {
+              "text": "10CM WINTER CONCERT 9+1\n십센치 겨울 콘서트에서 트친 분들 위해 권정열 포스터 (A4사이즈) 소량 나눔 합니다! \n\n-날짜: 1월 27 &amp; 28일\n-장소&amp;시간: 당일 공지\n-인증: #RT or 마음 +팔로우 (트친들 한테 최대한 주려고 팔로우 인증도 받습니다) \n\n#10CM #십센치 #권정열 https://t.co/0mTS9HWaHY",
+              "id": "1745782735170687029",
+              "created_at": "2024-01-12T12:20:13.000Z",
+              "public_metrics": {
+                "retweet_count": 124,
+                "reply_count": 2,
+                "like_count": 142,
+                "quote_count": 6,
+                "bookmark_count": 20,
+                "impression_count": 11872
+              },
+              "edit_history_tweet_ids": [
+                "1745782735170687029"
+              ]
+            },
+            {
+              "text": "📢 2차 수정이 나옵니다! 💗\n일반 입금은 곧 시작되고  합니당!!\n겸만두을 사랑해 주신 모든 분들께 다시 한 번 감사드립니다^^\n#세븐틴 #SVT #도겸 #svtdoll #인녕 #10CM\n#SEVENTEEN #DOKYEOM https://t.co/dbaNNKFO7V",
+              "id": "1743989116784746930",
+              "created_at": "2024-01-07T13:33:01.000Z",
+              "public_metrics": {
+                "retweet_count": 24,
+                "reply_count": 1,
+                "like_count": 144,
+                "quote_count": 11,
+                "bookmark_count": 8,
+                "impression_count": 10385
+              },
+              "edit_history_tweet_ids": [
+                "1743989116784746930"
+              ]
+            },
+            {
+              "text": "𝟭𝟬𝗖𝗠 𝗪𝗜𝗡𝗧𝗘𝗥 𝗖𝗢𝗡𝗖𝗘𝗥𝗧 ❛ 𝟵+𝟭 ❜\n컨셉포토 스티커 나눔공지\n\n🗓 2024.01.27 (첫콘)\n🚩KSPO DOME 인근\n\n- 자세한 장소는 당일 타래로 공지됩니다.\n- 총 50장이며 무인 나눔으로 진행됩니다.\n\n#권정열 #10CM #십센치 https://t.co/gcpv2Q4hiV",
+              "id": "1745342918444159189",
+              "created_at": "2024-01-11T07:12:33.000Z",
+              "public_metrics": {
+                "retweet_count": 72,
+                "reply_count": 0,
+                "like_count": 111,
+                "quote_count": 3,
+                "bookmark_count": 14,
+                "impression_count": 11631
+              },
+              "edit_history_tweet_ids": [
+                "1745342918444159189"
+              ]
+            },
+            {
+              "text": "♫10CM WINTER CONCERT\"9+1\"♫\n♫십센치 겨울 콘서트\"9+1\"♫\n\n⇨ 일시 : 1.27 - 1.28\n⇨ 장소 : 올림픽공원 체조경기장\n⇨ 갯수 : 하루 70개 [ 기타 2개,필름 1개 ]\n⇨ 나눔 : 스티커, 슬라이드 필름\n⇨인증 : RT + 당일 티켓\n\n✓ 모든 나눔 랜덤\n✓ 자세한 장소와 시간, 공지는 타래에\n\n#10CM #권정열 https://t.co/txvQZBDfJd",
+              "id": "1746319955140944040",
+              "created_at": "2024-01-13T23:54:57.000Z",
+              "public_metrics": {
+                "retweet_count": 220,
+                "reply_count": 3,
+                "like_count": 150,
+                "quote_count": 6,
+                "bookmark_count": 30,
+                "impression_count": 19604
+              },
+              "edit_history_tweet_ids": [
+                "1746319955140944040"
+              ]
+            },
+            {
+              "text": "𝟏𝟎𝐂𝐌 𝐖𝐈𝐍𝐓𝐄𝐑 𝐂𝐎𝐍𝐂𝐄𝐑𝐓 '𝟗+𝟏'\n\n이번 십센치 겨울콘서트에서 미니 비즈 스트랩 나눔합니다.˚ * ⊹ \n\nᰔᩚ 01.27 and 01.28 \nᰔᩚ 양일 약 30set\nᰔᩚ 장소 및 시간 추후 공지\nᰔᩚ Follow + RT\n\n디자인은 아래 사진과 상이할 수 있습니다\n#십센치 #10CM #권정열 https://t.co/73cv6gWb9M",
+              "id": "1745493075965960442",
+              "created_at": "2024-01-11T17:09:13.000Z",
+              "public_metrics": {
+                "retweet_count": 99,
+                "reply_count": 3,
+                "like_count": 55,
+                "quote_count": 7,
+                "bookmark_count": 5,
+                "impression_count": 9113
+              },
+              "edit_history_tweet_ids": [
+                "1745493075965960442"
+              ]
+            },
+            {
+              "text": "그냥 만들어보고싶어서 퍼펙트 라는 곡을 컨셉으로 스터디 플래너를 만들어봤어요! 다음에는 부동의 첫사랑을 컨셉으로 만들어볼게요! 쓸모있을지는 잘 모르겠지만 잘 사용해주세요!(사진은 @hit_10cm 에서 허락 받고 가져왔습니다!) \n#10cm #권정열 #스터디플래너 \nhttps://t.co/4yOmjoZ7bf https://t.co/giuCPUkgBe",
+              "id": "1745827222056038452",
+              "created_at": "2024-01-12T15:17:00.000Z",
+              "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 2,
+                "like_count": 46,
+                "quote_count": 0,
+                "bookmark_count": 5,
+                "impression_count": 2809
+              },
+              "edit_history_tweet_ids": [
+                "1745827222056038452"
+              ]
+            },
+            {
+              "text": "10CM WINTER CONCERT 9+1\n자수명찰&amp;포토매틱 나눔 공지\n*내용 바뀐게 너무 많아 다시 공지합니다!*\n\n🩷날짜: 1/28 일요일 막콘🩷\n🩷수량: 자수명찰&amp;포토매틱 - 선착순 50장/그 외 포토매틱 8ea 1set(25개)🩷\n🩷인증: 버블 100일 이상&amp;RT(=팔로우)🩷\n#10cm #십센치 #권정열 #나눔 https://t.co/Sy0VnKpxEz",
+              "id": "1744554054616076762",
+              "created_at": "2024-01-09T02:57:53.000Z",
+              "public_metrics": {
+                "retweet_count": 89,
+                "reply_count": 1,
+                "like_count": 86,
+                "quote_count": 2,
+                "bookmark_count": 15,
+                "impression_count": 9086
+              },
+              "edit_history_tweet_ids": [
+                "1744554054616076762"
+              ]
+            },
+            {
+              "text": "드디어 생김!! 징티쥬!!!!!!!!!! 찐말티즈와 찍엇읍니다\n늘 그렇듯 찐티쥬가 탐냅니다 그치만 안 뺏겨보겠습니다..\n\n양도해주신 분도 만들어주신 분도 감사합니다🙇🏻‍♀️\n@iu_10cm_doll https://t.co/bsf4YVRbct",
+              "id": "1745770661967257718",
+              "created_at": "2024-01-12T11:32:15.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 13,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 3009
+              },
+              "edit_history_tweet_ids": [
+                "1745770661967257718"
+              ]
+            },
+            {
+              "text": "✅️ 탤바 제작 기준 샘플 제작 완료\n\n탤바의 본격적인 대량 생산에 들어가기 전 제작한 샘플이 완성되었습니다\n탤바는 이 샘플을 기준으로 제작됩니다!\n\n그리고 꼬리 부분에 솜을 넣어달라고 요청했으나 \n\n타래로\n\n#엔시티 #NCT #엔시티127 #NCT127 #엔시티일이칠 #10cm #인형 #doll #태일 #TAEIL https://t.co/8SazqqGi2y",
+              "id": "1743948762995998733",
+              "created_at": "2024-01-07T10:52:40.000Z",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 1,
+                "like_count": 13,
+                "quote_count": 3,
+                "bookmark_count": 1,
+                "impression_count": 2182
+              },
+              "edit_history_tweet_ids": [
+                "1743948762995998733"
+              ]
+            },
+            {
+              "text": "📺YouTube the BOB studio\n[라면꼰대5] 다음이야기 10CM ✂️\n#10CM #십센치 #권정열 https://t.co/JNAxdEmOu1",
+              "id": "1744655691565113481",
+              "created_at": "2024-01-09T09:41:45.000Z",
+              "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 25,
+                "quote_count": 1,
+                "bookmark_count": 0,
+                "impression_count": 1461
+              },
+              "edit_history_tweet_ids": [
+                "1744655691565113481"
+              ]
+            },
+            {
+              "text": "24.01.11\nTeam.Aether \n\n「딱 10cm만」 \n\nFull : https://t.co/svHGA1QwWY\n\n#Team_Aether #딱_10cm만 #10CM #BIG_Naughty #신곡홍보 #신곡_홍보 #RT #목소리가_취향이면_RT #목소리가_취향이라면_RT #歌ってみた https://t.co/WJkSKTcGM4",
+              "id": "1745401397204627893",
+              "created_at": "2024-01-11T11:04:55.000Z",
+              "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 1,
+                "like_count": 8,
+                "quote_count": 3,
+                "bookmark_count": 0,
+                "impression_count": 1939
+              },
+              "edit_history_tweet_ids": [
+                "1745401397204627893"
+              ]
+            },
+            {
+              "text": "https://t.co/twJfi7V1YZ\n\n태그 뭐 해야하지... \n\n#봄이좋냐 #10cm #커버송 #coversong #쇼츠 #신곡홍보(?) \n\n아무튼 인생...",
+              "id": "1744299506777378964",
+              "created_at": "2024-01-08T10:06:24.000Z",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 1,
+                "like_count": 3,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 247
+              },
+              "edit_history_tweet_ids": [
+                "1744299506777378964"
+              ]
+            },
+            {
+              "text": "𝟭𝟬𝘾𝙈 𝙉𝙚𝙬 𝙎𝙞𝙣𝙜𝙡𝙚 𝟱.𝟱 '소년'\n𝟮𝟬𝟮𝟰.𝟬𝟭.𝟭𝟳 𝟲𝙋𝙈 (𝙆𝙎𝙏)\n#10CM #십센치 #권정열\n#소년 #Dear #10CM_소년 https://t.co/8PiMsnnfx8",
+              "id": "1745009893806051349",
+              "created_at": "2024-01-10T09:09:14.000Z",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 1,
+                "like_count": 23,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 3906
+              },
+              "edit_history_tweet_ids": [
+                "1745009893806051349"
+              ]
+            },
+            {
+              "text": "#MyDemon Nation!!\n\nGo check #10CM - #방법 (The way to lose you)ㅣ야외녹음실ㅣBeyond the Studio\n\n🔗 https://t.co/70mR6RrqRS https://t.co/W4p2NhQfJE",
+              "id": "1743991681522020544",
+              "created_at": "2024-01-07T13:43:13.000Z",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 5,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 293
+              },
+              "edit_history_tweet_ids": [
+                "1743991681522020544"
+              ]
+            },
+            {
+              "text": "@Gorok168 블랙 하나 자리 남아있을까요?",
+              "id": "1745792744575098882",
+              "created_at": "2024-01-12T13:00:00.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 29
+              },
+              "edit_history_tweet_ids": [
+                "1745792744575098882"
+              ]
+            },
+            {
+              "text": "@h_on1065 @hit_10cm 어멋.. 감사합니다.. 다음에는 더 이쁘게 만들어 볼게요!",
+              "id": "1746135357303988517",
+              "created_at": "2024-01-13T11:41:25.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 101
+              },
+              "edit_history_tweet_ids": [
+                "1746135357303988517"
+              ]
+            },
+            {
+              "text": "@naiji111 @xxjun999 이거 합성이네",
+              "id": "1745051945868599514",
+              "created_at": "2024-01-10T11:56:20.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 890
+              },
+              "edit_history_tweet_ids": [
+                "1745051945868599514"
+              ]
+            },
+            {
+              "text": "240113 10cm_official \n\n10CM New Single 5.5 ‘소년‘\n➫ 2024.01.17 6PM (KST)\n\n잘 지냈나요\n\n#10CM #권정열 #십센치 #소년 #10CM_소년 https://t.co/jO8rbcGw6Q",
+              "id": "1746108847276933211",
+              "created_at": "2024-01-13T09:56:04.000Z",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 1,
+                "like_count": 5,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 699
+              },
+              "edit_history_tweet_ids": [
+                "1746108847276933211"
+              ]
+            },
+            {
+              "text": "10cm_official ins\n10CM New Single 5.5 ‘소년’\n➫ 2024.01.17 6PM (KST)\n\n세상이 무너지고\n끝날 것만 같아도\n건강하고 웃고 사랑하고\n그대로 찬란하게 있어줘\n-소년-\n\n#10CM #권정열 #십센치 #소년 #10CM_소년 https://t.co/zGjTWLHi7o",
+              "id": "1745745180500820220",
+              "created_at": "2024-01-12T09:51:00.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 289
+              },
+              "edit_history_tweet_ids": [
+                "1745745180500820220"
+              ]
+            },
+            {
+              "text": "말도 안되는 기대지만 이번 콘서트에서도 락자리 듣고 싶다.. #권정열 #10cm https://t.co/Mi5vm74gFa",
+              "id": "1746187073240092896",
+              "created_at": "2024-01-13T15:06:55.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 5,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 543
+              },
+              "edit_history_tweet_ids": [
+                "1746187073240092896"
+              ]
+            },
+            {
+              "text": "10cm_official ins\n10CM New Single 5.5 ‘소년‘\n➫ 2024.01.17 6PM (KST)\n\n잘 지냈나요\n\n#10CM #권정열 #십센치 #소년 #10CM_소년 https://t.co/kMTsSy3tWJ",
+              "id": "1746097867083874398",
+              "created_at": "2024-01-13T09:12:27.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 289
+              },
+              "edit_history_tweet_ids": [
+                "1746097867083874398"
+              ]
+            },
+            {
+              "text": "#장난감및취미 #068원 #10CM #14y 인스타 대란 산리오 장난감 쿠로미 시나몬롤 마이 멜로디 LED 조명 별점 5점 https://t.co/YnLqOxLFsa",
+              "id": "1746320867439886653",
+              "created_at": "2024-01-13T23:58:34.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 3
+              },
+              "edit_history_tweet_ids": [
+                "1746320867439886653"
+              ]
+            },
+            {
+              "text": "@bumsik_10cm \n#범식이_현식이가된다\n\n드디어 기다리고 기다린 범식이가 왔어요 !!♡ https://t.co/GII8zt181k",
+              "id": "1744953454207058093",
+              "created_at": "2024-01-10T05:24:57.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 213
+              },
+              "edit_history_tweet_ids": [
+                "1744953454207058093"
+              ]
+            },
+            {
+              "text": "@UAENA_516 @iu_10cm_doll 앵두한테 뺏기기 딱 좋은데",
+              "id": "1745807296977047858",
+              "created_at": "2024-01-12T13:57:49.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 185
+              },
+              "edit_history_tweet_ids": [
+                "1745807296977047858"
+              ]
+            },
+            {
+              "text": "@jungkook_10cm 인형은 언제 보내주는겁니까\n반년이 지났는데",
+              "id": "1745305123465920978",
+              "created_at": "2024-01-11T04:42:22.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 78
+              },
+              "edit_history_tweet_ids": [
+                "1745305123465920978"
+              ]
+            },
+            {
+              "text": "유기농 무농약 무항생제 곰아지\n#수제인형 #핸드메이드 #인형 #솜인형 #곰인형 #10cm #강아지 #강아지인형 https://t.co/E7MTrCfRF1",
+              "id": "1745053422758633669",
+              "created_at": "2024-01-10T12:02:12.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 60
+              },
+              "edit_history_tweet_ids": [
+                "1745053422758633669"
+              ]
+            },
+            {
+              "text": "하 너무 웃기네ㅋㅋㅋㅋㅋㅋㅋ https://t.co/B1qiU6GfQG",
+              "id": "1746134699028987913",
+              "created_at": "2024-01-13T11:38:48.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 79
+              },
+              "edit_history_tweet_ids": [
+                "1746134699028987913"
+              ]
+            },
+            {
+              "text": "남예쮼!!!!!!! 사랑해에에에ㅔㅔㅔ https://t.co/sJyeiqfCGA",
+              "id": "1745412990286086407",
+              "created_at": "2024-01-11T11:50:59.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 23
+              },
+              "edit_history_tweet_ids": [
+                "1745412990286086407"
+              ]
+            },
+            {
+              "text": "너드 곰아지\n#수제인형 #핸드메이드 #인형 #솜인형 #곰인형 #10cm #강아지 #강아지인형 https://t.co/zJkpFhvx5i",
+              "id": "1745054227653960180",
+              "created_at": "2024-01-10T12:05:24.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 64
+              },
+              "edit_history_tweet_ids": [
+                "1745054227653960180"
+              ]
+            },
+            {
+              "text": "@10cm_elf 디엠 열어주세요!",
+              "id": "1745978589122822394",
+              "created_at": "2024-01-13T01:18:29.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 132
+              },
+              "edit_history_tweet_ids": [
+                "1745978589122822394"
+              ]
+            },
+            {
+              "text": "헐 ㅋㅋㅋㅋ https://t.co/OadGQ02OAK",
+              "id": "1746094982669463978",
+              "created_at": "2024-01-13T09:00:59.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 77
+              },
+              "edit_history_tweet_ids": [
+                "1746094982669463978"
+              ]
+            },
+            {
+              "text": "@10cm_elf 뎀좀 주세여..",
+              "id": "1745986267421331605",
+              "created_at": "2024-01-13T01:48:59.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 285
+              },
+              "edit_history_tweet_ids": [
+                "1745986267421331605"
+              ]
+            },
+            {
+              "text": "이왕 이렇게 된 김에 올해 목표는 스토리 박제까지다\n#권정열 #10CM https://t.co/EFsGfNVwWP",
+              "id": "1745850467178217986",
+              "created_at": "2024-01-12T16:49:22.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 362
+              },
+              "edit_history_tweet_ids": [
+                "1745850467178217986"
+              ]
+            },
+            {
+              "text": "@91s_10cm 디엠 확인 부탁드립니다!",
+              "id": "1744378972585042240",
+              "created_at": "2024-01-08T15:22:10.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 59
+              },
+              "edit_history_tweet_ids": [
+                "1744378972585042240"
+              ]
+            },
+            {
+              "text": "#10CM 십센치 권정열 - 타이트 (Tight)\n라이브 기원 정권찌르기 18일차 https://t.co/XEIhZASGJV",
+              "id": "1746248470292484331",
+              "created_at": "2024-01-13T19:10:53.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 231
+              },
+              "edit_history_tweet_ids": [
+                "1746248470292484331"
+              ]
+            },
+            {
+              "text": "#10CM 십센치 권정열 - 타이트 (Tight)\n라이브 기원 정권찌르기 17일차 https://t.co/Ec9KSvZXIf",
+              "id": "1744726197865755132",
+              "created_at": "2024-01-09T14:21:55.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 235
+              },
+              "edit_history_tweet_ids": [
+                "1744726197865755132"
+              ]
+            },
+            {
+              "text": "@jungkook_10cm 다른 계정이 보이고 다른 폼들 열리고 모자 얘기 나오고하니 저만 못받은줄 알았어요 헤더나 공지로 이런 얘기를 하셨으면 좋았을텐데\n인형 기다립니다.",
+              "id": "1745306119034261930",
+              "created_at": "2024-01-11T04:46:19.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 84
+              },
+              "edit_history_tweet_ids": [
+                "1745306119034261930"
+              ]
+            },
+            {
+              "text": "십센치 겨울콘서트(10CM WINTER CONCERT '9+1') 원가양도 합니다\n(특전, 리허설x)\n\n27일(토) d구역 2열 1n번 1석\n\n선예매 티켓이라 현장에서 드려요!\n\n#10cm #권정열 #십센치 #콘서트",
+              "id": "1745077953162088537",
+              "created_at": "2024-01-10T13:39:40.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 808
+              },
+              "edit_history_tweet_ids": [
+                "1745077953162088537"
+              ]
+            },
+            {
+              "text": "#棉花娃娃 #무속성 #10cm 인형 #20cm 인형 새해 행사가 시작됐어요👏\n\n성단 백구십구 무료 수정 한번\n\n사생 이백구십구는 컴퓨터 원고를 볼 수 있고, 미세 조정할 수 있어요.\n\n여러분의 문의를 기대합니다. 인형을 만드는 것을 환영합니다.",
+              "id": "1743917713188426025",
+              "created_at": "2024-01-07T08:49:17.000Z",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 1,
+                "like_count": 3,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 2148
+              },
+              "edit_history_tweet_ids": [
+                "1743917713188426025"
+              ]
+            },
+            {
+              "text": "@naey_10cm 맞추 가능할까욤?!\n\n매우 극소량만 부족해요! 보상이 너무 가까워요. 저 좀 도와주세요!\nhttps://t.co/Gkg2PDXUcN",
+              "id": "1745895351826239837",
+              "created_at": "2024-01-12T19:47:43.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 24
+              },
+              "edit_history_tweet_ids": [
+                "1745895351826239837"
+              ]
+            },
+            {
+              "text": "#10CM 십센치 권정열 - 타이트 (Tight)\n라이브 기원 정권찌르기 16일차 https://t.co/5dULDyrYIN",
+              "id": "1744014492437225729",
+              "created_at": "2024-01-07T15:13:51.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 200
+              },
+              "edit_history_tweet_ids": [
+                "1744014492437225729"
+              ]
+            },
+            {
+              "text": "10ran_night ins\n“기억나...”\n컨택은 선착순이니까! OTT 관계자 여러분 빠른 연락 부탁드릴게요~。˃̵͈̑ᴗ❛。(제발🙏🏻)\n\n얼마 남지 않은 권 피치의 단독 공연과 신곡 발매\n함께 기다리면서 다음주까지 십란하지마~\n\n#10CM #십센치 #권정열 #소란 #고영배 #십란한밤 https://t.co/XMjj3Z9Dxu",
+              "id": "1745565544139681953",
+              "created_at": "2024-01-11T21:57:11.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 395
+              },
+              "edit_history_tweet_ids": [
+                "1745565544139681953"
+              ]
+            },
+            {
+              "text": "@peac_h_10cm 안녕하세요-\n먼저 연락드린분이 계셔서\n혹시 파기된다면 연락드리겠습니다~",
+              "id": "1744357055127851419",
+              "created_at": "2024-01-08T13:55:05.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 227
+              },
+              "edit_history_tweet_ids": [
+                "1744357055127851419"
+              ]
+            },
+            {
+              "text": "@Lem_10CM 남자분들께서는 @namjabemil 얘 메인트 참고해서 피해입지마셈요",
+              "id": "1744204694107627582",
+              "created_at": "2024-01-08T03:49:39.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 9
+              },
+              "edit_history_tweet_ids": [
+                "1744204694107627582"
+              ]
+            },
+            {
+              "text": "@91s_10cm 남자분들게선 @drmiptri 얘 메인트 참고하셔서 당하지마시길",
+              "id": "1746113241372352832",
+              "created_at": "2024-01-13T10:13:32.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 19
+              },
+              "edit_history_tweet_ids": [
+                "1746113241372352832"
+              ]
+            }
+          ],
+          "meta": {
+            "newest_id": "1746320867439886653",
+            "oldest_id": "1743917713188426025",
+            "result_count": 49
+          }
+        }
+      ],
+      "count": 49,
+      "has_next_token": false
+    },
+    "lag2w": {
+      "request": {
+        "query": "\"10CM\" lang:ko -is:retweet -is:nullcast",
+        "start_time": "2023-12-31T00:00:00Z",
+        "end_time": "2024-01-07T00:00:00Z",
+        "max_results": 50,
+        "max_pages": 1,
+        "sort_order": "relevancy",
+        "tweet.fields": [
+          "public_metrics",
+          "created_at"
+        ]
+      },
+      "rate_limit": {
+        "x-rate-limit-remaining": "274",
+        "x-rate-limit-reset": "1772035484"
+      },
+      "pages": [
+        {
+          "data": [
+            {
+              "created_at": "2024-01-03T08:30:04.000Z",
+              "edit_history_tweet_ids": [
+                "1742463324485456021"
+              ],
+              "public_metrics": {
+                "retweet_count": 472,
+                "reply_count": 11,
+                "like_count": 507,
+                "quote_count": 122,
+                "bookmark_count": 95,
+                "impression_count": 94369
+              },
+              "id": "1742463324485456021",
+              "text": "#황현진 &amp; #이용복 10cm인형  \n\n✧°₊·ˈ‧₊ hyunjebi &amp; lixnyang * ੈ♡‧₊˚*  \n\n📎 https://t.co/xTHauJwRt5\n\n🗓️ now - 01.25\n\n#RT &amp; #FOLLOW 나는 운이 좋은 두 사람에게 무작위로 보낼 것입니다  \n\n💭 DM for any inquiries\n\n#인형 #10cm #황필 https://t.co/Xwu2TD1nKL"
+            },
+            {
+              "created_at": "2024-01-01T07:42:00.000Z",
+              "edit_history_tweet_ids": [
+                "1741726451014189366"
+              ],
+              "public_metrics": {
+                "retweet_count": 172,
+                "reply_count": 10,
+                "like_count": 223,
+                "quote_count": 8,
+                "bookmark_count": 31,
+                "impression_count": 25127
+              },
+              "id": "1741726451014189366",
+              "text": "𝟏𝟎𝐂𝐌 𝐖𝐈𝐍𝐓𝐄𝐑 𝐂𝐎𝐍𝐂𝐄𝐑𝐓 ‘𝟗+𝟏’\n⛄️ 무료 나눔⛄️\n\n🧩구성 : 가사 키링 1개 + 변환포카 1장 + 사인 스티커 1장 = 1세트\n►날짜：2024.1.27&amp;1.28\n►수량：양일 각50세트\n►장소：KSPO 근처\n(자세한 장소 및 시간 당일 예정입니다)\n\n🤗1인1세트 편하게 가져가세요.\n#10cm #권정열 #십센치 https://t.co/n7Xo5KdfEv"
+            },
+            {
+              "created_at": "2024-01-02T11:59:19.000Z",
+              "edit_history_tweet_ids": [
+                "1742153595381047481"
+              ],
+              "public_metrics": {
+                "retweet_count": 111,
+                "reply_count": 1,
+                "like_count": 83,
+                "quote_count": 4,
+                "bookmark_count": 13,
+                "impression_count": 11795
+              },
+              "id": "1742153595381047481",
+              "text": "𝟏𝟎𝐂𝐌 𝐖𝐢𝐧𝐭𝐞𝐫 𝐂𝐨𝐧𝐜𝐞𝐫𝐭 '𝟗++𝟏' 𝐄𝐯𝐞𝐧𝐭 \n\n스티커 사이즈가 생각보다 작아서\n아크릴 뱃지 추가로 나눔합니다:)\n\n𝗺𝗶𝗻𝗶 𝗮𝗰𝗿𝘆𝗹𝗶𝗰 𝗯𝗮𝗱𝗴𝗲\n\n* 시간 및 장소는 당일 공지예정입니다\n* 수량 미정\n* 토끼or고양이 1pcs\n* RT + bubble 400일 이상\n\n#십센치 #권정열 #10CM https://t.co/ZCXK1TyR0U"
+            },
+            {
+              "created_at": "2024-01-05T09:13:36.000Z",
+              "edit_history_tweet_ids": [
+                "1743199056162385964"
+              ],
+              "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 0,
+                "like_count": 32,
+                "quote_count": 3,
+                "bookmark_count": 0,
+                "impression_count": 2169
+              },
+              "id": "1743199056162385964",
+              "text": "10CM - 방법 (The way to lose you)\n마이 데몬 OST\n1theK LIVE l Beyond the Studio \n#10CM #십센치 #권정열 #방법 https://t.co/ZElBd4Iej3"
+            },
+            {
+              "created_at": "2024-01-05T09:25:57.000Z",
+              "edit_history_tweet_ids": [
+                "1743202163449544893"
+              ],
+              "public_metrics": {
+                "retweet_count": 12,
+                "reply_count": 1,
+                "like_count": 31,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 1464
+              },
+              "id": "1743202163449544893",
+              "text": "10cm_official ins\n10CM가 부른 ‘마이 데몬’ OST ‘방법 (The way to lose you)‘의 원더케이 라이브, 야외녹음실이 지금 공개되었습니다! 지금 유튜브 원더케이 라이브 채널을 통해서 감상해 보세요!\n\n#10CM #권정열 #십센치\n#야외녹음실 #방법 #TheWayToLoseYou #MyDemon #마이데몬 https://t.co/AiabEKWTqf"
+            },
+            {
+              "created_at": "2023-12-31T15:04:58.000Z",
+              "edit_history_tweet_ids": [
+                "1741475542208004455"
+              ],
+              "public_metrics": {
+                "retweet_count": 20,
+                "reply_count": 1,
+                "like_count": 77,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 2587
+              },
+              "id": "1741475542208004455",
+              "text": "⭐️ 𝗛𝗔𝗣𝗣𝗬 𝟮𝟬𝟮𝟰 !⭐️\n⋆｡˚⋆˚✩·｡˚새해 복 많이 받으세요 :) ⋆｡˚⋆˚✩·｡˚\n\n#10cm #십센치 #권정열 https://t.co/stNeRF7RjL"
+            },
+            {
+              "created_at": "2024-01-05T09:19:04.000Z",
+              "edit_history_tweet_ids": [
+                "1743200428949745902"
+              ],
+              "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 1,
+                "like_count": 16,
+                "quote_count": 2,
+                "bookmark_count": 1,
+                "impression_count": 4624
+              },
+              "id": "1743200428949745902",
+              "text": "10CM - 방법ㅣ야외녹음실ㅣBeyond the Studioㅣ10CM - The way to lose you https://t.co/24SPpT0iNW - @YouTube\n\n#10CM #십센치 #권정열 #마이데몬 #방법"
+            },
+            {
+              "created_at": "2023-12-31T08:37:21.000Z",
+              "edit_history_tweet_ids": [
+                "1741377994609090641"
+              ],
+              "public_metrics": {
+                "retweet_count": 11,
+                "reply_count": 1,
+                "like_count": 24,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 2174
+              },
+              "id": "1741377994609090641",
+              "text": "2023년, 권정열의 순간을 담아 \n\n#10cm #권정열 #십센치 \nhttps://t.co/fS3HsTn1No https://t.co/o81CA23RC4"
+            },
+            {
+              "created_at": "2024-01-03T12:23:08.000Z",
+              "edit_history_tweet_ids": [
+                "1742521976030384556"
+              ],
+              "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 34,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 1332
+              },
+              "id": "1742521976030384556",
+              "text": "📺 썰플리 #10CM #십센치 언급 ✂️ https://t.co/yoHCHmLRPF"
+            },
+            {
+              "created_at": "2024-01-05T10:26:59.000Z",
+              "edit_history_tweet_ids": [
+                "1743217523896799362"
+              ],
+              "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 35,
+                "quote_count": 2,
+                "bookmark_count": 1,
+                "impression_count": 1916
+              },
+              "id": "1743217523896799362",
+              "text": "240105 10cm_official \n\n10CM가 부른 ‘마이 데몬’ OST ‘방법 (The way to lose you)‘의 원더케이 라이브, 야외녹음실이 지금 공개되었습니다! \n\n#10CM #권정열 #십센치\n#야외녹음실 #방법 #TheWayToLoseYou #MyDemon #마이데몬 https://t.co/zLXWM0T5sG"
+            },
+            {
+              "created_at": "2024-01-05T09:20:14.000Z",
+              "edit_history_tweet_ids": [
+                "1743200725826756978"
+              ],
+              "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 1,
+                "like_count": 20,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 1901
+              },
+              "id": "1743200725826756978",
+              "text": "1thek_live ins\n10CM가 부르는 한 사람만이 보이는 순간을 표현한 마이데몬 OST\n#10CM #권정열 #십센치 #방법 #마이데몬 #MyDemon #야외녹음실 #Beyond_the_Studio #1theK_live #원더케이라이브 https://t.co/3miBnFLZsH https://t.co/Fbwjj4E2Tx"
+            },
+            {
+              "created_at": "2024-01-05T09:22:25.000Z",
+              "edit_history_tweet_ids": [
+                "1743201274320060822"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 11,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 629
+              },
+              "id": "1743201274320060822",
+              "text": "맞죠 맞는 말이죠..\n#10cm #권정열 https://t.co/BCDZyJOuLE"
+            },
+            {
+              "created_at": "2024-01-03T04:16:23.000Z",
+              "edit_history_tweet_ids": [
+                "1742399480824291416"
+              ],
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 13,
+                "quote_count": 1,
+                "bookmark_count": 1,
+                "impression_count": 1131
+              },
+              "id": "1742399480824291416",
+              "text": "친구들 데리러 갔다오께!\n\n#엔시티 #NCT #엔시티127 #NCT127 #엔시티일이칠 #10cm #인형 #doll #태일 #TAEIL https://t.co/xOiaNMmlf0"
+            },
+            {
+              "created_at": "2024-01-03T06:15:42.000Z",
+              "edit_history_tweet_ids": [
+                "1742429509922767327"
+              ],
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 4,
+                "like_count": 18,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 871
+              },
+              "id": "1742429509922767327",
+              "text": "#범식이_현식이된다\n\n범식이..도착하자마자\n주인 따라서 직장에 왔다가\n함께 등산행🥾🥾\n미안해서 닭다리 하나 들려줬습니다🤍\n반가워🥹\n\n오리지널범식도 언능 와라🧡\n@bumsik_10cm https://t.co/FCytFVoMWt"
+            },
+            {
+              "created_at": "2024-01-02T11:00:00.000Z",
+              "edit_history_tweet_ids": [
+                "1742138670159642846"
+              ],
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 11,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 2633
+              },
+              "id": "1742138670159642846",
+              "text": "OST로 보면 더 따스한 감성 드라마 😊\n'사랑한다고 말해줘' OST 플리에 당장 줍줍🎧\n\n🎶𝗙𝘂𝗹𝗹: https://t.co/TlEjm9lsZL\n\n#밍기뉴 #Seori #10CM #승관\n#스톤뮤직 #stonemusic https://t.co/U6bnTnh3Jj"
+            },
+            {
+              "created_at": "2024-01-01T06:31:05.000Z",
+              "edit_history_tweet_ids": [
+                "1741708605513245085"
+              ],
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 27,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 4207
+              },
+              "id": "1741708605513245085",
+              "text": "📢 겸만두 선입금이  12월31일을 마지막으로 끝이 났습니다~!! \n참여해주신 모든 분들 감사합니당^\n2차 수정이 곧 나옵니다! 💗\n일반 입금은 상품도 진행하기도 합니당!!\n겸만두을 사랑해 주신 모든 분들께 다시 한 번 감사드립니다^^\n\n#세븐틴 #SVT #도겸 #svtdoll #인녕 #10CM\n#SEVENTEEN #DOKYEOM https://t.co/60GqgRgc1U"
+            },
+            {
+              "created_at": "2024-01-05T09:17:44.000Z",
+              "edit_history_tweet_ids": [
+                "1743200096060363164"
+              ],
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 9,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 628
+              },
+              "id": "1743200096060363164",
+              "text": "영어 미친.. 도랐나봐..ㅜㅜㅜㅜㅜ \n#권정열 #10cm #마이데몬 https://t.co/7QS2pesHNC"
+            },
+            {
+              "created_at": "2024-01-05T12:03:28.000Z",
+              "edit_history_tweet_ids": [
+                "1743241801845354516"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 10,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 702
+              },
+              "id": "1743241801845354516",
+              "text": "나는 왜 권정열을 이제야 알았는가.. 좀만 더 일찍 알지... 이쁜거 살 기회도 공연 더 많이 볼 기회도 다 놓쳤어.. 덕질 전에 나한테 권정열은 겨우 '봄이 좋냐' 였는데..  내가 왜 이제서야 알아서.. 핸드볼도 권인시도.. 다 놓쳤어..\n#권정열 #10cm"
+            },
+            {
+              "created_at": "2024-01-06T10:34:43.000Z",
+              "edit_history_tweet_ids": [
+                "1743581858275987511"
+              ],
+              "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 11,
+                "quote_count": 7,
+                "bookmark_count": 19,
+                "impression_count": 8222
+              },
+              "id": "1743581858275987511",
+              "text": "#우리_공장을_소개합니다 #우리_공장으로_오세요 #rt #솜인형 #cottondoll #rt #ぬいぐるみ #10cm #무솜인덕장터 #솜인덕장터  고객님이 보내주신 소중한 후기 사진입니다! https://t.co/Ik24K2Zlan"
+            },
+            {
+              "created_at": "2024-01-04T12:53:29.000Z",
+              "edit_history_tweet_ids": [
+                "1742892002226888987"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 6454
+              },
+              "id": "1742892002226888987",
+              "text": "#우리_공장을_소개합니다 #우리_공장으로_오세요 #rt #솜인형 #cottondoll #rt #ぬいぐるみ #10cm #무솜인덕장터 #솜인덕장터 옹기종기 아기들🥺💗💗 https://t.co/HaoC4QeLG2"
+            },
+            {
+              "created_at": "2024-01-04T14:13:22.000Z",
+              "edit_history_tweet_ids": [
+                "1742912106037715197"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 330
+              },
+              "id": "1742912106037715197",
+              "text": "@svt_mini_10cm 정한 🩷 승관 🧡"
+            },
+            {
+              "created_at": "2023-12-31T06:37:07.000Z",
+              "edit_history_tweet_ids": [
+                "1741347735989854470"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 707
+              },
+              "id": "1741347735989854470",
+              "text": "✅️ 탤바 대금 송금 완료\n\n탤바의 제작 대금을 송금 완료했습니다\n제작은 약 2개월 정도 소요되지만 중간에 명절이 있어서 3월에 제작 완료될 것으로 보입니다\n문의 사항은 DM 혹은 에스크 부탁드립니다\n감사합니다\n\n#엔시티 #NCT #엔시티127 #NCT127 #엔시티일이칠 #10cm #인형 #doll #태일 #TAEIL https://t.co/kkBNMMGIta"
+            },
+            {
+              "created_at": "2024-01-05T02:40:37.000Z",
+              "edit_history_tweet_ids": [
+                "1743100157468836142"
+              ],
+              "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 12,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 1455
+              },
+              "id": "1743100157468836142",
+              "text": "오늘 (1/5) 오후 6시 !!!,\n&lt;마이데몬&gt; OST '10CM - 방법 (The way to lose you)' 발매!!\n많은 관심 부탁드립니다💖\n\nSBS 금토드라마 〈마이 데몬〉\n매주 금토 밤 10시 방송😈\n\n#SBS #마이데몬 #MYDEMON #SBSCatch\n#김유정 #송강 #이상이 #김해숙 #조혜주\n#10CM #방법 #마이데몬OST https://t.co/1QisiHTS9n"
+            },
+            {
+              "created_at": "2024-01-05T09:05:24.000Z",
+              "edit_history_tweet_ids": [
+                "1743196989721112654"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 106
+              },
+              "id": "1743196989721112654",
+              "text": "@10cm_Jey 안녕하세요 뒤늦게 걔제비를 알았는데 구매할수있나요?🥺"
+            },
+            {
+              "created_at": "2024-01-05T13:29:13.000Z",
+              "edit_history_tweet_ids": [
+                "1743263385259807033"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 19
+              },
+              "id": "1743263385259807033",
+              "text": "Today's eunho nickname, given by yejun:\n\n유캔두eat\n빅도움호\n🤣🤣🤣"
+            },
+            {
+              "created_at": "2024-01-05T13:37:49.000Z",
+              "edit_history_tweet_ids": [
+                "1743265546794393612"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 5
+              },
+              "id": "1743265546794393612",
+              "text": "하민이는 바다 가고있구나 https://t.co/dLDto105uD"
+            },
+            {
+              "created_at": "2024-01-03T09:28:10.000Z",
+              "edit_history_tweet_ids": [
+                "1742477944109580747"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 63
+              },
+              "id": "1742477944109580747",
+              "text": "@y_23_99 @bumsik_10cm 언니 바보야 저거 새우티김이야"
+            },
+            {
+              "created_at": "2024-01-03T07:04:08.000Z",
+              "edit_history_tweet_ids": [
+                "1742441698679304623"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 184
+              },
+              "id": "1742441698679304623",
+              "text": "@y_23_99 @bumsik_10cm 저걸 고르고 범식이 줄생각한 너가 더 귀여워🥰"
+            },
+            {
+              "created_at": "2024-01-04T13:47:04.000Z",
+              "edit_history_tweet_ids": [
+                "1742905487325352365"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 448
+              },
+              "id": "1742905487325352365",
+              "text": "@svt_mini_10cm 승관이는 주황색예요!🍊🧡"
+            },
+            {
+              "created_at": "2024-01-04T16:18:42.000Z",
+              "edit_history_tweet_ids": [
+                "1742943647493144886"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 108
+              },
+              "id": "1742943647493144886",
+              "text": "@svt_mini_10cm 호랑이 💛\n정한이 🩷️"
+            },
+            {
+              "created_at": "2024-01-03T10:48:50.000Z",
+              "edit_history_tweet_ids": [
+                "1742498245274914822"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 47
+              },
+              "id": "1742498245274914822",
+              "text": "@91s_10cm 기대됩니다.🥺🥺🥺"
+            },
+            {
+              "created_at": "2024-01-03T06:19:50.000Z",
+              "edit_history_tweet_ids": [
+                "1742430549485256755"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 78
+              },
+              "id": "1742430549485256755",
+              "text": "@y_23_99 @bumsik_10cm 닭다리 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
+            },
+            {
+              "created_at": "2024-01-03T10:10:53.000Z",
+              "edit_history_tweet_ids": [
+                "1742488694257508617"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 33
+              },
+              "id": "1742488694257508617",
+              "text": "@myaaaaong1122 @bumsik_10cm 냥뇽 바보🦐🍤🦐🍤"
+            },
+            {
+              "created_at": "2024-01-04T14:37:50.000Z",
+              "edit_history_tweet_ids": [
+                "1742918264802742740"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 214
+              },
+              "id": "1742918264802742740",
+              "text": "@svt_mini_10cm 디에잇 💛\n디노 💚"
+            },
+            {
+              "created_at": "2024-01-06T17:35:36.000Z",
+              "edit_history_tweet_ids": [
+                "1743687774220468733"
+              ],
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 1338
+              },
+              "id": "1743687774220468733",
+              "text": "240107일\n\n#마이데몬 #MyDemon\n\n11회 재방사수!\n\n도도희역 #김유정\n\n정구원역 #송강 배우\n\n귀여움 뿜뿜🥰\n\n* 오프닝 부분 구원,\n\n커피잔 탐나 포착 이라도\n\n해두려 했지만 놓친데다,\n\n검색 해도 못알아냄😅\n\nOST 수록곡들 중 #방법\n\n#10CM 등등 느낌 충만🎵\n\nhttps://t.co/UHqU9v3JVh https://t.co/WeyBDMCORU https://t.co/3PpEbI9sIi"
+            },
+            {
+              "created_at": "2024-01-05T13:05:08.000Z",
+              "edit_history_tweet_ids": [
+                "1743257322082992344"
+              ],
+              "public_metrics": {
+                "retweet_count": 7,
+                "reply_count": 1,
+                "like_count": 5,
+                "quote_count": 0,
+                "bookmark_count": 7,
+                "impression_count": 2020
+              },
+              "id": "1743257322082992344",
+              "text": "공장(@guofengwu812)에게  동물형 솜인형을 의뢰했어요🥰\n특수체도 잘 만들고 귀여운 동물깅을 많이 만드는 곳이더라구요\n진행 과정을 타래로 써내려가겠습니다♥\n\n#솜인형 #10cm #보보솜인형 https://t.co/5L67vnZdLu"
+            },
+            {
+              "created_at": "2024-01-06T23:27:22.000Z",
+              "edit_history_tweet_ids": [
+                "1743776299267854733"
+              ],
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 1,
+                "bookmark_count": 0,
+                "impression_count": 644
+              },
+              "id": "1743776299267854733",
+              "text": "240107 권정열 인스타그램🎤🎸\n\nhttps://t.co/Xtl5Tat2Ft\n\n오늘 무슨 촬영인지 아시는 분\n\n#권정열 #십센치 #10CM https://t.co/ZXX8XeqkPI"
+            },
+            {
+              "created_at": "2024-01-05T14:24:00.000Z",
+              "edit_history_tweet_ids": [
+                "1743277170758455557"
+              ],
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 815
+              },
+              "id": "1743277170758455557",
+              "text": "240105 권정열 인스타그램🎤🎸\n\nhttps://t.co/HzC4CDf6BF\n\n무슨 노래 하고 있는건지 아시는 분\n\n#권정열 #십센치 #10CM https://t.co/N4G1ebZMxP"
+            },
+            {
+              "created_at": "2024-01-04T14:49:00.000Z",
+              "edit_history_tweet_ids": [
+                "1742921075640689017"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 154
+              },
+              "id": "1742921075640689017",
+              "text": "@svt_mini_10cm 승관 🧡🍊🧡"
+            },
+            {
+              "created_at": "2024-01-04T04:55:42.000Z",
+              "edit_history_tweet_ids": [
+                "1742771764663562269"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 1,
+                "bookmark_count": 0,
+                "impression_count": 1062
+              },
+              "id": "1742771764663562269",
+              "text": "트와이스 나연 10cm 인형 나빗이, 나키 구합니당.. 나부리 포카홀더도 구해요\n간절해서 가격은 제시해주시는 대로 바로 살게요ㅠ 판매하실 분 디엠 주세요\n#트와이스 #나연 #라부리 #나부리 #인형 #10cm #양도 #포카 \n\nsell ❌️\nbuy ⭕️ https://t.co/5XmlbFXjkR"
+            },
+            {
+              "created_at": "2024-01-02T03:51:39.000Z",
+              "edit_history_tweet_ids": [
+                "1742030872088625460"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 155
+              },
+              "id": "1742030872088625460",
+              "text": "@Lem_10CM 늦었지만 새해 복 많이 받으세요 😮\n올한 해두 잘 부탁드리구, 올한 해두 즐거운 한 해 보내세요 👏🏻"
+            },
+            {
+              "created_at": "2024-01-05T01:59:04.000Z",
+              "edit_history_tweet_ids": [
+                "1743089699991011655"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 174
+              },
+              "id": "1743089699991011655",
+              "text": "#10CM 십센치 권정열 - 타이트 (Tight)\n라이브 기원 정권찌르기 14일차 https://t.co/EWTq0KgqMG"
+            },
+            {
+              "created_at": "2024-01-03T17:53:58.000Z",
+              "edit_history_tweet_ids": [
+                "1742605232557945083"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 259
+              },
+              "id": "1742605232557945083",
+              "text": "#10CM 십센치 권정열 - 타이트 (Tight)\n라이브 기원 정권찌르기 13일차 https://t.co/ezW3DlGbYC"
+            },
+            {
+              "created_at": "2024-01-02T15:19:49.000Z",
+              "edit_history_tweet_ids": [
+                "1742204052434550954"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 285
+              },
+              "id": "1742204052434550954",
+              "text": "#10CM 십센치 권정열 - 타이트 (Tight)\n라이브 기원 정권찌르기 12일차 https://t.co/f8zaOdPm3N"
+            },
+            {
+              "created_at": "2024-01-02T05:17:13.000Z",
+              "edit_history_tweet_ids": [
+                "1742052403162280226"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 348
+              },
+              "id": "1742052403162280226",
+              "text": "@10cm_sukida @YeonMyuticket 안녕하세요! 양도 원하는데 지금 가능한가요?!"
+            },
+            {
+              "created_at": "2024-01-03T07:03:34.000Z",
+              "edit_history_tweet_ids": [
+                "1742441556190404771"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 66
+              },
+              "id": "1742441556190404771",
+              "text": "@meldy_koko @bumsik_10cm 귀엽지 으헤헤"
+            },
+            {
+              "created_at": "2024-01-04T11:21:21.000Z",
+              "edit_history_tweet_ids": [
+                "1742868816538038452"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 31
+              },
+              "id": "1742868816538038452",
+              "text": "열심히하자 😓💪 https://t.co/jqOj1NiBf6"
+            }
+          ],
+          "meta": {
+            "newest_id": "1743776299267854733",
+            "oldest_id": "1741347735989854470",
+            "result_count": 47
+          }
+        }
+      ],
+      "count": 47,
+      "has_next_token": false
+    },
+    "lag3w": {
+      "request": {
+        "query": "\"10CM\" lang:ko -is:retweet -is:nullcast",
+        "start_time": "2023-12-24T00:00:00Z",
+        "end_time": "2023-12-31T00:00:00Z",
+        "max_results": 50,
+        "max_pages": 1,
+        "sort_order": "relevancy",
+        "tweet.fields": [
+          "public_metrics",
+          "created_at"
+        ]
+      },
+      "rate_limit": {
+        "x-rate-limit-remaining": "273",
+        "x-rate-limit-reset": "1772035484"
+      },
+      "pages": [
+        {
+          "data": [
+            {
+              "id": "1740193748888473937",
+              "created_at": "2023-12-28T02:11:35.000Z",
+              "edit_history_tweet_ids": [
+                "1740193748888473937"
+              ],
+              "public_metrics": {
+                "retweet_count": 154,
+                "reply_count": 1,
+                "like_count": 306,
+                "quote_count": 46,
+                "bookmark_count": 51,
+                "impression_count": 33752
+              },
+              "text": "🐶 WayV XIAOJUN 10cm doll Dejunny𐐃ᯖ𐐃 수요조사 🐶\n\n🗓 23.12.28. 11 am ~ 24.1.11. 11 am\n\n🔗 https://t.co/NXqAPG9T2p\n\n제작확정시 #rt + #follow 추첨 한분께 Dejunny를 보내드려요❕𐐃ᯖ𐐃\n\n#WayV #威神V #웨이션브이 #XIAOJUN #肖俊 #肖德俊 #샤오쥔 #シャオジュン #10cm #인형 https://t.co/c7S22OjeXy"
+            },
+            {
+              "id": "1740632319319519687",
+              "created_at": "2023-12-29T07:14:18.000Z",
+              "edit_history_tweet_ids": [
+                "1740632319319519687"
+              ],
+              "public_metrics": {
+                "retweet_count": 232,
+                "reply_count": 0,
+                "like_count": 174,
+                "quote_count": 10,
+                "bookmark_count": 34,
+                "impression_count": 24322
+              },
+              "text": "☃ 𝟷𝟶𝙲𝙼 𝚆𝙸𝙽𝚃𝙴𝚁 𝙲𝙾𝙽𝙲𝙴𝚁𝚃  𝟿+𝟷 ☃\n십센치 겨울 콘서트에서 띠부띠부씰과 슬라이드 필름 키링 나눔합니다❄️ \n\n수량: 40개/20개 (디자인 랜덤 지급)\n인증: RT + 당일 티켓\n장소: 올림픽 체조경기장 근처\n날짜: 1월 27일~28일 \n\n#10CM #십센치 #권정열 https://t.co/yEyR9ccmwC"
+            },
+            {
+              "id": "1740943151073034361",
+              "created_at": "2023-12-30T03:49:27.000Z",
+              "edit_history_tweet_ids": [
+                "1740943151073034361"
+              ],
+              "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 16,
+                "quote_count": 1,
+                "bookmark_count": 3,
+                "impression_count": 1607
+              },
+              "text": "🐰 나봉이 왔나봉 🩵\n@NaBong_doll\n\n#나봉이_왔나봉\n#트와이스_나연_10cm_인형\n#TWICE_NAYEON_10cm_doll\n#나연 #NAYEON #ナヨン https://t.co/feFZQ1yHai"
+            },
+            {
+              "id": "1739192395114377322",
+              "created_at": "2023-12-25T07:52:34.000Z",
+              "edit_history_tweet_ids": [
+                "1739192395114377322"
+              ],
+              "public_metrics": {
+                "retweet_count": 252,
+                "reply_count": 1,
+                "like_count": 106,
+                "quote_count": 8,
+                "bookmark_count": 7,
+                "impression_count": 37332
+              },
+              "text": "🐈‍⬛세븐틴 원우 10cm 인형 원발보이 수요조사 🐈‍⬛\n\n🗓️ ~ 2023/12/31 *조기 종료 될 수 있습니다\n🔗https://t.co/bpRnwBEHIE\n\n#RT 두분에게 원발보이를 보내드려요 🐈‍⬛\n\n #원우 #전원우 #세븐틴 #10cm https://t.co/KFCJpssmNG"
+            },
+            {
+              "id": "1739280121146794038",
+              "created_at": "2023-12-25T13:41:09.000Z",
+              "edit_history_tweet_ids": [
+                "1739280121146794038"
+              ],
+              "public_metrics": {
+                "retweet_count": 47,
+                "reply_count": 1,
+                "like_count": 64,
+                "quote_count": 48,
+                "bookmark_count": 11,
+                "impression_count": 11474
+              },
+              "text": "2023 10CM 권정열 연말정산!! \n\n2023년에 총 142개의 스케줄 중에 얼마나 \n권정열과 함께 했는지 체크해 보세요!! ᦂ\n\n#10cm #권정열 #십센치 https://t.co/fWptghidIJ"
+            },
+            {
+              "id": "1740401191002243092",
+              "created_at": "2023-12-28T15:55:53.000Z",
+              "edit_history_tweet_ids": [
+                "1740401191002243092"
+              ],
+              "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 45,
+                "quote_count": 3,
+                "bookmark_count": 0,
+                "impression_count": 5118
+              },
+              "text": "반년의 기다림 끝에 만난 비비범식~❤︎\n실물 진짜 너무 커엽잖아.!.!.!\n\n#범식이_현식이된다 \n@bumsik_10cm https://t.co/1r4N6D5wXy"
+            },
+            {
+              "id": "1739941692164202794",
+              "created_at": "2023-12-27T09:30:00.000Z",
+              "edit_history_tweet_ids": [
+                "1739941692164202794"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 10,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 1733
+              },
+              "text": "명곡이 넘치는 #사랑한다고말해줘 OST! 당신의 최애곡은?\n\n일단 스톤지기가 뽑은 픽 2🏆\n\n10CM - try not to cry\n승관(SEVENTEEN) - 그대가 오면\n\n#10CM #승관 #세븐틴 #SEVENTEEN https://t.co/aqSGczMRQ7"
+            },
+            {
+              "id": "1738905974256337074",
+              "created_at": "2023-12-24T12:54:26.000Z",
+              "edit_history_tweet_ids": [
+                "1738905974256337074"
+              ],
+              "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 16,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 1990
+              },
+              "text": "📺YouTube 해쭈\n10CM ✂️\n#10CM #십센치 #권정열 https://t.co/qzjxqbjFoV"
+            },
+            {
+              "id": "1740344940218175841",
+              "created_at": "2023-12-28T12:12:22.000Z",
+              "edit_history_tweet_ids": [
+                "1740344940218175841"
+              ],
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 16,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 4213
+              },
+              "text": "나의 세 번째 범식이 #비비범식 ! !\n역시는 역시 너무나도 귀여워 … ㅜ\n선입 특전도 선물도 너무 감사합니다🤍\n\n#범식이_현식이된다 \n@bumsik_10cm https://t.co/uilMPmue0p"
+            },
+            {
+              "id": "1740396965232562415",
+              "created_at": "2023-12-28T15:39:06.000Z",
+              "edit_history_tweet_ids": [
+                "1740396965232562415"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 17,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 652
+              },
+              "text": "권정열 데뷔 5000일!! 앞으로도 오래오래 내 곁에 있어줘 \n#권정열 #10cm https://t.co/Vro2kBv7tW"
+            },
+            {
+              "id": "1738831541697159291",
+              "created_at": "2023-12-24T07:58:40.000Z",
+              "edit_history_tweet_ids": [
+                "1738831541697159291"
+              ],
+              "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 2,
+                "bookmark_count": 1,
+                "impression_count": 3616
+              },
+              "text": "⭐️Norris 10cm 대만 솜!⭐️\n\n🔹기간 : ~ 12.27 까지!\n\n🔹사이즈 : 10cm\n\n🔹30체 한정! / 일반폼이 1,500원 저럼합니다\n\n🔹페이폼\n(https://t.co/cyOZsqOx2V)\n\n🔹일반폼\n(https://t.co/5KWuyCW0Bv)\n\n#10cm #대만솜 https://t.co/xYantzbA2t"
+            },
+            {
+              "id": "1740236581519466560",
+              "created_at": "2023-12-28T05:01:47.000Z",
+              "edit_history_tweet_ids": [
+                "1740236581519466560"
+              ],
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 12,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 732
+              },
+              "text": "돈 쥬세요~☺️ \n#권정열 #10cm https://t.co/7KkO2UaxWl"
+            },
+            {
+              "id": "1740915281671950801",
+              "created_at": "2023-12-30T01:58:42.000Z",
+              "edit_history_tweet_ids": [
+                "1740915281671950801"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 383
+              },
+              "text": "나봉이 인형 해시태그 있나요? \n\n#트와이스_나연_10cm_인형\n#TWICE_NAYEON_10cm_doll\n이건가."
+            },
+            {
+              "id": "1740237060563448138",
+              "created_at": "2023-12-28T05:03:41.000Z",
+              "edit_history_tweet_ids": [
+                "1740237060563448138"
+              ],
+              "public_metrics": {
+                "retweet_count": 7,
+                "reply_count": 0,
+                "like_count": 47,
+                "quote_count": 2,
+                "bookmark_count": 9,
+                "impression_count": 2170
+              },
+              "text": "ㅁ..말없이 스킨십이요..?\n#권정열 #10cm https://t.co/VjJogZt7YH"
+            },
+            {
+              "id": "1740237482057470060",
+              "created_at": "2023-12-28T05:05:22.000Z",
+              "edit_history_tweet_ids": [
+                "1740237482057470060"
+              ],
+              "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 2,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 2336
+              },
+              "text": "10CM 겨울콘서트 9+1\n28일 막콘 플로어 B구역 양도합니다.\n(선예매 특전 &amp; 리허설 X)\n\n당일날 표 수령해서 드릴게요!\n멘션이나 디엠 주세요🫶🏻\n\n#권정열 #십센치 #10CM #양도 https://t.co/nUpLLIAivb"
+            },
+            {
+              "id": "1740254222569111703",
+              "created_at": "2023-12-28T06:11:53.000Z",
+              "edit_history_tweet_ids": [
+                "1740254222569111703"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 9,
+                "quote_count": 1,
+                "bookmark_count": 1,
+                "impression_count": 623
+              },
+              "text": "행운을 가져다 준다는~ \n네잎클로버와~ 우리 탤바~\n\n#엔시티 #NCT #엔시티127 #NCT127 #엔시티일이칠 #10cm #인형 #doll #태일 #TAEIL https://t.co/VNNyu4lx1M"
+            },
+            {
+              "id": "1740292302571278393",
+              "created_at": "2023-12-28T08:43:12.000Z",
+              "edit_history_tweet_ids": [
+                "1740292302571278393"
+              ],
+              "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 5,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 1201
+              },
+              "text": "히뽀리의 추구미=매끈🦛\n\n현실=복실\n\n#히뽀리 #heeppori #라이즈 #소희 #RIIZE #SOHEE #sohee #10cm  #인형 #doll https://t.co/NY0zQ5sfxh"
+            },
+            {
+              "id": "1739938116272898486",
+              "created_at": "2023-12-27T09:15:48.000Z",
+              "edit_history_tweet_ids": [
+                "1739938116272898486"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 582
+              },
+              "text": "@10cm_trashboy 폰서트? \n아메리카노?\n스토커?\n봄이좋냐?\n그라데이션?\n…\n아 명곡 너무 많네"
+            },
+            {
+              "id": "1739953234847096983",
+              "created_at": "2023-12-27T10:15:52.000Z",
+              "edit_history_tweet_ids": [
+                "1739953234847096983"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 371
+              },
+              "text": "@10cm_trashboy ㅇㄴㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 대중픽 사은다 봄이좋냐 아메리카노 로 조선팔도 대동십지도를 다 그릴수는 업ㅈㅕㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ  '나가라 점마 끌어내라' 자동 응답기 처럼 나올 수도ㅠ있어여..🥺"
+            },
+            {
+              "id": "1740581637170323697",
+              "created_at": "2023-12-29T03:52:55.000Z",
+              "edit_history_tweet_ids": [
+                "1740581637170323697"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 379
+              },
+              "text": "기다리고 기다리던 비비범식이 드뎌 왔어요!\n@bumsik_10cm 오리지널 범식이도, 비비범식이도 너무 귀여워요😍😍 식그니처 의상 같이 입혀줬더니 귀여움이 307배😆 예쁜 인형 기획해주셔서 감사해요💙 https://t.co/vXj6BW1wsU"
+            },
+            {
+              "id": "1738830507574808896",
+              "created_at": "2023-12-24T07:54:33.000Z",
+              "edit_history_tweet_ids": [
+                "1738830507574808896"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 63
+              },
+              "text": "@GOODNIGHT_10CM 헉 3번째 골드바 포토존은 어디있었나요?🥺"
+            },
+            {
+              "id": "1740720055254679663",
+              "created_at": "2023-12-29T13:02:56.000Z",
+              "edit_history_tweet_ids": [
+                "1740720055254679663"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 35
+              },
+              "text": "@10cm__victon 넘나 존존존맛이었답니다🤤"
+            },
+            {
+              "id": "1740343423109091349",
+              "created_at": "2023-12-28T12:06:20.000Z",
+              "edit_history_tweet_ids": [
+                "1740343423109091349"
+              ],
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 9,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 906
+              },
+              "text": "231228 10cm_official \n\n10CM / 십센치 - Rebirth @ CGV [Festival stage]\n\n풀버전 라이브는 지금 10CM 오피셜 유튜브 채널에서 확인해보세요!\n\n#10CM #십센치 #권정열 #Rebirth #SummerConcertwithCGV https://t.co/JW06brR827"
+            },
+            {
+              "id": "1741050106038960296",
+              "created_at": "2023-12-30T10:54:27.000Z",
+              "edit_history_tweet_ids": [
+                "1741050106038960296"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 1,
+                "bookmark_count": 1,
+                "impression_count": 1816
+              },
+              "text": "10CM WINTER CONCERT 9+1\n\n십센치 양도\n27일 첫콘\n10구역 3열 원가 수수료 포함 15.6 양도합니다!\n아옮 직접 하셔야 하고요\n혹시 리허설 관람 하고 싶으시면\n현장에서 티켓 수령해서 드릴 수 있습니다~!\n(그날 저 올공 다른 공연장에서 공연봅니당)\n편하게 디엠 주세요\n\n#권정열 #십센치 #10CM #콘서트 https://t.co/29GmNN04px"
+            },
+            {
+              "id": "1740638438150570269",
+              "created_at": "2023-12-29T07:38:37.000Z",
+              "edit_history_tweet_ids": [
+                "1740638438150570269"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 1040
+              },
+              "text": "231229 10ran_night 인스타스토리\n\n24.01.02\n9PM\n\n#권정열 #십센치 #10CM #고영배 #소란 #십란한밤 https://t.co/jgD73vTBpb"
+            },
+            {
+              "id": "1740343411201462506",
+              "created_at": "2023-12-28T12:06:17.000Z",
+              "edit_history_tweet_ids": [
+                "1740343411201462506"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 693
+              },
+              "text": "231228 10cm_official 인스타스토리\n\nhttps://t.co/B5mPz4yGz0\n\n#10CM #십센치 #권정열 #Rebirth #SummerConcertwithCGV https://t.co/JjheiVgKeA"
+            },
+            {
+              "id": "1740344706763219193",
+              "created_at": "2023-12-28T12:11:26.000Z",
+              "edit_history_tweet_ids": [
+                "1740344706763219193"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 887
+              },
+              "text": "10cm_official ins\n10CM / 십센치 - Rebirth [Festival stage]\n풀버전 라이브는 지금 10CM 오피셜 유튜브 채널에서 확인해보세요!\n\n10CM Winter Concert ‘9+1’\n🗓️24.01.27(토) 6PM\n🗓️24.01.28(일) 5PM\n📍올림픽공원 체조경기장\n🎟️인터파크 티켓\n\n#10CM #십센치 #권정열 #Rebirth #SummerConcertwithCGV https://t.co/ZqyeAbDjbJ https://t.co/PeJ0aHzOFj"
+            },
+            {
+              "id": "1741123582955311319",
+              "created_at": "2023-12-30T15:46:25.000Z",
+              "edit_history_tweet_ids": [
+                "1741123582955311319"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 770
+              },
+              "text": "10CM 콘서트 9+1 막콘\n28일 vip석 남는 티켓이 생겨 판매합니다\n154,000 정가\n100,000에 판매합니다\n\n제가 일단 수령 후 택배로 보내드릴게요\n양도 방법을 잘 몰라서 최대한 도와드리겠습니다\n멘션이나 디엠 주세요😁\n\n#권정열 #십센치 #10CM #양도"
+            },
+            {
+              "id": "1739077456534151235",
+              "created_at": "2023-12-25T00:15:50.000Z",
+              "edit_history_tweet_ids": [
+                "1739077456534151235"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 1135
+              },
+              "text": "10cm_official ins\n10CM와 해쭈(@/hae_jooooo_)가 만났습니다!\n그 첫 이야기를 지금 확인해 보세요 :)\n곧 이어 이어질 본격적인 두 사람의 다음화도 기대해주세요! \n\n#10CM #십센치 #권정열 https://t.co/hZ4bXQVR3M https://t.co/tomvj2yQaF"
+            },
+            {
+              "id": "1740351286606995711",
+              "created_at": "2023-12-28T12:37:35.000Z",
+              "edit_history_tweet_ids": [
+                "1740351286606995711"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 631
+              },
+              "text": "10CM / 십센치 - Rebirth ​[Festival stage]\nhttps://t.co/b6zbM2eFZh\n\n#10cm #십센치 #권정열"
+            },
+            {
+              "id": "1740562367086514185",
+              "created_at": "2023-12-29T02:36:21.000Z",
+              "edit_history_tweet_ids": [
+                "1740562367086514185"
+              ],
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 890
+              },
+              "text": "탤바 입금 마감 오늘까지입니다~\n\n#엔시티 #NCT #엔시티127 #NCT127 #엔시티일이칠 #10cm #인형 #doll #태일 #TAEIL https://t.co/cAEClKlHvw"
+            },
+            {
+              "id": "1741160482348888393",
+              "created_at": "2023-12-30T18:13:02.000Z",
+              "edit_history_tweet_ids": [
+                "1741160482348888393"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 186
+              },
+              "text": "#10CM 십센치 권정열 - 타이트 (Tight)\n라이브 기원 정권찌르기 10일차 https://t.co/fir36XWbj0"
+            },
+            {
+              "id": "1741053473679139160",
+              "created_at": "2023-12-30T11:07:49.000Z",
+              "edit_history_tweet_ids": [
+                "1741053473679139160"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 218
+              },
+              "text": "#10CM 십센치 권정열 - 타이트 (Tight)\n라이브 기원 정권찌르기 9일차 https://t.co/dXYuHdN5N5"
+            },
+            {
+              "id": "1740343023962354122",
+              "created_at": "2023-12-28T12:04:45.000Z",
+              "edit_history_tweet_ids": [
+                "1740343023962354122"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 1,
+                "bookmark_count": 0,
+                "impression_count": 987
+              },
+              "text": "10CM / 십센치 - Rebirth ​@CGV [Festival stage] https://t.co/KBbUsZdh3S - @YouTube\n\n#10CM #십센치 #권정열 #Rebirth"
+            },
+            {
+              "id": "1740749842090168341",
+              "created_at": "2023-12-29T15:01:18.000Z",
+              "edit_history_tweet_ids": [
+                "1740749842090168341"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 582
+              },
+              "text": "탤바 입금이 마감되었습니다\n수량을 전체적으로 총합하여 공장과 컨택한 뒤 자세한 사항을 다시 안내드리도록 하겠습니다\n문의 사항은 에스크 혹은 디엠으로 부탁드립니다\n감사합니다\n\n#엔시티 #NCT #엔시티127 #NCT127 #엔시티일이칠 #10cm #인형 #doll #태일 #TAEIL"
+            },
+            {
+              "id": "1740040083112435735",
+              "created_at": "2023-12-27T16:00:58.000Z",
+              "edit_history_tweet_ids": [
+                "1740040083112435735"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 323
+              },
+              "text": "#10CM 십센치 권정열 - 타이트 (Tight)\n라이브 기원 정권찌르기 8일차 https://t.co/rz6Nzytf2Y"
+            },
+            {
+              "id": "1739951183492768051",
+              "created_at": "2023-12-27T10:07:43.000Z",
+              "edit_history_tweet_ids": [
+                "1739951183492768051"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 166
+              },
+              "text": "@10cm_trashboy 너무 아는 척 하고 싶잖아~\n아 끼고싶잖아 ~\n\n'끌어내'\nㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
+            },
+            {
+              "id": "1740026649784246590",
+              "created_at": "2023-12-27T15:07:36.000Z",
+              "edit_history_tweet_ids": [
+                "1740026649784246590"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 100
+              },
+              "text": "@just_10cm_jy 2024년도 화이팅...🥺🤍"
+            },
+            {
+              "id": "1740020358672248976",
+              "created_at": "2023-12-27T14:42:36.000Z",
+              "edit_history_tweet_ids": [
+                "1740020358672248976"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 84
+              },
+              "text": "@just_10cm_jy 오래오래 조금씩(?) 마니 보ㅏ요 🥺"
+            },
+            {
+              "id": "1740029685227204931",
+              "created_at": "2023-12-27T15:19:39.000Z",
+              "edit_history_tweet_ids": [
+                "1740029685227204931"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 29
+              },
+              "text": "@CNU_10cm \n\n오늘은 무사히 신꼬미 양이 오셨습니다. \n🐣클래스"
+            },
+            {
+              "id": "1739675558076944870",
+              "created_at": "2023-12-26T15:52:29.000Z",
+              "edit_history_tweet_ids": [
+                "1739675558076944870"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 47
+              },
+              "text": "@bumsik_10cm 남자분들은 @manmustsee1 얘 메인트윗 참고해서 피해입으시지마시길"
+            },
+            {
+              "id": "1740340799412531441",
+              "created_at": "2023-12-28T11:55:55.000Z",
+              "edit_history_tweet_ids": [
+                "1740340799412531441"
+              ],
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 7
+              },
+              "text": "@bflf_10cm 남성분들게서는 @manmustsee1 이 사람 고정트 참고해서 피해입지마셈요"
+            }
+          ],
+          "meta": {
+            "newest_id": "1741160482348888393",
+            "oldest_id": "1738830507574808896",
+            "result_count": 42
+          }
+        }
+      ],
+      "count": 42,
+      "has_next_token": false
+    }
+  },
+  "errors": []
+}
