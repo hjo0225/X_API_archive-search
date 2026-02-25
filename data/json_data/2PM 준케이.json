@@ -1,8 +1,8 @@
 {
   "name": "2PM 준케이",
   "start_date": "2025-09-07",
-  "search_query": "\"2PM 준케이\" lang:ko -is:retweet -is:nullcast",
-  "counts_query": "\"2PM 준케이\" lang:ko -is:retweet -is:nullcast",
+  "search_query": "2PM 준케이 lang:ko -is:retweet -is:nullcast",
+  "counts_query": "2PM 준케이 lang:ko -is:retweet -is:nullcast",
   "windows": {
     "lag1_start_time": "2025-08-31T00:00:00Z",
     "lag1_end_time": "2025-09-07T00:00:00Z",
@@ -13,17 +13,17 @@
     "counts_start_time": "2025-08-17T00:00:00Z",
     "counts_end_time": "2025-09-07T00:00:00Z"
   },
-  "collected_at_utc": "2026-02-25T15:56:52Z",
+  "collected_at_utc": "2026-02-25T16:14:07Z",
   "counts": {
     "request": {
-      "query": "\"2PM 준케이\" lang:ko -is:retweet -is:nullcast",
+      "query": "2PM 준케이 lang:ko -is:retweet -is:nullcast",
       "start_time": "2025-08-17T00:00:00Z",
       "end_time": "2025-09-07T00:00:00Z",
       "granularity": "day"
     },
     "rate_limit": {
-      "x-rate-limit-remaining": "289",
-      "x-rate-limit-reset": "1772035482"
+      "x-rate-limit-remaining": "297",
+      "x-rate-limit-reset": "1772036939"
     },
     "response": {
       "data": [
@@ -40,17 +40,17 @@
         {
           "end": "2025-08-20T00:00:00.000Z",
           "start": "2025-08-19T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 2
         },
         {
           "end": "2025-08-21T00:00:00.000Z",
           "start": "2025-08-20T00:00:00.000Z",
-          "tweet_count": 6
+          "tweet_count": 7
         },
         {
           "end": "2025-08-22T00:00:00.000Z",
           "start": "2025-08-21T00:00:00.000Z",
-          "tweet_count": 1
+          "tweet_count": 2
         },
         {
           "end": "2025-08-23T00:00:00.000Z",
@@ -60,7 +60,7 @@
         {
           "end": "2025-08-24T00:00:00.000Z",
           "start": "2025-08-23T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 2
         },
         {
           "end": "2025-08-25T00:00:00.000Z",
@@ -75,73 +75,73 @@
         {
           "end": "2025-08-27T00:00:00.000Z",
           "start": "2025-08-26T00:00:00.000Z",
-          "tweet_count": 4
+          "tweet_count": 6
         },
         {
           "end": "2025-08-28T00:00:00.000Z",
           "start": "2025-08-27T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 3
         },
         {
           "end": "2025-08-29T00:00:00.000Z",
           "start": "2025-08-28T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 1
         },
         {
           "end": "2025-08-30T00:00:00.000Z",
           "start": "2025-08-29T00:00:00.000Z",
-          "tweet_count": 3
+          "tweet_count": 5
         },
         {
           "end": "2025-08-31T00:00:00.000Z",
           "start": "2025-08-30T00:00:00.000Z",
-          "tweet_count": 2
+          "tweet_count": 5
         },
         {
           "end": "2025-09-01T00:00:00.000Z",
           "start": "2025-08-31T00:00:00.000Z",
-          "tweet_count": 7
+          "tweet_count": 20
         },
         {
           "end": "2025-09-02T00:00:00.000Z",
           "start": "2025-09-01T00:00:00.000Z",
-          "tweet_count": 10
+          "tweet_count": 25
         },
         {
           "end": "2025-09-03T00:00:00.000Z",
           "start": "2025-09-02T00:00:00.000Z",
-          "tweet_count": 7
+          "tweet_count": 12
         },
         {
           "end": "2025-09-04T00:00:00.000Z",
           "start": "2025-09-03T00:00:00.000Z",
-          "tweet_count": 3
+          "tweet_count": 16
         },
         {
           "end": "2025-09-05T00:00:00.000Z",
           "start": "2025-09-04T00:00:00.000Z",
-          "tweet_count": 3
+          "tweet_count": 10
         },
         {
           "end": "2025-09-06T00:00:00.000Z",
           "start": "2025-09-05T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 2
         },
         {
           "end": "2025-09-07T00:00:00.000Z",
           "start": "2025-09-06T00:00:00.000Z",
-          "tweet_count": 4
+          "tweet_count": 6
         }
       ],
       "meta": {
-        "total_tweet_count": 55
+        "total_tweet_count": 129
       }
     }
   },
   "search": {
     "lag1w": {
       "request": {
-        "query": "\"2PM 준케이\" lang:ko -is:retweet -is:nullcast",
+        "query": "2PM 준케이 lang:ko -is:retweet -is:nullcast",
         "start_time": "2025-08-31T00:00:00Z",
         "end_time": "2025-09-07T00:00:00Z",
         "max_results": 50,
@@ -153,14 +153,35 @@
         ]
       },
       "rate_limit": {
-        "x-rate-limit-remaining": "269",
-        "x-rate-limit-reset": "1772035484"
+        "x-rate-limit-remaining": "293",
+        "x-rate-limit-reset": "1772036940"
       },
       "pages": [
         {
           "data": [
             {
+              "created_at": "2025-09-05T05:30:01.000Z",
+              "edit_history_tweet_ids": [
+                "1963836997438734576"
+              ],
+              "text": "250907 SBS 인기가요 사전녹화 참여 신청 안내 &lt;1순위&gt;\n\nhttps://t.co/GGe52H2rOS\n\n* 1순위 : 2025년 9월 5일(금) 7:00PM ~ 7:10PM (KST)\n* 2순위 : 2025년 9월 5일(금) 7:20PM ~ 7:30PM (KST)\n※ 2순위는 1순위가 미달일 경우 2PM FANS 에서 오픈 됩니다.\n\n#JUN_K #준케이\n#Dear_my_muse\n#RandB_ME",
+              "id": "1963836997438734576",
+              "public_metrics": {
+                "retweet_count": 76,
+                "reply_count": 1,
+                "like_count": 243,
+                "quote_count": 5,
+                "bookmark_count": 8,
+                "impression_count": 12092
+              }
+            },
+            {
+              "created_at": "2025-09-04T05:37:46.000Z",
+              "edit_history_tweet_ids": [
+                "1963476560322674913"
+              ],
               "text": "2PM 준케이, 오늘(4일) '엠카'부터 신곡 'R&amp;B ME' 음악방송 돌입\n\nhttps://t.co/JvS8n13tmV\n\n#JUN_K #준케이\n#Dear_my_muse\n#RandB_ME",
+              "id": "1963476560322674913",
               "public_metrics": {
                 "retweet_count": 225,
                 "reply_count": 4,
@@ -168,15 +189,63 @@
                 "quote_count": 8,
                 "bookmark_count": 12,
                 "impression_count": 16134
-              },
-              "created_at": "2025-09-04T05:37:46.000Z",
-              "id": "1963476560322674913",
-              "edit_history_tweet_ids": [
-                "1963476560322674913"
-              ]
+              }
             },
             {
+              "created_at": "2025-09-04T10:41:20.000Z",
+              "edit_history_tweet_ids": [
+                "1963552956260761658"
+              ],
+              "text": "2PM의 데뷔 17주년에 만나보는 나의 뮤즈 나의 리듬 준케이의 컴백 무대가 좋아 ❤️ #JUN_K #RandB_ME #준케이 @follow_jun_k #MCOUNTDOWN #MPD직캠\n\nHorizontal Ver. ▶ https://t.co/2b0aP1zr2A\nVertical Ver. ▶ https://t.co/dIgnEPpBDq",
+              "id": "1963552956260761658",
+              "public_metrics": {
+                "retweet_count": 227,
+                "reply_count": 2,
+                "like_count": 346,
+                "quote_count": 8,
+                "bookmark_count": 31,
+                "impression_count": 138414
+              }
+            },
+            {
+              "created_at": "2025-09-04T11:14:10.000Z",
+              "edit_history_tweet_ids": [
+                "1963561218678907099"
+              ],
+              "text": "250906 MBC 쇼! 음악중심 사전녹화 참여 신청 안내 &lt;2순위&gt;\n\nhttps://t.co/0cGmPx1Tlw\n\n* 2순위 : 2025년 9월 4일(목) 8:20PM ~ 8:30PM (KST)\n\n#JUN_K #준케이\n#Dear_my_muse\n#RandB_ME",
+              "id": "1963561218678907099",
+              "public_metrics": {
+                "retweet_count": 63,
+                "reply_count": 0,
+                "like_count": 304,
+                "quote_count": 1,
+                "bookmark_count": 5,
+                "impression_count": 15674
+              }
+            },
+            {
+              "created_at": "2025-09-05T10:14:34.000Z",
+              "edit_history_tweet_ids": [
+                "1963908607097045069"
+              ],
+              "text": "250907 SBS 인기가요 사전녹화 참여 신청 안내 &lt;2순위&gt;\n\nhttps://t.co/b3Y6FmkBMD\n\n* 2순위 : 2025년 9월 5일(금) 7:20PM ~ 7:30PM (KST)\n\n#JUN_K #준케이\n#Dear_my_muse\n#RandB_ME",
+              "id": "1963908607097045069",
+              "public_metrics": {
+                "retweet_count": 48,
+                "reply_count": 0,
+                "like_count": 246,
+                "quote_count": 2,
+                "bookmark_count": 5,
+                "impression_count": 14251
+              }
+            },
+            {
+              "created_at": "2025-09-01T00:57:46.000Z",
+              "edit_history_tweet_ids": [
+                "1962318931546513499"
+              ],
               "text": "2PM 준케이 “21년째 JYP, 더 있어도 되나 고민…박진영 고맙다고”[EN:인터뷰①] (출처 : 네이버 연예) https://t.co/he4YnrSeFv",
+              "id": "1962318931546513499",
               "public_metrics": {
                 "retweet_count": 42,
                 "reply_count": 2,
@@ -184,15 +253,15 @@
                 "quote_count": 3,
                 "bookmark_count": 10,
                 "impression_count": 4501
-              },
-              "created_at": "2025-09-01T00:57:46.000Z",
-              "id": "1962318931546513499",
-              "edit_history_tweet_ids": [
-                "1962318931546513499"
-              ]
+              }
             },
             {
+              "created_at": "2025-09-06T07:52:40.000Z",
+              "edit_history_tweet_ids": [
+                "1964235286747210127"
+              ],
               "text": "2PM 준케이 “JYP에 1등 입사...박진영 ‘있어줘서 고맙다'고 해 감동\"\n\n#준케이 #2PM #2PM준케이 \n#JUNK #김민준 \n@Jun2daKAY\n#컬투쇼 #2시탈출컬투쇼 #SBS파워FM \n#Dearmymuse #디어마이뮤즈\n#준케이컴백 #JUNK_Dearmymuse\n#Dear_my_muse\n⬇️관련기사⬇️ \nhttps://t.co/N4ptIJVhyE https://t.co/1foyQaHvWh",
+              "id": "1964235286747210127",
               "public_metrics": {
                 "retweet_count": 84,
                 "reply_count": 0,
@@ -200,15 +269,15 @@
                 "quote_count": 2,
                 "bookmark_count": 11,
                 "impression_count": 7965
-              },
-              "created_at": "2025-09-06T07:52:40.000Z",
-              "id": "1964235286747210127",
-              "edit_history_tweet_ids": [
-                "1964235286747210127"
-              ]
+              }
             },
             {
+              "created_at": "2025-09-03T02:59:49.000Z",
+              "edit_history_tweet_ids": [
+                "1963074422367256715"
+              ],
               "text": "이서영, 2PM 준케이(JUN. K) 신곡 'R&amp;B ME (Feat. 창빈 of Stray Kids)' MV 출연.\n이서영, 준케이(JUN. K) 'R&amp;B ME (Feat. 창빈 of Stray Kids)' MV서 몽환적 분위기 연출\n\n[사진 : 앤피오]\n\n#이서영 #LeeSeoyoung https://t.co/UE6fCM8R0p",
+              "id": "1963074422367256715",
               "public_metrics": {
                 "retweet_count": 21,
                 "reply_count": 0,
@@ -216,15 +285,15 @@
                 "quote_count": 1,
                 "bookmark_count": 4,
                 "impression_count": 4251
-              },
-              "created_at": "2025-09-03T02:59:49.000Z",
-              "id": "1963074422367256715",
-              "edit_history_tweet_ids": [
-                "1963074422367256715"
-              ]
+              }
             },
             {
+              "created_at": "2025-09-01T00:31:39.000Z",
+              "edit_history_tweet_ids": [
+                "1962312360431157301"
+              ],
               "text": "2PM 준케이 “21년째 JYP, 더 있어도 되나 고민…박진영 고맙다고”[EN:인터뷰①] (출처 : 네이버 연예) https://t.co/l7HurSRAPy",
+              "id": "1962312360431157301",
               "public_metrics": {
                 "retweet_count": 13,
                 "reply_count": 0,
@@ -232,31 +301,256 @@
                 "quote_count": 0,
                 "bookmark_count": 9,
                 "impression_count": 1671
-              },
-              "created_at": "2025-09-01T00:31:39.000Z",
-              "id": "1962312360431157301",
-              "edit_history_tweet_ids": [
-                "1962312360431157301"
-              ]
+              }
             },
             {
-              "text": "2PM준케이닉쿤옥택연장우영이준호황찬성\n#2pm_17thanniversary \n투피엠을여섯명의이름을외칠수있는행복\n#새앨범들고돌아와 \n문구도너무핫티스럽지그래두이게핫티니까",
+              "created_at": "2025-09-01T01:02:28.000Z",
+              "edit_history_tweet_ids": [
+                "1962320115044856070"
+              ],
+              "text": "준케이 ＂2PM 완전체? 정해진 건 없어…멤버들과 논의 중＂[인터뷰②] (출처 : 네이버 연예) https://t.co/TVfhNYmfpA",
+              "id": "1962320115044856070",
               "public_metrics": {
-                "retweet_count": 12,
+                "retweet_count": 20,
+                "reply_count": 1,
+                "like_count": 50,
+                "quote_count": 0,
+                "bookmark_count": 7,
+                "impression_count": 1808
+              }
+            },
+            {
+              "created_at": "2025-09-06T00:40:59.000Z",
+              "edit_history_tweet_ids": [
+                "1964124084087726108",
+                "1964126648095146480"
+              ],
+              "text": "250906 MBC 쇼! 음악중심 사전녹화\n민주나 오늘도 고마워\n나두 좋못사\n#2pm \n#김민준 #준케이 #JUN_K \n#Dear_my_muse\n#RandB_ME https://t.co/GQF4RXhWyz",
+              "id": "1964126648095146480",
+              "public_metrics": {
+                "retweet_count": 10,
                 "reply_count": 0,
-                "like_count": 14,
+                "like_count": 76,
+                "quote_count": 0,
+                "bookmark_count": 3,
+                "impression_count": 2537
+              }
+            },
+            {
+              "created_at": "2025-09-06T23:44:12.000Z",
+              "edit_history_tweet_ids": [
+                "1964474746919407866"
+              ],
+              "text": "오늘도 감동 🐼🩷🥰\n#2pm \n#김민준 #준케이 #JUN_K \n#Dear_my_muse\n#RandB_ME https://t.co/ESvjk620GG https://t.co/T4BeND77Jc",
+              "id": "1964474746919407866",
+              "public_metrics": {
+                "retweet_count": 15,
+                "reply_count": 0,
+                "like_count": 63,
+                "quote_count": 5,
+                "bookmark_count": 6,
+                "impression_count": 5631
+              }
+            },
+            {
+              "created_at": "2025-09-02T09:03:35.000Z",
+              "edit_history_tweet_ids": [
+                "1962803582471938106"
+              ],
+              "text": "\"2PM으로 태어나서\"..준케이, 상의 탈의 해야 하는 이유 [인터뷰②] | 스타뉴스 #2PM #준케이 #StarnewsKorea https://t.co/iYY66CzpXY",
+              "id": "1962803582471938106",
+              "public_metrics": {
+                "retweet_count": 40,
+                "reply_count": 1,
+                "like_count": 119,
+                "quote_count": 1,
+                "bookmark_count": 8,
+                "impression_count": 8972
+              }
+            },
+            {
+              "created_at": "2025-09-06T21:11:52.000Z",
+              "edit_history_tweet_ids": [
+                "1964436410758492424"
+              ],
+              "text": "JUN. K(준케이) 4th Mini Album \n\"Dear my muse\" FAN SIGN EVENT\n[뮤직플랜트]\n싸인은 안 하고 똑같이 써주겠다며 이러냐고 \n김민준 언제 안 웃김 🤣🤣🤣\n#2pm \n#김민준 #준케이 #JUN_K \n#Dear_my_muse\n#RandB_ME https://t.co/v5kb2mgpE7",
+              "id": "1964436410758492424",
+              "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 64,
+                "quote_count": 1,
+                "bookmark_count": 5,
+                "impression_count": 3322
+              }
+            },
+            {
+              "created_at": "2025-09-03T14:06:34.000Z",
+              "edit_history_tweet_ids": [
+                "1963242217792839864"
+              ],
+              "text": "매년투피엠과핫티가함께이날을축하할수있는것\n#새앨범들고돌아와\n얼마나행복할까요\n#2PM_17thAnniversary\n준케이닉쿤옥택연장우영이준호황찬성이여섯명의2PM만나게된것에늘감사해요",
+              "id": "1963242217792839864",
+              "public_metrics": {
+                "retweet_count": 40,
+                "reply_count": 0,
+                "like_count": 62,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 1504
+              }
+            },
+            {
+              "created_at": "2025-09-01T01:02:57.000Z",
+              "edit_history_tweet_ids": [
+                "1962320239162765455"
+              ],
+              "text": "[인터뷰③] 준케이 “슈주 활동 멋있고 보기 좋아…2PM 20주년 논의 중” (출처 : 네이버 연예) https://t.co/ZgsD3yzf5U",
+              "id": "1962320239162765455",
+              "public_metrics": {
+                "retweet_count": 23,
+                "reply_count": 0,
+                "like_count": 58,
+                "quote_count": 0,
+                "bookmark_count": 7,
+                "impression_count": 1939
+              }
+            },
+            {
+              "created_at": "2025-09-01T01:21:59.000Z",
+              "edit_history_tweet_ids": [
+                "1962325026499359228"
+              ],
+              "text": "[인터뷰③] 준케이 “슈주 활동 멋있고 보기 좋아…2PM 20주년 논의 중” (출처 : 네이버 연예) https://t.co/2krhFaEDKB",
+              "id": "1962325026499359228",
+              "public_metrics": {
+                "retweet_count": 17,
+                "reply_count": 0,
+                "like_count": 70,
+                "quote_count": 0,
+                "bookmark_count": 3,
+                "impression_count": 1623
+              }
+            },
+            {
+              "created_at": "2025-09-01T01:18:53.000Z",
+              "edit_history_tweet_ids": [
+                "1962324249651421309"
+              ],
+              "text": "준케이 ＂2PM 완전체? 정해진 건 없어…멤버들과 논의 중＂[인터뷰②] (출처 : 네이버 연예) https://t.co/4uu9pybufn",
+              "id": "1962324249651421309",
+              "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 0,
+                "like_count": 50,
+                "quote_count": 0,
+                "bookmark_count": 4,
+                "impression_count": 1337
+              }
+            },
+            {
+              "created_at": "2025-09-03T01:00:00.000Z",
+              "edit_history_tweet_ids": [
+                "1963044270484717757"
+              ],
+              "text": "[📢] #JUN_K #준케이\n4th Mini Album &lt;#Dear_my_muse&gt;\nFAN SIGN &amp; VIDEO CALL EVENT OPEN💌\n\n📷본 이벤트는 JUN. K와 함께하는 Muse Day 중 Photo Day 컨셉으로 진행됩니다📷\n\n📌~9/5 (금) 11:59PM\n\n🎁당첨자 전원 2컷 포토 증정\n📸당첨자 추첨 친필 사인 폴라로이드\n\n✨JUN. K's Muse Day 대면 사인회 https://t.co/vfzOb3od66",
+              "id": "1963044270484717757",
+              "public_metrics": {
+                "retweet_count": 41,
+                "reply_count": 0,
+                "like_count": 91,
+                "quote_count": 1,
+                "bookmark_count": 7,
+                "impression_count": 8187
+              }
+            },
+            {
+              "created_at": "2025-08-31T23:35:49.000Z",
+              "edit_history_tweet_ids": [
+                "1962298311039463850"
+              ],
+              "text": "기사 읽다가 눈물나네..😭😭\n\n준케이 “몇주전 2PM 회동, 내년 완전체 컴백하고 싶지만..”[EN:인터뷰②] (출처 : 네이버 연예) https://t.co/CeBp4D2qRT",
+              "id": "1962298311039463850",
+              "public_metrics": {
+                "retweet_count": 7,
+                "reply_count": 1,
+                "like_count": 33,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 1603
+              }
+            },
+            {
+              "created_at": "2025-09-06T09:04:40.000Z",
+              "edit_history_tweet_ids": [
+                "1964253403657179370"
+              ],
+              "text": "#밍인스스\n민준이칭찬받아 내일도 힘껏 소리질러보겠습니다🩷\n#김민준 #준케이 #JUN_K \n#Dear_my_muse\n#RandB_ME https://t.co/ClO7AaBGFU",
+              "id": "1964253403657179370",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 18,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 435
+              }
+            },
+            {
+              "created_at": "2025-09-06T23:43:58.000Z",
+              "edit_history_tweet_ids": [
+                "1964474686466904275"
+              ],
+              "text": "마지막까지 감동🩷\n\n#김민준 #준케이 #JUN_K \n#Dear_my_muse\n#RandB_ME https://t.co/TQxtcTXgcU",
+              "id": "1964474686466904275",
+              "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 38,
                 "quote_count": 0,
                 "bookmark_count": 1,
-                "impression_count": 573
-              },
-              "created_at": "2025-09-03T14:36:24.000Z",
-              "id": "1963249725110415609",
-              "edit_history_tweet_ids": [
-                "1963249725110415609"
-              ]
+                "impression_count": 1013
+              }
             },
             {
+              "created_at": "2025-08-31T23:41:38.000Z",
+              "edit_history_tweet_ids": [
+                "1962299775136797013"
+              ],
+              "text": "준케이 “몇주전 2PM 회동, 내년 완전체 컴백하고 싶지만..”[EN:인터뷰②]\n\nhttps://t.co/XUhmHawTa4 https://t.co/hxjXiEFoEa",
+              "id": "1962299775136797013",
+              "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 19,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 537
+              }
+            },
+            {
+              "created_at": "2025-09-03T23:23:05.000Z",
+              "edit_history_tweet_ids": [
+                "1963382268782940296"
+              ],
+              "text": "𝐇𝐀𝐏𝐏𝐘 𝟐𝐏𝐌 𝟏𝟕𝐭𝐡 𝐀𝐍𝐍𝐈𝐕𝐄𝐑𝐒𝐀𝐑𝐘🖤\n\n2PM 넘넘 사랑해요\n항상 행복하세요 그리고 언젠가 다시 핫티스트의 목소리를 들으러 돌아와 \n\n#2PM #투피엠\n#HOTTEST #핫티스트\n#새앨범들고돌아와\n#2PM_17thAnniversary\n#준케이 #닉쿤 #옥택연\n#장우영 #이준호 #황찬성 https://t.co/3TUxKwAvlO",
+              "id": "1963382268782940296",
+              "public_metrics": {
+                "retweet_count": 7,
+                "reply_count": 0,
+                "like_count": 33,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 1151
+              }
+            },
+            {
+              "created_at": "2025-09-06T08:09:41.000Z",
+              "edit_history_tweet_ids": [
+                "1964239569018110164"
+              ],
               "text": "'1600대1 뚫고 JYP 합격' 2PM 준케이 ＂입사 21년차, 박진영 형이 고맙다고＂(컬투쇼) (출처 : 네이버 연예)\n#준케이 #JUN_K #투피엠 #2PM \n https://t.co/AIcfYgn0st",
+              "id": "1964239569018110164",
               "public_metrics": {
                 "retweet_count": 5,
                 "reply_count": 0,
@@ -264,15 +558,79 @@
                 "quote_count": 0,
                 "bookmark_count": 1,
                 "impression_count": 755
-              },
-              "created_at": "2025-09-06T08:09:41.000Z",
-              "id": "1964239569018110164",
-              "edit_history_tweet_ids": [
-                "1964239569018110164"
-              ]
+              }
             },
             {
+              "created_at": "2025-09-03T14:36:24.000Z",
+              "edit_history_tweet_ids": [
+                "1963249725110415609"
+              ],
+              "text": "2PM준케이닉쿤옥택연장우영이준호황찬성\n#2pm_17thanniversary \n투피엠을여섯명의이름을외칠수있는행복\n#새앨범들고돌아와 \n문구도너무핫티스럽지그래두이게핫티니까",
+              "id": "1963249725110415609",
+              "public_metrics": {
+                "retweet_count": 12,
+                "reply_count": 0,
+                "like_count": 14,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 573
+              }
+            },
+            {
+              "created_at": "2025-09-02T09:03:47.000Z",
+              "edit_history_tweet_ids": [
+                "1962803631461437576"
+              ],
+              "text": "2PM, 완전체 컴백 위해 드디어 모였다..준케이 \"내년이 좋지 않을까\" [인터뷰③] | 스타뉴스 #2PM #준케이 #StarnewsKorea https://t.co/KXYHGHtoyv",
+              "id": "1962803631461437576",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 8,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 1845
+              }
+            },
+            {
+              "created_at": "2025-08-31T23:44:36.000Z",
+              "edit_history_tweet_ids": [
+                "1962300520808542426"
+              ],
+              "text": "준케이 “몇주전 2PM 회동, 내년 완전체 컴백하고 싶지만..”[EN:인터뷰②] (출처 : 네이버 연예) https://t.co/87TtdVNrgk",
+              "id": "1962300520808542426",
+              "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 16,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 824
+              }
+            },
+            {
+              "created_at": "2025-09-03T14:05:22.000Z",
+              "edit_history_tweet_ids": [
+                "1963241915085676725"
+              ],
+              "text": "2pm17주년기념일축하해\n#새앨범들고돌아와\n오후두시단콘소식이오길기다려\n#2PM_17thAnniversary\n준케이닉쿤택연우영준호찬성우리집으로가자!!!",
+              "id": "1963241915085676725",
+              "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 19,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 580
+              }
+            },
+            {
+              "created_at": "2025-09-01T23:32:49.000Z",
+              "edit_history_tweet_ids": [
+                "1962659944936939762"
+              ],
               "text": "[인터뷰] 2PM 준케이, 최애 장르 ‘R&amp;B’로 풀어낸 김다정 면모 “꾸준히 응원해주는 뮤즈들에 선물” https://t.co/FDn1gxsY0r",
+              "id": "1962659944936939762",
               "public_metrics": {
                 "retweet_count": 6,
                 "reply_count": 0,
@@ -280,31 +638,15 @@
                 "quote_count": 0,
                 "bookmark_count": 1,
                 "impression_count": 271
-              },
-              "created_at": "2025-09-01T23:32:49.000Z",
-              "id": "1962659944936939762",
-              "edit_history_tweet_ids": [
-                "1962659944936939762"
-              ]
+              }
             },
             {
-              "text": "2PM 준케이 “21년째 JYP, 더 있어도 되나 고민…박진영 고맙다고”[EN:인터뷰①] https://t.co/YR3j3YogTR",
-              "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 14,
-                "quote_count": 0,
-                "bookmark_count": 1,
-                "impression_count": 360
-              },
-              "created_at": "2025-09-01T05:44:44.000Z",
-              "id": "1962391150091763712",
+              "created_at": "2025-09-01T00:07:51.000Z",
               "edit_history_tweet_ids": [
-                "1962391150091763712"
-              ]
-            },
-            {
+                "1962306370184880637"
+              ],
               "text": "#JUN_K #Dear_my_muse #PRIVACY #RandB_ME #ALL_ON_YOU #LARGO #HAPPY_ENDING #준케이\n\n2PM 준케이 “21년째 JYP, 더 있어도 되나 고민…박진영 고맙다고”[EN:인터뷰①] (출처 : 네이버 연예) https://t.co/E7gzbdSoPD",
+              "id": "1962306370184880637",
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -312,15 +654,111 @@
                 "quote_count": 0,
                 "bookmark_count": 2,
                 "impression_count": 307
-              },
-              "created_at": "2025-09-01T00:07:51.000Z",
-              "id": "1962306370184880637",
-              "edit_history_tweet_ids": [
-                "1962306370184880637"
-              ]
+              }
             },
             {
+              "created_at": "2025-09-03T15:06:38.000Z",
+              "edit_history_tweet_ids": [
+                "1963257332143665310"
+              ],
+              "text": "@follow_2PM 𝐇𝐀𝐏𝐏𝐘 𝟐𝐏𝐌 𝟏𝟕𝐭𝐡 𝐀𝐍𝐍𝐈𝐕𝐄𝐑𝐒𝐀𝐑𝐘🖤\n\n2PM FOREVER💗❤️💚💙💛💜\n17주년 정말 축하해요!!!\n오래오래 함께 가자!!!\n\n#2PM #투피엠\n#HOTTEST #핫티스트\n#2PM_17thAnniversary\n#준케이 #닉쿤 #옥택연\n#장우영 #이준호 #황찬성",
+              "id": "1963257332143665310",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 11,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 866
+              }
+            },
+            {
+              "created_at": "2025-09-06T12:18:12.000Z",
+              "edit_history_tweet_ids": [
+                "1964302108271755361"
+              ],
+              "text": "오늘도 잊지 못할 하루였어~🩷\n너와 함께여서겠지!!!~\n#김민준 #준케이 #JUN_K \n#Dear_my_muse\n#RandB_ME https://t.co/5hO1sU943C",
+              "id": "1964302108271755361",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 18,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 601
+              }
+            },
+            {
+              "created_at": "2025-09-01T05:44:44.000Z",
+              "edit_history_tweet_ids": [
+                "1962391150091763712"
+              ],
+              "text": "2PM 준케이 “21년째 JYP, 더 있어도 되나 고민…박진영 고맙다고”[EN:인터뷰①] https://t.co/YR3j3YogTR",
+              "id": "1962391150091763712",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 14,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 360
+              }
+            },
+            {
+              "created_at": "2025-08-31T23:54:04.000Z",
+              "edit_history_tweet_ids": [
+                "1962302901470294325"
+              ],
+              "text": "준케이 “JYP와 동행 21년째, 정직한 회사..2PM 완전체 하루 빨리 하고파” [인터뷰②] (출처 : 네이버 연예) https://t.co/0Ikztxbmbi",
+              "id": "1962302901470294325",
+              "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 15,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 746
+              }
+            },
+            {
+              "created_at": "2025-09-01T13:09:21.000Z",
+              "edit_history_tweet_ids": [
+                "1962503042135396743"
+              ],
+              "text": "어깨는 넓고 얼굴은 넘 작은 준케이랑 찍으려면\n\n몸통 내밀고                             뒷벽 부수고\n얼굴 냅다 뒤로 빼서                 뒷방 침범해서\n투턱되거나                              쪼그매보여야겠다 https://t.co/yG6gWucxYs https://t.co/YPL7ISwmSr",
+              "id": "1962503042135396743",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 16,
+                "quote_count": 1,
+                "bookmark_count": 2,
+                "impression_count": 1315
+              }
+            },
+            {
+              "created_at": "2025-09-06T06:02:38.000Z",
+              "edit_history_tweet_ids": [
+                "1964207595087974860"
+              ],
+              "text": "자세 계속 고쳐잡다가 한 2,30초 정도 지난 듯. 마지막 녹화시작! 노래하다가 셔츠의 옷깃이 올라가서 웃겼슨. 왜 하필 이런 일은 항상 준케이에게 일어나는 것인가! 춤추다가 내려갔는데 이제 자켓 깃이 올라간거야. 그건 안 내려가서 춤추다가 정리함. 이번 엔딩요정은 타이밍 잘 맞춰서 함. ㄱㅇㅇ.",
+              "id": "1964207595087974860",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 1,
+                "like_count": 12,
+                "quote_count": 1,
+                "bookmark_count": 2,
+                "impression_count": 771
+              }
+            },
+            {
+              "created_at": "2025-09-02T08:22:57.000Z",
+              "edit_history_tweet_ids": [
+                "1962793353508213131"
+              ],
               "text": "2PM 준케이 ＂'17세 입사한 JYP, 퇴사 고민한 적도…내가 더 있어도 되나＂ (출처 : 네이버 연예) https://t.co/YKAICnhAzV",
+              "id": "1962793353508213131",
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -328,15 +766,64 @@
                 "quote_count": 0,
                 "bookmark_count": 0,
                 "impression_count": 317
-              },
-              "created_at": "2025-09-02T08:22:57.000Z",
-              "id": "1962793353508213131",
-              "edit_history_tweet_ids": [
-                "1962793353508213131"
-              ]
+              }
             },
             {
+              "created_at": "2025-09-06T06:01:31.000Z",
+              "edit_history_tweet_ids": [
+                "1964207314409304436"
+              ],
+              "text": "심지어 컨페티가 안경에 걸쳐있었엌ㅋㅋㅋ. 컨페티 털며 자켓 벗으면서 무대 내려가는데 셔츠 이쁘더라. 모니터링 영상 보는데 댄서가 준케이 가리고, 춤출 때 마이크 넘기는 거 줌인돼서 아쉬웠음. 두 번째 녹화 하러 올라옴~!~! 와줘서 ㄱㅅ하다고 이번 활동이 처음인 유입 있냐 물어봄.",
+              "id": "1964207314409304436",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 1,
+                "like_count": 10,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 715
+              }
+            },
+            {
+              "created_at": "2025-09-06T05:57:38.000Z",
+              "edit_history_tweet_ids": [
+                "1964206338256282035"
+              ],
+              "text": "내일은 신박한 거 하고싶대. 아직 생각 안 한듯. 요즘 방송국 카메라 화질이 너무 좋다며 4k, 8k로 나온다고 화장 더 두껍게 해야 한대. 많이 심각하다면서ㅋㅋㅋㅋ. 님 피부 좋으시잖아요ㅠㅜ. 진짜 심각한 나를 못 봤구나. 근데 내 머리속에는 4k, 8k, 준케이, 렛츠고 밖에 없었음ㅎㅎ.",
+              "id": "1964206338256282035",
+              "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 1,
+                "like_count": 13,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 875
+              }
+            },
+            {
+              "created_at": "2025-09-04T15:09:12.000Z",
+              "edit_history_tweet_ids": [
+                "1963615391353377263",
+                "1963620366330589401"
+              ],
+              "text": "너무나 멋진 사람들 2PM!!!\n오늘이 가기전에 다시한번 데뷔17주년\n축하합니다.🎉\n6명 모~~~두 앞으로도 멋지고 활발한 활동 \n기대하고 응원할께요🤗\n\n출구는 없다없다없다~~~~🤗\n\n오늘만은 퉆나잇!!!🤗\n\n#준케이 #닉쿤 #옥택연 \n#장우영 #이준호 #황찬성\n#2PM #투피엠 \n#HOTTEST #핫티스트 https://t.co/81ZUVz8Tal",
+              "id": "1963620366330589401",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 18,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 1070
+              }
+            },
+            {
+              "created_at": "2025-09-01T08:22:11.000Z",
+              "edit_history_tweet_ids": [
+                "1962430776223666231"
+              ],
               "text": "'JYP와 21년 동행' 2PM 준케이 \"직원 3명→700명…계속 있어도 되나 고민도 했죠\" [인터뷰②]\n\nhttps://t.co/Ld07v0sfrT https://t.co/HRwr6hQ2el",
+              "id": "1962430776223666231",
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -344,15 +831,31 @@
                 "quote_count": 0,
                 "bookmark_count": 1,
                 "impression_count": 161
-              },
-              "created_at": "2025-09-01T08:22:11.000Z",
-              "id": "1962430776223666231",
-              "edit_history_tweet_ids": [
-                "1962430776223666231"
-              ]
+              }
             },
             {
+              "created_at": "2025-09-01T02:01:47.000Z",
+              "edit_history_tweet_ids": [
+                "1962335043097104756"
+              ],
+              "text": "준케이 \"2PM 완전체, 멤버들과 의견 나눠…계획하려 해\" \n기다리면 오겠죠?\n\n#이준호 #준호 #LEEJUNHO #JUNHO\n#JUN_K #NICHKHUN #TAECYEON\n#WOOYOUNG #CHANSUNG\n#2PM #투피엠\n\nhttps://t.co/6IjjOX3vr2 https://t.co/38TzHcMPsm",
+              "id": "1962335043097104756",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 10,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 966
+              }
+            },
+            {
+              "created_at": "2025-09-02T00:59:41.000Z",
+              "edit_history_tweet_ids": [
+                "1962681802851799091"
+              ],
               "text": "[인터뷰] 2PM 준케이, 최애 장르 ‘R&amp;B’로 풀어낸 김다정 면모 “꾸준히 응원해주는 뮤즈들에 선물” #JUN_K 🩷\nhttps://t.co/ILYZk9LYRV\n많은 대중에게 2PM은 무대에서 날아다니는 ‘짐승돌’이미지가 강하다. ‘10점 만점에 10점’, ‘핸즈 업’과 ‘미친거 아니야’로 자유분방함을, ‘하트비트’, ‘우리집’으로 https://t.co/XR0HMKNfER",
+              "id": "1962681802851799091",
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -360,203 +863,118 @@
                 "quote_count": 0,
                 "bookmark_count": 0,
                 "impression_count": 40
-              },
-              "created_at": "2025-09-02T00:59:41.000Z",
-              "id": "1962681802851799091",
-              "edit_history_tweet_ids": [
-                "1962681802851799091"
-              ]
+              }
             },
             {
-              "text": "'원조 짐승돌' 2PM 준케이 ＂다들 아직도 몸 좋은 줄 알아…열심히 관리 중＂ [인터뷰③] (출처 : 네이버 연예) https://t.co/CG20Ez4iS9",
+              "created_at": "2025-08-31T13:37:18.000Z",
+              "edit_history_tweet_ids": [
+                "1962147686632800474"
+              ],
+              "text": "김영대평론가님 \n스쿨오브뮤직에서 준케이와 투샷 보고싶습니다!!",
+              "id": "1962147686632800474",
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
-                "like_count": 1,
+                "like_count": 4,
                 "quote_count": 0,
                 "bookmark_count": 0,
-                "impression_count": 108
-              },
-              "created_at": "2025-09-01T01:04:29.000Z",
-              "id": "1962320625130991639",
-              "edit_history_tweet_ids": [
-                "1962320625130991639"
-              ]
+                "impression_count": 349
+              }
             },
             {
-              "text": "2PM 준케이 “21년째 JYP, 더 있어도 되나 고민…박진영 고맙다고”[EN:인터뷰①] (출처 : 네이버 연예) https://t.co/WkhnuQLFzC",
+              "created_at": "2025-08-31T23:27:00.000Z",
+              "edit_history_tweet_ids": [
+                "1962296091409530959"
+              ],
+              "text": "준케이 “몇주전 2PM 회동, 내년 완전체 컴백하고 싶지만..”[EN:인터뷰②] (출처 : 네이버 연예) https://t.co/flj2W69nyW https://t.co/xKf52KE2Sl",
+              "id": "1962296091409530959",
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0,
-                "bookmark_count": 0,
-                "impression_count": 61
-              },
-              "created_at": "2025-09-01T13:29:35.000Z",
-              "id": "1962508134901293275",
-              "edit_history_tweet_ids": [
-                "1962508134901293275"
-              ]
+                "like_count": 6,
+                "quote_count": 1,
+                "bookmark_count": 3,
+                "impression_count": 951
+              }
             },
             {
-              "text": "2PM 준케이 ＂'17세 입사한 JYP, 퇴사 고민한 적도…내가 더 있어도 되나＂ (출처 : 네이버 연예) https://t.co/aqAxOKKjNw",
+              "created_at": "2025-09-01T00:06:46.000Z",
+              "edit_history_tweet_ids": [
+                "1962306099517989297"
+              ],
+              "text": "준케이 “몇주전 2PM 회동, 내년 완전체 컴백하고 싶지만..”[EN:인터뷰②] (출처 : 네이버 연예) https://t.co/OtlJOz4yLe",
+              "id": "1962306099517989297",
               "public_metrics": {
                 "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0,
-                "bookmark_count": 0,
-                "impression_count": 60
-              },
-              "created_at": "2025-09-02T08:47:15.000Z",
-              "id": "1962799470493749270",
-              "edit_history_tweet_ids": [
-                "1962799470493749270"
-              ]
-            },
-            {
-              "text": "[인터뷰] 2PM 준케이, 최애 장르 ‘R&amp;B’로 풀어낸 김다정 면모 “꾸준히 응원해주는 뮤즈들에 선물” https://t.co/5C7MlxvKdl",
-              "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0,
-                "bookmark_count": 0,
-                "impression_count": 43
-              },
-              "created_at": "2025-09-02T00:52:50.000Z",
-              "id": "1962680077856186856",
-              "edit_history_tweet_ids": [
-                "1962680077856186856"
-              ]
-            },
-            {
-              "text": "2PM 준케이 “‘17세 입사한 JYP, 퇴사 고민한 적도…내가 더 있어도 되나\" #JUN_K 🩷\n앳스타일https://t.co/sjXR5p87xF\n원조 올라운더’ 준케이가 4년 9개월 만에 미니 4집 ‘Dear My Muse’로 돌아왔다. 전곡을 직접 작업하며 한 땀 한 땀 공들여 완성한 이번 앨범은 팬들에게 보내는 진심 어린 선물이다. https://t.co/oT6MXlHaTj",
-              "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 1,
-                "like_count": 1,
-                "quote_count": 0,
-                "bookmark_count": 0,
-                "impression_count": 49
-              },
-              "created_at": "2025-09-02T00:55:54.000Z",
-              "id": "1962680850073690145",
-              "edit_history_tweet_ids": [
-                "1962680850073690145"
-              ]
-            },
-            {
-              "text": "'1600대1 뚫고 JYP 합격' 2PM 준케이 ＂입사 21년차, 박진영 형이 고맙다고＂(컬투쇼) (출처 : 네이버 연예) https://t.co/TAvW1zbvqd",
-              "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0,
-                "bookmark_count": 0,
-                "impression_count": 165
-              },
-              "created_at": "2025-09-06T14:52:23.000Z",
-              "id": "1964340909312770051",
-              "edit_history_tweet_ids": [
-                "1964340909312770051"
-              ]
-            },
-            {
-              "text": "＂스키즈 파트라도 들어보길＂…2PM 준케이, JYP 가족 지원 사격 속 컴백 [인터뷰①] (출처 : 네이버 연예) https://t.co/3Lyy3peYvL",
-              "public_metrics": {
-                "retweet_count": 3,
-                "reply_count": 0,
-                "like_count": 2,
-                "quote_count": 3,
-                "bookmark_count": 0,
-                "impression_count": 442
-              },
-              "created_at": "2025-08-31T23:44:20.000Z",
-              "id": "1962300454605602837",
-              "edit_history_tweet_ids": [
-                "1962300454605602837"
-              ]
-            },
-            {
-              "text": "[인터뷰]2PM 준케이, 17년 차에도 우직하게 ＂2PM 20주년 꼭 완전체로＂ (출처 : 네이버 연예)\n#준케이 #JUN_K #투피엠 #2PM\n#Dear_my_muse #RandB_ME \n https://t.co/5Z0VaiU8Wn",
-              "public_metrics": {
-                "retweet_count": 2,
                 "reply_count": 0,
                 "like_count": 2,
                 "quote_count": 0,
                 "bookmark_count": 0,
-                "impression_count": 335
-              },
-              "created_at": "2025-09-04T08:42:49.000Z",
-              "id": "1963523128652448256",
-              "edit_history_tweet_ids": [
-                "1963523128652448256"
-              ]
+                "impression_count": 98
+              }
             },
             {
-              "text": "2PM 준케이 ＂JYP 입사 21년 차, 나가야 하나 싶었는데…＂ (컬투쇼) (출처 : 네이버 연예)\n#준케이 #JUN_K #투피엠 #2PM  https://t.co/WACvnJhWKM",
-              "public_metrics": {
-                "retweet_count": 3,
-                "reply_count": 0,
-                "like_count": 9,
-                "quote_count": 0,
-                "bookmark_count": 0,
-                "impression_count": 585
-              },
-              "created_at": "2025-09-06T10:25:34.000Z",
-              "id": "1964273764910174577",
+              "created_at": "2025-08-31T23:49:02.000Z",
               "edit_history_tweet_ids": [
-                "1964273764910174577"
-              ]
-            },
-            {
-              "text": "@follow_2PM 𝐀𝐏𝐏𝐘 𝟐𝐏𝐌 𝟏𝟕𝐭𝐡 𝐀𝐍𝐍𝐈𝐕𝐄𝐑𝐒𝐀𝐑𝐘🖤\n\n2PM=준케이.닉쿤.택연.우영.준호. 찬성 \n17주년 축하해~\n \n#2PM #투피엠\n#HOTTEST #핫티스트\n#2PM_17thAnniversary",
+                "1962301634828202331"
+              ],
+              "text": "준케이 “몇주전 2PM 회동, 내년 완전체 컴백하고 싶지만..”[EN:인터뷰②] (출처 : 네이버 연예) https://t.co/MYyP1XRoSH",
+              "id": "1962301634828202331",
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
-                "like_count": 0,
+                "like_count": 3,
                 "quote_count": 0,
                 "bookmark_count": 0,
-                "impression_count": 282
-              },
-              "created_at": "2025-09-03T15:07:33.000Z",
-              "id": "1963257563710931260",
-              "edit_history_tweet_ids": [
-                "1963257563710931260"
-              ]
+                "impression_count": 134
+              }
             },
             {
-              "text": "\"스키즈 파트라도 들어보길\"…2PM 준케이, JYP 가족 지원 사격 속 컴백 [인터뷰①]\n\nhttps://t.co/tChcOQatZb https://t.co/zEU1lJh3XM",
-              "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 0,
-                "bookmark_count": 1,
-                "impression_count": 182
-              },
-              "created_at": "2025-09-01T08:17:40.000Z",
-              "id": "1962429639395336362",
+              "created_at": "2025-09-01T01:00:45.000Z",
               "edit_history_tweet_ids": [
-                "1962429639395336362"
-              ]
+                "1962319685623628164"
+              ],
+              "text": "준케이 “JYP와 동행 21년째, 정직한 회사..2PM 완전체 하루 빨리 하고파” [인터뷰②] (출처 : 네이버 연예) https://t.co/N6uruejUw4\n\n#JUN_K #준케이 #ジュンケイ\n#Dear_my_muse",
+              "id": "1962319685623628164",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 254
+              }
+            },
+            {
+              "created_at": "2025-09-01T01:01:01.000Z",
+              "edit_history_tweet_ids": [
+                "1962319751834984944"
+              ],
+              "text": "[인터뷰③] 준케이 “슈주 활동 멋있고 보기 좋아…2PM 20주년 논의 중” (출처 : 네이버 연예) https://t.co/stpxMt3wJo\n\n#JUN_K #준케이 #ジュンケイ\n#Dear_my_muse",
+              "id": "1962319751834984944",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 7,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 288
+              }
             }
           ],
           "meta": {
-            "newest_id": "1964340909312770051",
-            "oldest_id": "1962300454605602837",
-            "result_count": 24
+            "newest_id": "1964474746919407866",
+            "oldest_id": "1962147686632800474",
+            "result_count": 50
           }
         }
       ],
-      "count": 24,
+      "count": 50,
       "has_next_token": false
     },
     "lag2w": {
       "request": {
-        "query": "\"2PM 준케이\" lang:ko -is:retweet -is:nullcast",
+        "query": "2PM 준케이 lang:ko -is:retweet -is:nullcast",
         "start_time": "2025-08-24T00:00:00Z",
         "end_time": "2025-08-31T00:00:00Z",
         "max_results": 50,
@@ -568,16 +986,78 @@
         ]
       },
       "rate_limit": {
-        "x-rate-limit-remaining": "268",
-        "x-rate-limit-reset": "1772035484"
+        "x-rate-limit-remaining": "292",
+        "x-rate-limit-reset": "1772036940"
       },
       "pages": [
         {
           "data": [
             {
-              "created_at": "2025-08-25T23:59:10.000Z",
-              "text": "2PM 준케이, 스키즈 창빈과 감성 입맞춤..미니 4집 하라메 오픈\n#JUN_K #준케이 \n#스트레이키즈 #StrayKids\n#창빈 #Changbin\nhttps://t.co/YMv3xL5Kbm",
-              "id": "1960129858543190036",
+              "public_metrics": {
+                "retweet_count": 94,
+                "reply_count": 0,
+                "like_count": 261,
+                "quote_count": 13,
+                "bookmark_count": 9,
+                "impression_count": 13021
+              },
+              "text": "250829 KBS 뮤직뱅크 사전녹화 참여 신청 안내 &lt;1순위&gt;\n\nhttps://t.co/oOiVxPkmyC\n\n* 1순위 : 2025년 8월 27일(수) 8:00PM ~ 8:10PM (KST)\n* 2순위 : 2025년 8월 27일(수) 8:20PM ~ 8:30PM (KST)\n※ 2순위는 1순위가 미달일 경우 2PM FANS 에서 오픈 됩니다.\n\n#JUN_K #준케이\n#Dear_my_muse\n#RandB_ME",
+              "created_at": "2025-08-27T06:30:10.000Z",
+              "edit_history_tweet_ids": [
+                "1960590644738711679"
+              ],
+              "id": "1960590644738711679"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 91,
+                "reply_count": 0,
+                "like_count": 360,
+                "quote_count": 7,
+                "bookmark_count": 5,
+                "impression_count": 18005
+              },
+              "text": "250828 Mnet 엠카운트다운 사전녹화 참여 신청 안내 &lt;2순위&gt;\n\nhttps://t.co/lv9hTqvA1A\n\n* 2순위 : 8월 26일(화) 8:30PM ~ 8:45PM (KST)\n\n#JUN_K #준케이\n#Dear_my_muse\n#RandB_ME",
+              "created_at": "2025-08-26T11:20:03.000Z",
+              "edit_history_tweet_ids": [
+                "1960301208268054783"
+              ],
+              "id": "1960301208268054783"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 68,
+                "reply_count": 0,
+                "like_count": 315,
+                "quote_count": 2,
+                "bookmark_count": 6,
+                "impression_count": 15271
+              },
+              "text": "250829 KBS 뮤직뱅크 사전녹화 참여 신청 안내 &lt;2순위&gt;\n\nhttps://t.co/f46C7Ox0dF\n\n* 2순위 : 2025년 8월 27일(수) 8:20PM ~ 8:30PM (KST)\n\n#JUN_K #준케이\n#Dear_my_muse\n#RandB_ME",
+              "created_at": "2025-08-27T11:13:12.000Z",
+              "edit_history_tweet_ids": [
+                "1960661874720260588"
+              ],
+              "id": "1960661874720260588"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 29,
+                "reply_count": 0,
+                "like_count": 149,
+                "quote_count": 4,
+                "bookmark_count": 6,
+                "impression_count": 10102
+              },
+              "text": "250828 밤\nMnet 엠카운트다운 사전녹화\n민주나 고마워🩷\n#2pm\n#김민준 #준케이 #JUN_K \n#Dear_my_muse\n#RandB_ME https://t.co/OIeU556Cdd",
+              "created_at": "2025-08-28T12:03:18.000Z",
+              "edit_history_tweet_ids": [
+                "1961036589095899615",
+                "1961036867975164257"
+              ],
+              "id": "1961036867975164257"
+            },
+            {
               "public_metrics": {
                 "retweet_count": 28,
                 "reply_count": 0,
@@ -586,14 +1066,14 @@
                 "bookmark_count": 3,
                 "impression_count": 2532
               },
+              "text": "2PM 준케이, 스키즈 창빈과 감성 입맞춤..미니 4집 하라메 오픈\n#JUN_K #준케이 \n#스트레이키즈 #StrayKids\n#창빈 #Changbin\nhttps://t.co/YMv3xL5Kbm",
+              "created_at": "2025-08-25T23:59:10.000Z",
               "edit_history_tweet_ids": [
                 "1960129858543190036"
-              ]
+              ],
+              "id": "1960129858543190036"
             },
             {
-              "created_at": "2025-08-29T12:09:23.000Z",
-              "text": "2PM 준케이, 신곡 '알앤비 미' MV 티저 공개…솔로 컴백 기대 UP\n#JUN_K #준케이 \nhttps://t.co/rkBQZr0rrq",
-              "id": "1961400787491590613",
               "public_metrics": {
                 "retweet_count": 35,
                 "reply_count": 0,
@@ -602,14 +1082,14 @@
                 "bookmark_count": 3,
                 "impression_count": 3528
               },
+              "text": "2PM 준케이, 신곡 '알앤비 미' MV 티저 공개…솔로 컴백 기대 UP\n#JUN_K #준케이 \nhttps://t.co/rkBQZr0rrq",
+              "created_at": "2025-08-29T12:09:23.000Z",
               "edit_history_tweet_ids": [
                 "1961400787491590613"
-              ]
+              ],
+              "id": "1961400787491590613"
             },
             {
-              "created_at": "2025-08-26T00:17:17.000Z",
-              "text": "2PM 준케이, 감성 보이스로 돌아온다..'Dear my muse' (출처 : 네이버 연예)\n https://t.co/fhFCuZqDEF\n\n컴백’ 준케이, 미니 4집 ‘Dear my muse’ 하이라이트 메들리 공개\nhttps://t.co/cyofOtMnS6\n\n2PM 준케이, 스키즈 창빈과 감성 입맞춤..미니 4집 하라메 오픈\nhttps://t.co/EQ9TZxzc7s https://t.co/w2Wt4pxiig",
-              "id": "1960134420003975482",
               "public_metrics": {
                 "retweet_count": 5,
                 "reply_count": 0,
@@ -618,15 +1098,31 @@
                 "bookmark_count": 1,
                 "impression_count": 695
               },
+              "text": "2PM 준케이, 감성 보이스로 돌아온다..'Dear my muse' (출처 : 네이버 연예)\n https://t.co/fhFCuZqDEF\n\n컴백’ 준케이, 미니 4집 ‘Dear my muse’ 하이라이트 메들리 공개\nhttps://t.co/cyofOtMnS6\n\n2PM 준케이, 스키즈 창빈과 감성 입맞춤..미니 4집 하라메 오픈\nhttps://t.co/EQ9TZxzc7s https://t.co/w2Wt4pxiig",
+              "created_at": "2025-08-26T00:17:17.000Z",
               "edit_history_tweet_ids": [
                 "1960134250071769335",
                 "1960134420003975482"
-              ]
+              ],
+              "id": "1960134420003975482"
             },
             {
-              "created_at": "2025-08-25T23:08:44.000Z",
-              "text": "2PM 준케이, 스키즈 창빈과 감성 입맞춤..미니 4집 하라메 오픈 | 스타뉴스 #2PM  #준케이 #StarnewsKorea https://t.co/SUhqgjwVOu",
-              "id": "1960117168558739630",
+              "public_metrics": {
+                "retweet_count": 11,
+                "reply_count": 1,
+                "like_count": 53,
+                "quote_count": 0,
+                "bookmark_count": 10,
+                "impression_count": 5241
+              },
+              "text": "&lt;250829 준케이 무직뱅크 사전녹화&gt;\n드디어 한녀들이 덮머를 쟁취했다!!!! 우산머리 말고 예쁜 덮머!!! 갈색인데 화면에는 좀 더 붉게 나옴. 예뻐용. 옷은 채도 낮은 분홍 자켓에 민소매와 청바지? 화면에는 좀 더 분홍분홍하게 나왔어. 예뻐용.",
+              "created_at": "2025-08-29T04:04:25.000Z",
+              "edit_history_tweet_ids": [
+                "1961278743638663168"
+              ],
+              "id": "1961278743638663168"
+            },
+            {
               "public_metrics": {
                 "retweet_count": 10,
                 "reply_count": 0,
@@ -635,14 +1131,62 @@
                 "bookmark_count": 1,
                 "impression_count": 2738
               },
+              "text": "2PM 준케이, 스키즈 창빈과 감성 입맞춤..미니 4집 하라메 오픈 | 스타뉴스 #2PM  #준케이 #StarnewsKorea https://t.co/SUhqgjwVOu",
+              "created_at": "2025-08-25T23:08:44.000Z",
               "edit_history_tweet_ids": [
                 "1960117168558739630"
-              ]
+              ],
+              "id": "1960117168558739630"
             },
             {
-              "created_at": "2025-08-30T22:28:51.000Z",
-              "text": "2세대→5세대 총출동…2PM 준케이·몬엑→제베원, 한날한시 맞대결[초점S] (출처 : 네이버 연예) https://t.co/M6rzOgwNmK\n#준케이 #JUN_K #투피엠 #2PM https://t.co/zlzW9jgGcC",
-              "id": "1961919070443565382",
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 27,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 833
+              },
+              "text": "앜 오늘 자연스런 덮머\n역시나 나 없을때 더 이뻤던 거니\n#2pm \n#김민준 #준케이 #JUN_K \n#Dear_my_muse\n#RandB_ME https://t.co/jzgVIrOCLv",
+              "created_at": "2025-08-29T07:25:42.000Z",
+              "edit_history_tweet_ids": [
+                "1961329395442053490"
+              ],
+              "id": "1961329395442053490"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 1,
+                "like_count": 23,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 946
+              },
+              "text": "대충 인사하고 무대시작! 노래조아! 처음에 응원법 어려워서 핫티웅니 중에 성공한 사람 없는듯ㅋㅋㅋ. 첫 녹화는.. 응원법 적혀있는 공방판 보고 준케이 보고 왔다갔다 하느라 제대로 기억도 안 나;; 영어 비율이 많아서 더 힘들어용. 모니터링 하는 소리 듣고 응원법 연습하는 핫티웅니들 귀여웠엉.",
+              "created_at": "2025-08-28T15:24:49.000Z",
+              "edit_history_tweet_ids": [
+                "1961087584228315280"
+              ],
+              "id": "1961087584228315280"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 30,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 996
+              },
+              "text": "오빠 첫사녹 너무 고생했엉! 치즈케이크 잘 먹었어요🩷 @follow_jun_k #준케이 #JUN_K https://t.co/bBXq9fycUj",
+              "created_at": "2025-08-28T14:07:16.000Z",
+              "edit_history_tweet_ids": [
+                "1961068066944827707"
+              ],
+              "id": "1961068066944827707"
+            },
+            {
               "public_metrics": {
                 "retweet_count": 6,
                 "reply_count": 0,
@@ -651,32 +1195,15 @@
                 "bookmark_count": 1,
                 "impression_count": 1980
               },
+              "text": "2세대→5세대 총출동…2PM 준케이·몬엑→제베원, 한날한시 맞대결[초점S] (출처 : 네이버 연예) https://t.co/M6rzOgwNmK\n#준케이 #JUN_K #투피엠 #2PM https://t.co/zlzW9jgGcC",
+              "created_at": "2025-08-30T22:28:51.000Z",
               "edit_history_tweet_ids": [
                 "1961918290810560987",
                 "1961919070443565382"
-              ]
+              ],
+              "id": "1961919070443565382"
             },
             {
-              "created_at": "2025-08-30T22:25:45.000Z",
-              "text": "2세대→5세대 총출동…2PM 준케이·몬엑→제베원, 한날한시 맞대결[초점S] (출처 : 네이버 연예) https://t.co/M6rzOgwNmK https://t.co/XOQHX0jsf9",
-              "id": "1961918290810560987",
-              "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 2,
-                "quote_count": 0,
-                "bookmark_count": 1,
-                "impression_count": 33
-              },
-              "edit_history_tweet_ids": [
-                "1961918290810560987",
-                "1961919070443565382"
-              ]
-            },
-            {
-              "created_at": "2025-08-29T00:12:56.000Z",
-              "text": "'컴백' 2PM 준케이, 가을 감성 두드린다..MV 티저 첫 공개 (출처 : 네이버 연예)\n#준케이 #JUN_K #투피엠 #2PM \n https://t.co/8CCpC0cIi1",
-              "id": "1961220485347455277",
               "public_metrics": {
                 "retweet_count": 1,
                 "reply_count": 0,
@@ -685,14 +1212,112 @@
                 "bookmark_count": 1,
                 "impression_count": 314
               },
+              "text": "'컴백' 2PM 준케이, 가을 감성 두드린다..MV 티저 첫 공개 (출처 : 네이버 연예)\n#준케이 #JUN_K #투피엠 #2PM \n https://t.co/8CCpC0cIi1",
+              "created_at": "2025-08-29T00:12:56.000Z",
               "edit_history_tweet_ids": [
                 "1961220485347455277"
-              ]
+              ],
+              "id": "1961220485347455277"
             },
             {
-              "created_at": "2025-08-26T06:51:38.000Z",
-              "text": "2PM 준케이, 타이베이 솔로 단독 투어 ′SP-ICY′ 피날레…수익금 일부 병원-보육원에 기부 https://t.co/ZrT02my8WM",
-              "id": "1960233657639350519",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 136
+              },
+              "text": "2025.08.27 준케이 (JUN. K) (from 2PM) 인스타 라이브 https://t.co/TUwc47jZ9Z 来自 @YouTube",
+              "created_at": "2025-08-27T13:51:17.000Z",
+              "edit_history_tweet_ids": [
+                "1960701655185547523"
+              ],
+              "id": "1960701655185547523"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 33
+              },
+              "text": "2세대→5세대 총출동…2PM 준케이·몬엑→제베원, 한날한시 맞대결[초점S] (출처 : 네이버 연예) https://t.co/M6rzOgwNmK https://t.co/XOQHX0jsf9",
+              "created_at": "2025-08-30T22:25:45.000Z",
+              "edit_history_tweet_ids": [
+                "1961918290810560987",
+                "1961919070443565382"
+              ],
+              "id": "1961918290810560987"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 29
+              },
+              "text": "250828 밤\nMnet 엠카운트다운 사전녹화\n#2pm\n#김민준 #준케이 #JUN_K \n#Dear_my_muse\n#RandB_ME https://t.co/P44Wmofrxp",
+              "created_at": "2025-08-28T12:02:11.000Z",
+              "edit_history_tweet_ids": [
+                "1961036589095899615",
+                "1961036867975164257"
+              ],
+              "id": "1961036589095899615"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 1,
+                "like_count": 11,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 440
+              },
+              "text": "3번째 후렴에서 자켓이 살짝 벗겨지면서 어깨가 나왔는데 휀걸들 자동으로 함성나와🩷 그리고 그 자켓 옷깃 부분이 서있어서 살짝 웃겼는데 자연스럽게 고치더라. 프로 아이돌이셔. 처음에 모니터링 할 때는 자켓 살짝만 벗었는데 이번엔 더웠는지 다 벗음. 역시.... 준케이의 매력은 어깨다. 이뻐용.",
+              "created_at": "2025-08-29T04:05:47.000Z",
+              "edit_history_tweet_ids": [
+                "1961279087315714503"
+              ],
+              "id": "1961279087315714503"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 615
+              },
+              "text": "투피엠 포카 2pm poka Photo card sell \n투피엠 2PM 15주년 기념 콘서트  포카 포토카드 \n2PM 2PM 15th Anniversary Concert Photocard poka\n\n준케이 닉쿤 택연 우영 준호 찬성 김민준 옥택연 장우영 이준호 황찬성 jun. k nichkhun taecyeon wooyoung chansung https://t.co/On3wwtvyBE",
+              "created_at": "2025-08-29T06:24:03.000Z",
+              "edit_history_tweet_ids": [
+                "1961313881642733584"
+              ],
+              "id": "1961313881642733584"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 235
+              },
+              "text": "DID ANYONE LOST THEIR BAG\nJUN. K 대만 응원 카페\n#JUN_K #준케이 https://t.co/GHe2YyLv94",
+              "created_at": "2025-08-25T04:34:04.000Z",
+              "edit_history_tweet_ids": [
+                "1959836650177220828"
+              ],
+              "id": "1959836650177220828"
+            },
+            {
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -701,24 +1326,107 @@
                 "bookmark_count": 0,
                 "impression_count": 31
               },
+              "text": "2PM 준케이, 타이베이 솔로 단독 투어 ′SP-ICY′ 피날레…수익금 일부 병원-보육원에 기부 https://t.co/ZrT02my8WM",
+              "created_at": "2025-08-26T06:51:38.000Z",
               "edit_history_tweet_ids": [
                 "1960233657639350519"
-              ]
+              ],
+              "id": "1960233657639350519"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 45
+              },
+              "text": "뉴시스:https://t.co/HP66VdkDcM 원조 '짐승돌' 2PM은 멤버 솔로 활동으로 팬들을 찾는다. 준케이가 오는 9월1일 새 미니 앨범 '디어 마이 뮤즈'(Dear my muse)를 발매 #jun_k 🩷 https://t.co/tLJlmpHSSf",
+              "created_at": "2025-08-30T00:27:00.000Z",
+              "edit_history_tweet_ids": [
+                "1961586413411164481"
+              ],
+              "id": "1961586413411164481"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 189
+              },
+              "text": "JUN_K 준케이 대면 영통 팬싸컷 \n\n💰1.5\n\nForeigner ⭕️\n 마감까지 3번 변동 알려드리겠습니다\n\n팬싸컷❣️\n\nhttps://t.co/7VVC5TdHvU\n\n양도 거래 교환 판매 앨범 포카 미공포 JUNK 2PM https://t.co/tCANe7b9jD",
+              "created_at": "2025-08-28T07:21:51.000Z",
+              "edit_history_tweet_ids": [
+                "1960966040365740524"
+              ],
+              "id": "1960966040365740524"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 273
+              },
+              "text": "추가 몬스타엑스 효린 준케이(2PM) 넥스트위크",
+              "created_at": "2025-08-29T09:31:41.000Z",
+              "edit_history_tweet_ids": [
+                "1961361103172309426"
+              ],
+              "id": "1961361103172309426"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 131
+              },
+              "text": "JUN. K(준케이) \"R&amp;B ME (Feat. 창빈 of Stray Kids)\" M/V Teaser 2\n\n🔗https://t.co/htZ7vuF2Be\n\n2025.09.01 MON 6PM (KST)\n\n#JUN_K #준케이 \n#Dear_my_muse\n#RandB_ME https://t.co/mm0qvDw991",
+              "created_at": "2025-08-30T16:23:46.000Z",
+              "edit_history_tweet_ids": [
+                "1961827194164158936"
+              ],
+              "id": "1961827194164158936"
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 103
+              },
+              "text": "#JUN_K IG reel 20250831\n\nJUN. K(준케이) \"R&amp;B ME (Feat. 창빈 of\nStray Kids)\" M/V Teaser 2\n2025.09.01 MON 6PM (KST)\n#JUN_K #준케이\n#Dear_my_muse\n#RandB_ME https://t.co/3KfFgqih81",
+              "created_at": "2025-08-30T15:04:04.000Z",
+              "edit_history_tweet_ids": [
+                "1961807134188065177"
+              ],
+              "id": "1961807134188065177"
             }
           ],
           "meta": {
             "newest_id": "1961919070443565382",
-            "oldest_id": "1960117168558739630",
-            "result_count": 8
+            "oldest_id": "1959836650177220828",
+            "result_count": 26
           }
         }
       ],
-      "count": 8,
+      "count": 26,
       "has_next_token": false
     },
     "lag3w": {
       "request": {
-        "query": "\"2PM 준케이\" lang:ko -is:retweet -is:nullcast",
+        "query": "2PM 준케이 lang:ko -is:retweet -is:nullcast",
         "start_time": "2025-08-17T00:00:00Z",
         "end_time": "2025-08-24T00:00:00Z",
         "max_results": 50,
@@ -730,13 +1438,14 @@
         ]
       },
       "rate_limit": {
-        "x-rate-limit-remaining": "267",
-        "x-rate-limit-reset": "1772035484"
+        "x-rate-limit-remaining": "291",
+        "x-rate-limit-reset": "1772036940"
       },
       "pages": [
         {
           "data": [
             {
+              "text": "2PM 준케이, 올가을 감수성 채웠다..'Dear my muse'\n\nhttps://t.co/AphdYKvUgT\n\n#JUN_K #준케이 \n#Dear_my_muse",
               "public_metrics": {
                 "retweet_count": 257,
                 "reply_count": 6,
@@ -745,14 +1454,14 @@
                 "bookmark_count": 17,
                 "impression_count": 19674
               },
+              "id": "1957986608952873087",
               "edit_history_tweet_ids": [
                 "1957986608952873087"
               ],
-              "id": "1957986608952873087",
-              "text": "2PM 준케이, 올가을 감수성 채웠다..'Dear my muse'\n\nhttps://t.co/AphdYKvUgT\n\n#JUN_K #준케이 \n#Dear_my_muse",
               "created_at": "2025-08-20T02:02:39.000Z"
             },
             {
+              "text": "2PM 준케이, 스키즈 창빈과 'R&amp;B ME'...신보 트랙리스트&amp;온라인커버\n\n#준케이 #2PM #2PM준케이 \n#JUNK #김민준 \n@Jun2daKAY\n#Dearmymuse #디어마이뮤즈\n#준케이컴백 #JUNK_Dearmymuse\n#Dear_my_muse\n⬇️관련기사⬇️ \nhttps://t.co/dFenQdch2t https://t.co/wApu7FPuRI",
               "public_metrics": {
                 "retweet_count": 51,
                 "reply_count": 1,
@@ -761,14 +1470,30 @@
                 "bookmark_count": 2,
                 "impression_count": 4481
               },
+              "id": "1957222431200051502",
               "edit_history_tweet_ids": [
                 "1957222431200051502"
               ],
-              "id": "1957222431200051502",
-              "text": "2PM 준케이, 스키즈 창빈과 'R&amp;B ME'...신보 트랙리스트&amp;온라인커버\n\n#준케이 #2PM #2PM준케이 \n#JUNK #김민준 \n@Jun2daKAY\n#Dearmymuse #디어마이뮤즈\n#준케이컴백 #JUNK_Dearmymuse\n#Dear_my_muse\n⬇️관련기사⬇️ \nhttps://t.co/dFenQdch2t https://t.co/wApu7FPuRI",
               "created_at": "2025-08-17T23:26:05.000Z"
             },
             {
+              "text": "언제나처럼 공연은 최고였지만\n까리 그 자체였던 THINK ABOUT YOU, 5050은 내 최애 노래로 등극 \n우리집 퍼포먼스는 모셔진 팬분들이 유난히 좋아하는 모습에 보는 내가 더 행복했다. 특히 요코하마 밤공 때의 우리집은 감동이 더 크다\n#2pm \n#김민준 #준케이 #JUN_K",
+              "public_metrics": {
+                "retweet_count": 7,
+                "reply_count": 1,
+                "like_count": 53,
+                "quote_count": 1,
+                "bookmark_count": 2,
+                "impression_count": 3429
+              },
+              "id": "1957822469169144053",
+              "edit_history_tweet_ids": [
+                "1957822469169144053"
+              ],
+              "created_at": "2025-08-19T15:10:25.000Z"
+            },
+            {
+              "text": "📌 OSEN 2PM 준케이, 올가을 감수성 채웠다..'Dear my muse'\nhttps://t.co/lWBgeV4Hbv\n📌 뉴스엔 준케이, 신보 리릭 스포일러…스트레이 키즈 창빈 지원사격\nhttps://t.co/dfQn6sK2Wi\n#JUN_K #준케이 \n#Dear_my_muse\n#RandB_ME",
               "public_metrics": {
                 "retweet_count": 4,
                 "reply_count": 1,
@@ -777,14 +1502,14 @@
                 "bookmark_count": 0,
                 "impression_count": 418
               },
+              "id": "1957993150967906759",
               "edit_history_tweet_ids": [
                 "1957993150967906759"
               ],
-              "id": "1957993150967906759",
-              "text": "📌 OSEN 2PM 준케이, 올가을 감수성 채웠다..'Dear my muse'\nhttps://t.co/lWBgeV4Hbv\n📌 뉴스엔 준케이, 신보 리릭 스포일러…스트레이 키즈 창빈 지원사격\nhttps://t.co/dfQn6sK2Wi\n#JUN_K #준케이 \n#Dear_my_muse\n#RandB_ME",
               "created_at": "2025-08-20T02:28:39.000Z"
             },
             {
+              "text": "2PM 준케이, 올가을 감수성 채웠다..'Dear my muse'\nhttps://t.co/rGV2iVpoS3\n준케이, 신보 리릭 스포일러…스트레이 키즈 창빈 지원사격\nhttps://t.co/0VjAUhsey7\n\n#JUN_K #MINJUN_K #Dear_my_muse\n#JUN_K_ON #준케이사랑해 #준케이고마워 #함께할께 #준케이 #준케이_디어마이뮤즈\n#디어마이뮤즈 https://t.co/kXFVWoWShA",
               "public_metrics": {
                 "retweet_count": 3,
                 "reply_count": 0,
@@ -793,14 +1518,46 @@
                 "bookmark_count": 1,
                 "impression_count": 679
               },
+              "id": "1957990179698036943",
               "edit_history_tweet_ids": [
                 "1957990179698036943"
               ],
-              "id": "1957990179698036943",
-              "text": "2PM 준케이, 올가을 감수성 채웠다..'Dear my muse'\nhttps://t.co/rGV2iVpoS3\n준케이, 신보 리릭 스포일러…스트레이 키즈 창빈 지원사격\nhttps://t.co/0VjAUhsey7\n\n#JUN_K #MINJUN_K #Dear_my_muse\n#JUN_K_ON #준케이사랑해 #준케이고마워 #함께할께 #준케이 #준케이_디어마이뮤즈\n#디어마이뮤즈 https://t.co/kXFVWoWShA",
               "created_at": "2025-08-20T02:16:51.000Z"
             },
             {
+              "text": "미.. 밍주나? 8월 이자나 🤣🤣🤣\n#2pm \n#김민준 #준케이 #JUN_K https://t.co/NV7gleoSYK",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 8,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 412
+              },
+              "id": "1958141209630933107",
+              "edit_history_tweet_ids": [
+                "1958141209630933107"
+              ],
+              "created_at": "2025-08-20T12:16:59.000Z"
+            },
+            {
+              "text": "앜 귀여워 귀여워\n#2pm \n#김민준 #준케이 #JUN_K https://t.co/tEfy50kmyj",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 15,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 596
+              },
+              "id": "1958146470550569317",
+              "edit_history_tweet_ids": [
+                "1958146470550569317"
+              ],
+              "created_at": "2025-08-20T12:37:53.000Z"
+            },
+            {
+              "text": "2PM 준케이, 몽환적 감성에 설레는 메시지 담았다 (출처 : 네이버 연예)\n#준케이 #JUN_K #투피엠 #2PM https://t.co/YS4ebJtqdN",
               "public_metrics": {
                 "retweet_count": 2,
                 "reply_count": 0,
@@ -809,14 +1566,30 @@
                 "bookmark_count": 1,
                 "impression_count": 537
               },
+              "id": "1958463906692706626",
               "edit_history_tweet_ids": [
                 "1958463906692706626"
               ],
-              "id": "1958463906692706626",
-              "text": "2PM 준케이, 몽환적 감성에 설레는 메시지 담았다 (출처 : 네이버 연예)\n#준케이 #JUN_K #투피엠 #2PM https://t.co/YS4ebJtqdN",
               "created_at": "2025-08-21T09:39:16.000Z"
             },
             {
+              "text": "Four Seasons With JUN. K\n\n🐼날짜: 2025/08/22 - 2025/08/25\n\n🐼영업 시간: 11:30 - 18:30\n\n🐼장소: Living Room客廳咖啡\n\n(타이베이시 다안구 런아이루 4단 300항 26농 31호)\n\n🐼주최: Mr. Love On-JUN. K 대만 팬 그룹\n\n🔅입장 시 음료 1잔을 반드시 주문해야 합니다\n\n#준케이 #JUN_K #SUMMER_ROOM",
+              "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 12,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 755
+              },
+              "id": "1958552193969344981",
+              "edit_history_tweet_ids": [
+                "1958552193969344981"
+              ],
+              "created_at": "2025-08-21T15:30:05.000Z"
+            },
+            {
+              "text": "2PM 준케이, 올가을 감수성 채웠다..'Dear my muse' (출처 : 네이버 연예)\n#준케이 #JUN_K #투피엠 #2PM  https://t.co/5x34rtx2FI",
               "public_metrics": {
                 "retweet_count": 3,
                 "reply_count": 0,
@@ -825,14 +1598,14 @@
                 "bookmark_count": 2,
                 "impression_count": 427
               },
+              "id": "1957980326522941922",
               "edit_history_tweet_ids": [
                 "1957980326522941922"
               ],
-              "id": "1957980326522941922",
-              "text": "2PM 준케이, 올가을 감수성 채웠다..'Dear my muse' (출처 : 네이버 연예)\n#준케이 #JUN_K #투피엠 #2PM  https://t.co/5x34rtx2FI",
               "created_at": "2025-08-20T01:37:42.000Z"
             },
             {
+              "text": "2PM 준케이, 올가을 감수성 채웠다..'Dear my muse' (출처 : 네이버 연예)\n#JUN_K #Dear_my_muse\n https://t.co/sHKW7SRm81",
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -841,14 +1614,30 @@
                 "bookmark_count": 0,
                 "impression_count": 178
               },
+              "id": "1958039705104322964",
               "edit_history_tweet_ids": [
                 "1958039705104322964"
               ],
-              "id": "1958039705104322964",
-              "text": "2PM 준케이, 올가을 감수성 채웠다..'Dear my muse' (출처 : 네이버 연예)\n#JUN_K #Dear_my_muse\n https://t.co/sHKW7SRm81",
               "created_at": "2025-08-20T05:33:38.000Z"
             },
             {
+              "text": "투피엠 포카 2pm poka Photo card sell \n투피엠 2PM 15주년 기념 콘서트  포카 포토카드 \n2PM 2PM 15th Anniversary Concert Photocard poka\n\n준케이 닉쿤 택연 우영 준호 찬성 김민준 옥택연 장우영 이준호 황찬성 jun. k nichkhun taecyeon wooyoung chansung https://t.co/vFQsm1vLTk",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 605
+              },
+              "id": "1958362831361110506",
+              "edit_history_tweet_ids": [
+                "1958362831361110506"
+              ],
+              "created_at": "2025-08-21T02:57:38.000Z"
+            },
+            {
+              "text": "2PM 준케이, 올가을 감수성 채웠다..'Dear my muse' #jun_k 🩷\nhttps://t.co/H7WXEQeRjp\n그룹 2PM 멤버 JUN. K(준케이)가 새 앨범 리릭 스포일러를 공개하고 이른 가을 감성을 예고했다.\n\nJUN. K는 오는 9월 1일 미니 4집 'Dear my muse'(디어 마이 뮤즈)와 타이틀곡 'R&amp;B ME (Feat. 창빈 of Stray https://t.co/7KmhKs1i9N",
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 1,
@@ -857,22 +1646,53 @@
                 "bookmark_count": 0,
                 "impression_count": 37
               },
+              "id": "1957994845349507105",
               "edit_history_tweet_ids": [
                 "1957994845349507105"
               ],
-              "id": "1957994845349507105",
-              "text": "2PM 준케이, 올가을 감수성 채웠다..'Dear my muse' #jun_k 🩷\nhttps://t.co/H7WXEQeRjp\n그룹 2PM 멤버 JUN. K(준케이)가 새 앨범 리릭 스포일러를 공개하고 이른 가을 감성을 예고했다.\n\nJUN. K는 오는 9월 1일 미니 4집 'Dear my muse'(디어 마이 뮤즈)와 타이틀곡 'R&amp;B ME (Feat. 창빈 of Stray https://t.co/7KmhKs1i9N",
               "created_at": "2025-08-20T02:35:23.000Z"
+            },
+            {
+              "text": "내가 기다릴 것\n1. 밍준케이 디마뮤 앨범\n2. 밍준케이 음방\n3. 잊프 2기 공식 키트\n4. 장강쥐 콘서트(난 못 가지만 대리 만족..)\n5. 잊 태풍상사, 캐셔로\n6. (언젠가 있을 2PM 컴백...?)\n\n요즘도 바쁘다 바빠 핫티 모모😤🍑",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 185
+              },
+              "id": "1957691762262106599",
+              "edit_history_tweet_ids": [
+                "1957691762262106599"
+              ],
+              "created_at": "2025-08-19T06:31:02.000Z"
+            },
+            {
+              "text": "JUN_K 준케이 대면 영통 팬싸컷 \n\n💰1.5\n\nForeigner ⭕️\n 마감까지 3번 변동 알려드리겠습니다\n\n팬싸컷❣️\n\nhttps://t.co/7VVC5TdHvU\n\n양도 거래 교환 판매 앨범 포카 미공포 JUNK 2PM https://t.co/QL6odJNuVM",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 285
+              },
+              "id": "1959222848725422167",
+              "edit_history_tweet_ids": [
+                "1959222848725422167"
+              ],
+              "created_at": "2025-08-23T11:55:02.000Z"
             }
           ],
           "meta": {
-            "newest_id": "1958463906692706626",
+            "newest_id": "1959222848725422167",
             "oldest_id": "1957222431200051502",
-            "result_count": 8
+            "result_count": 15
           }
         }
       ],
-      "count": 8,
+      "count": 15,
       "has_next_token": false
     }
   },

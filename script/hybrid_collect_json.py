@@ -48,7 +48,7 @@ def _iso_z(dt: datetime) -> str:
 
 def build_query(group_name: str) -> str:
     safe_name = str(group_name).replace('"', '\\"').strip()
-    return f'"{safe_name}" lang:ko -is:retweet -is:nullcast'
+    return f"{safe_name} lang:ko -is:retweet -is:nullcast"
 
 
 def build_windows(start_date_value: Any) -> dict[str, str]:

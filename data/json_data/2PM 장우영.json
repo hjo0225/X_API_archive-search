@@ -1,8 +1,8 @@
 {
   "name": "2PM 장우영",
   "start_date": "2025-09-07",
-  "search_query": "\"2PM 장우영\" lang:ko -is:retweet -is:nullcast",
-  "counts_query": "\"2PM 장우영\" lang:ko -is:retweet -is:nullcast",
+  "search_query": "2PM 장우영 lang:ko -is:retweet -is:nullcast",
+  "counts_query": "2PM 장우영 lang:ko -is:retweet -is:nullcast",
   "windows": {
     "lag1_start_time": "2025-08-31T00:00:00Z",
     "lag1_end_time": "2025-09-07T00:00:00Z",
@@ -13,17 +13,17 @@
     "counts_start_time": "2025-08-17T00:00:00Z",
     "counts_end_time": "2025-09-07T00:00:00Z"
   },
-  "collected_at_utc": "2026-02-25T15:56:48Z",
+  "collected_at_utc": "2026-02-25T16:14:02Z",
   "counts": {
     "request": {
-      "query": "\"2PM 장우영\" lang:ko -is:retweet -is:nullcast",
+      "query": "2PM 장우영 lang:ko -is:retweet -is:nullcast",
       "start_time": "2025-08-17T00:00:00Z",
       "end_time": "2025-09-07T00:00:00Z",
       "granularity": "day"
     },
     "rate_limit": {
-      "x-rate-limit-remaining": "290",
-      "x-rate-limit-reset": "1772035482"
+      "x-rate-limit-remaining": "298",
+      "x-rate-limit-reset": "1772036939"
     },
     "response": {
       "data": [
@@ -40,17 +40,17 @@
         {
           "end": "2025-08-20T00:00:00.000Z",
           "start": "2025-08-19T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 1
         },
         {
           "end": "2025-08-21T00:00:00.000Z",
           "start": "2025-08-20T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 1
         },
         {
           "end": "2025-08-22T00:00:00.000Z",
           "start": "2025-08-21T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 1
         },
         {
           "end": "2025-08-23T00:00:00.000Z",
@@ -60,7 +60,7 @@
         {
           "end": "2025-08-24T00:00:00.000Z",
           "start": "2025-08-23T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 2
         },
         {
           "end": "2025-08-25T00:00:00.000Z",
@@ -80,7 +80,7 @@
         {
           "end": "2025-08-28T00:00:00.000Z",
           "start": "2025-08-27T00:00:00.000Z",
-          "tweet_count": 6
+          "tweet_count": 7
         },
         {
           "end": "2025-08-29T00:00:00.000Z",
@@ -90,7 +90,7 @@
         {
           "end": "2025-08-30T00:00:00.000Z",
           "start": "2025-08-29T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 1
         },
         {
           "end": "2025-08-31T00:00:00.000Z",
@@ -100,7 +100,7 @@
         {
           "end": "2025-09-01T00:00:00.000Z",
           "start": "2025-08-31T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 1
         },
         {
           "end": "2025-09-02T00:00:00.000Z",
@@ -115,17 +115,17 @@
         {
           "end": "2025-09-04T00:00:00.000Z",
           "start": "2025-09-03T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 12
         },
         {
           "end": "2025-09-05T00:00:00.000Z",
           "start": "2025-09-04T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 1
         },
         {
           "end": "2025-09-06T00:00:00.000Z",
           "start": "2025-09-05T00:00:00.000Z",
-          "tweet_count": 15
+          "tweet_count": 16
         },
         {
           "end": "2025-09-07T00:00:00.000Z",
@@ -134,14 +134,14 @@
         }
       ],
       "meta": {
-        "total_tweet_count": 29
+        "total_tweet_count": 51
       }
     }
   },
   "search": {
     "lag1w": {
       "request": {
-        "query": "\"2PM 장우영\" lang:ko -is:retweet -is:nullcast",
+        "query": "2PM 장우영 lang:ko -is:retweet -is:nullcast",
         "start_time": "2025-08-31T00:00:00Z",
         "end_time": "2025-09-07T00:00:00Z",
         "max_results": 50,
@@ -153,16 +153,13 @@
         ]
       },
       "rate_limit": {
-        "x-rate-limit-remaining": "272",
-        "x-rate-limit-reset": "1772035484"
+        "x-rate-limit-remaining": "296",
+        "x-rate-limit-reset": "1772036940"
       },
       "pages": [
         {
           "data": [
             {
-              "edit_history_tweet_ids": [
-                "1963784016265728450"
-              ],
               "public_metrics": {
                 "retweet_count": 284,
                 "reply_count": 1,
@@ -171,14 +168,46 @@
                 "bookmark_count": 18,
                 "impression_count": 17443
               },
-              "created_at": "2025-09-05T01:59:29.000Z",
               "text": "2PM 장우영이 들려줄 새 이야기..'아임 인투' 전곡 가사 일부 선공개\n\nhttps://t.co/r5mU4yzuKK\n\n#장우영 #JangWooyoung\n#Im_into\n#ThinkTooMuch #TTM",
-              "id": "1963784016265728450"
+              "id": "1963784016265728450",
+              "created_at": "2025-09-05T01:59:29.000Z",
+              "edit_history_tweet_ids": [
+                "1963784016265728450"
+              ]
             },
             {
+              "public_metrics": {
+                "retweet_count": 11,
+                "reply_count": 0,
+                "like_count": 57,
+                "quote_count": 0,
+                "bookmark_count": 6,
+                "impression_count": 1436
+              },
+              "text": "앙모닝💙\n#장우영 #JangWooyoung\n2PM🩷❤️💚💙💛💜 https://t.co/e90ONOvCCC",
+              "id": "1963381555155669476",
+              "created_at": "2025-09-03T23:20:15.000Z",
               "edit_history_tweet_ids": [
-                "1963779337163006092"
-              ],
+                "1963381555155669476"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 40,
+                "reply_count": 0,
+                "like_count": 62,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 1504
+              },
+              "text": "매년투피엠과핫티가함께이날을축하할수있는것\n#새앨범들고돌아와\n얼마나행복할까요\n#2PM_17thAnniversary\n준케이닉쿤옥택연장우영이준호황찬성이여섯명의2PM만나게된것에늘감사해요",
+              "id": "1963242217792839864",
+              "created_at": "2025-09-03T14:06:34.000Z",
+              "edit_history_tweet_ids": [
+                "1963242217792839864"
+              ]
+            },
+            {
               "public_metrics": {
                 "retweet_count": 10,
                 "reply_count": 0,
@@ -187,14 +216,14 @@
                 "bookmark_count": 0,
                 "impression_count": 3864
               },
-              "created_at": "2025-09-05T01:40:53.000Z",
               "text": "2PM 장우영이 들려줄 새 이야기..'아임 인투' 전곡 가사 일부 선공개 | 스타뉴스 #2PM #장우영 #StarnewsKorea https://t.co/XE7LzGuwMT",
-              "id": "1963779337163006092"
+              "id": "1963779337163006092",
+              "created_at": "2025-09-05T01:40:53.000Z",
+              "edit_history_tweet_ids": [
+                "1963779337163006092"
+              ]
             },
             {
-              "edit_history_tweet_ids": [
-                "1963793922301239742"
-              ],
               "public_metrics": {
                 "retweet_count": 18,
                 "reply_count": 0,
@@ -203,14 +232,14 @@
                 "bookmark_count": 1,
                 "impression_count": 2662
               },
-              "created_at": "2025-09-05T02:38:51.000Z",
               "text": "2PM 장우영이 들려줄 새 이야기..'아임 인투' 전곡 가사 일부 선공개\nhttps://t.co/84OaJf18Rl\n\n장우영 'I'm into' 수록 전곡 가사 일부 선공개...컴백 열기 UP\n\n장우영, 직접 작사한 미니 3집 'I'm into' 수록 전곡 가사 일부 선공개\n\n장우영, 'I'm into' 리릭스포 공개…'일상 과몰입' 유쾌표현 눈길 https://t.co/bqOVO42fTO",
-              "id": "1963793922301239742"
+              "id": "1963793922301239742",
+              "created_at": "2025-09-05T02:38:51.000Z",
+              "edit_history_tweet_ids": [
+                "1963793922301239742"
+              ]
             },
             {
-              "edit_history_tweet_ids": [
-                "1963828718138270025"
-              ],
               "public_metrics": {
                 "retweet_count": 12,
                 "reply_count": 0,
@@ -219,14 +248,110 @@
                 "bookmark_count": 1,
                 "impression_count": 3312
               },
-              "created_at": "2025-09-05T04:57:07.000Z",
               "text": "2PM 장우영이 들려줄 새 이야기..'아임 인투' 전곡 가사 일부 선공개\nhttps://t.co/4hVhFElfQ6\nhttps://t.co/riwtVcmmvl\nhttps://t.co/TCgFuHLy76\n\n#2PM우영 #장우영 #JANGWOOYOUNG\n#우영 #WOOYOUNG #ウヨン #Im_into #TTM https://t.co/ZNYkHUlW9R",
-              "id": "1963828718138270025"
+              "id": "1963828718138270025",
+              "created_at": "2025-09-05T04:57:07.000Z",
+              "edit_history_tweet_ids": [
+                "1963828718138270025"
+              ]
             },
             {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 172
+              },
+              "text": "투피엠데뷔17주년축하합니다\n#새앨범들고돌아와\n김민준닉쿤옥택연장우영이준호황찬성\n#2PM_17thAnniversary\n2PM GO!",
+              "id": "1963257732213182544",
+              "created_at": "2025-09-03T15:08:13.000Z",
               "edit_history_tweet_ids": [
-                "1963803787866554632"
-              ],
+                "1963257732213182544"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 17,
+                "quote_count": 1,
+                "bookmark_count": 0,
+                "impression_count": 1630
+              },
+              "text": "'도라이버'에서 그룹 2PM 멤버 우영의 회식비 하극상 비화가 공개된다.\n#2PM #투피엠 #우영 #장우영 #WOOYOUNG  #JANGWOOYOUNG #ウヨン\nhttps://t.co/ctfjqxU7nx",
+              "id": "1963806765444640894",
+              "created_at": "2025-09-05T03:29:53.000Z",
+              "edit_history_tweet_ids": [
+                "1963806765444640894"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 7,
+                "reply_count": 0,
+                "like_count": 33,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 1151
+              },
+              "text": "𝐇𝐀𝐏𝐏𝐘 𝟐𝐏𝐌 𝟏𝟕𝐭𝐡 𝐀𝐍𝐍𝐈𝐕𝐄𝐑𝐒𝐀𝐑𝐘🖤\n\n2PM 넘넘 사랑해요\n항상 행복하세요 그리고 언젠가 다시 핫티스트의 목소리를 들으러 돌아와 \n\n#2PM #투피엠\n#HOTTEST #핫티스트\n#새앨범들고돌아와\n#2PM_17thAnniversary\n#준케이 #닉쿤 #옥택연\n#장우영 #이준호 #황찬성 https://t.co/3TUxKwAvlO",
+              "id": "1963382268782940296",
+              "created_at": "2025-09-03T23:23:05.000Z",
+              "edit_history_tweet_ids": [
+                "1963382268782940296"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 12,
+                "reply_count": 0,
+                "like_count": 14,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 573
+              },
+              "text": "2PM준케이닉쿤옥택연장우영이준호황찬성\n#2pm_17thanniversary \n투피엠을여섯명의이름을외칠수있는행복\n#새앨범들고돌아와 \n문구도너무핫티스럽지그래두이게핫티니까",
+              "id": "1963249725110415609",
+              "created_at": "2025-09-03T14:36:24.000Z",
+              "edit_history_tweet_ids": [
+                "1963249725110415609"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 11,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 866
+              },
+              "text": "@follow_2PM 𝐇𝐀𝐏𝐏𝐘 𝟐𝐏𝐌 𝟏𝟕𝐭𝐡 𝐀𝐍𝐍𝐈𝐕𝐄𝐑𝐒𝐀𝐑𝐘🖤\n\n2PM FOREVER💗❤️💚💙💛💜\n17주년 정말 축하해요!!!\n오래오래 함께 가자!!!\n\n#2PM #투피엠\n#HOTTEST #핫티스트\n#2PM_17thAnniversary\n#준케이 #닉쿤 #옥택연\n#장우영 #이준호 #황찬성",
+              "id": "1963257332143665310",
+              "created_at": "2025-09-03T15:06:38.000Z",
+              "edit_history_tweet_ids": [
+                "1963257332143665310"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 12,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 492
+              },
+              "text": "앙모닝💙\n9/15장우영솔로앨범발표\n9/27.28 장우영 콘서트\n여러분  \n장우영으로가득찬9월이왔어요\n앨범과콘서트 동네방네소문 내요#2PM우영 #장우영 #JANGWOOYOUNG\n#우영 #WOOYOUNG #ウヨン#Im_into https://t.co/sCBTarGqZq",
+              "id": "1962252721324749095",
+              "created_at": "2025-08-31T20:34:40.000Z",
+              "edit_history_tweet_ids": [
+                "1962252721324749095"
+              ]
+            },
+            {
               "public_metrics": {
                 "retweet_count": 3,
                 "reply_count": 0,
@@ -235,14 +360,111 @@
                 "bookmark_count": 0,
                 "impression_count": 1153
               },
-              "created_at": "2025-09-05T03:18:03.000Z",
               "text": "‘컴백’ 2PM 장우영이 들려줄 새로운 이야기 https://t.co/CFuWVUWshD https://t.co/1KocBBSgQQ",
-              "id": "1963803787866554632"
+              "id": "1963803787866554632",
+              "created_at": "2025-09-05T03:18:03.000Z",
+              "edit_history_tweet_ids": [
+                "1963803787866554632"
+              ]
             },
             {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 18,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 1070
+              },
+              "text": "너무나 멋진 사람들 2PM!!!\n오늘이 가기전에 다시한번 데뷔17주년\n축하합니다.🎉\n6명 모~~~두 앞으로도 멋지고 활발한 활동 \n기대하고 응원할께요🤗\n\n출구는 없다없다없다~~~~🤗\n\n오늘만은 퉆나잇!!!🤗\n\n#준케이 #닉쿤 #옥택연 \n#장우영 #이준호 #황찬성\n#2PM #투피엠 \n#HOTTEST #핫티스트 https://t.co/81ZUVz8Tal",
+              "id": "1963620366330589401",
+              "created_at": "2025-09-04T15:09:12.000Z",
               "edit_history_tweet_ids": [
-                "1964293025061843303"
-              ],
+                "1963615391353377263",
+                "1963620366330589401"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 35,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 913
+              },
+              "text": "김민준🩷 닉쿤❤️ 옥택연💚\n장우영💙 이준호💛 황찬성💜\n오랜만에 한 번 불러본다\n다들 건강하게 열일해줘서 고마워요\n핫티들의 바람을 들어줄거라 믿어요\n2pm 데뷔 17주년 축하해🖤\n#2PM #투피엠\n#HOTTEST #핫티스트\n#2PM_17thAnniversary https://t.co/eZm4R1tgWR",
+              "id": "1963340461759959191",
+              "created_at": "2025-09-03T20:36:57.000Z",
+              "edit_history_tweet_ids": [
+                "1963340461759959191"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 487
+              },
+              "text": "@follow_2PM #2PM_17thAnniversary 🥳🎉🖤\n\n2PM 17주년 정말 축하해 💗❤️💚💙💛💜\n자주 만나면서 오래오래 함께 가자😉\n\n#2PM #투피엠\n#HOTTEST #핫티스트\n#준케이 #닉쿤 #옥택연\n#장우영 #이준호 #황찬성",
+              "id": "1963259065825636806",
+              "created_at": "2025-09-03T15:13:31.000Z",
+              "edit_history_tweet_ids": [
+                "1963259065825636806"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 267
+              },
+              "text": "준케이닉쿤옥택연장우영이준호황찬성2PM\n#2PM #투피엠\n#HOTTEST #핫티스트\n#2PM_17thAnniversary https://t.co/poQqG53PmO",
+              "id": "1963256574241366256",
+              "created_at": "2025-09-03T15:03:37.000Z",
+              "edit_history_tweet_ids": [
+                "1963256574241366256"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 252
+              },
+              "text": "#2pm_17th_anniversary \n#이준호 #준케이 #옥택연 #황찬성 #장우영 #닉쿤\n고마워요💛2PM https://t.co/jeT1uwk8PH",
+              "id": "1963257293031821444",
+              "created_at": "2025-09-03T15:06:28.000Z",
+              "edit_history_tweet_ids": [
+                "1963257293031821444"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 297
+              },
+              "text": "9月   4日  (Thu)    🌤️        \n구월  사일 (목요일)  맑음\n\n    💙Woomorning💙\n\n2PM\nAnniversary17th\n\n💙D-23\n\n#우영 #WOOYOUNG\n#장우영 #JangWooyoung\n#Simpledance\n#halfhalf \n#새앨범들고돌아와\n#2PM_17thAnniversary https://t.co/a9OklVZcCI",
+              "id": "1963362844256477439",
+              "created_at": "2025-09-03T22:05:54.000Z",
+              "edit_history_tweet_ids": [
+                "1963362844256477439"
+              ]
+            },
+            {
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -251,14 +473,14 @@
                 "bookmark_count": 0,
                 "impression_count": 643
               },
-              "created_at": "2025-09-06T11:42:06.000Z",
               "text": "🍏팬싸컷 상담💝\n\n📌문닫+최저~평균컷 기반 안내\n음반사별 특징(줄세/랜덤 비율)추천비추⭕️\n\n📢마감까지 1:1 변동 확인\nhttps://t.co/dL5iXXNnMR\n\n모든 그룹 후기 보유중🔎\n\n세븐틴 SEVENTEEN\n2PM 장우영 아이덴티티\n이펙스 승한 더보이즈\n몬스타엑스 MONSTAX\n제베원 크래비티\n라이즈 코르티스 CORTIS",
-              "id": "1964293025061843303"
+              "id": "1964293025061843303",
+              "created_at": "2025-09-06T11:42:06.000Z",
+              "edit_history_tweet_ids": [
+                "1964293025061843303"
+              ]
             },
             {
-              "edit_history_tweet_ids": [
-                "1964226960264962326"
-              ],
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -267,14 +489,14 @@
                 "bookmark_count": 0,
                 "impression_count": 26
               },
-              "created_at": "2025-09-06T07:19:35.000Z",
               "text": "🍏팬싸컷 상담💝\n\n📌문닫+최저~평균컷 기반 안내\n음반사별 특징(줄세/랜덤 비율)추천비추⭕️\n\n📢마감까지 1:1 변동 확인\nhttps://t.co/dL5iXXNnMR\n\n모든 그룹 후기 보유중🔎\n\n세븐틴 SEVENTEEN\n몬스타엑스 MONSTAX\n제베원 크래비티\n라이즈 코르티스 CORTIS\n2PM 장우영 아이덴티티\n이펙스 승한 더보이즈",
-              "id": "1964226960264962326"
+              "id": "1964226960264962326",
+              "created_at": "2025-09-06T07:19:35.000Z",
+              "edit_history_tweet_ids": [
+                "1964226960264962326"
+              ]
             },
             {
-              "edit_history_tweet_ids": [
-                "1963916954298634470"
-              ],
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -283,14 +505,30 @@
                 "bookmark_count": 0,
                 "impression_count": 830
               },
-              "created_at": "2025-09-05T10:47:44.000Z",
               "text": "🍏팬싸컷 상담💝\n\n📌문닫+최저~평균컷 기반 안내\n음반사별 특징(줄세/랜덤 비율)추천비추⭕️\n\n📢마감까지 1:1 변동 확인\nhttps://t.co/dL5iXXNnMR\n\n모든 그룹 후기 보유중🔎\n\n몬스타엑스 MONSTAX\n제베원 크래비티\n라이즈 코르티스 CORTIS\n2PM 장우영 아이덴티티\n이펙스 승한 더보이즈\n세븐틴 SEVENTEEN",
-              "id": "1963916954298634470"
+              "id": "1963916954298634470",
+              "created_at": "2025-09-05T10:47:44.000Z",
+              "edit_history_tweet_ids": [
+                "1963916954298634470"
+              ]
             },
             {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 555
+              },
+              "text": "2PM 모으는 가장 쉬운 방법\n\n이준호 집헬스장 때려뿌수고 \n장우영 멱살잡고 \n기븐으로.\n\n여섯명 드래곤볼 완-!\n\n#2pm_17th_anniversary",
+              "id": "1963311700700270634",
+              "created_at": "2025-09-03T18:42:40.000Z",
               "edit_history_tweet_ids": [
-                "1964373848754897366"
-              ],
+                "1963311700700270634"
+              ]
+            },
+            {
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -299,14 +537,14 @@
                 "bookmark_count": 0,
                 "impression_count": 614
               },
-              "created_at": "2025-09-06T17:03:16.000Z",
               "text": "🍏팬싸컷 상담💝\n\n📌문닫+최저~평균컷 기반 안내\n음반사별 특징(줄세/랜덤 비율)추천비추⭕️\n\n📢마감까지 1:1 변동 확인\nhttps://t.co/nufR7nYwU4\n\n모든 그룹 후기 보유중🔎\n\n라이즈 코르티스 CORTIS\n세븐틴 SEVENTEEN\n2PM 장우영 아이덴티티\n이펙스 승한 더보이즈\n몬스타엑스 MONSTAX\n제베원 크래비티",
-              "id": "1964373848754897366"
+              "id": "1964373848754897366",
+              "created_at": "2025-09-06T17:03:16.000Z",
+              "edit_history_tweet_ids": [
+                "1964373848754897366"
+              ]
             },
             {
-              "edit_history_tweet_ids": [
-                "1964269524674318494"
-              ],
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -315,14 +553,14 @@
                 "bookmark_count": 0,
                 "impression_count": 619
               },
-              "created_at": "2025-09-06T10:08:43.000Z",
               "text": "🍏팬싸컷 상담💝\n\n📌문닫+최저~평균컷 기반 안내\n음반사별 특징(줄세/랜덤 비율)추천비추⭕️\n\n📢마감까지 1:1 변동 확인\nhttps://t.co/nufR7nXZ4w\n\n모든 그룹 후기 보유중🔎\n\n세븐틴 SEVENTEEN\n2PM 장우영 아이덴티티\n이펙스 승한 더보이즈\n몬스타엑스 MONSTAX\n제베원 크래비티\n라이즈 코르티스 CORTIS",
-              "id": "1964269524674318494"
+              "id": "1964269524674318494",
+              "created_at": "2025-09-06T10:08:43.000Z",
+              "edit_history_tweet_ids": [
+                "1964269524674318494"
+              ]
             },
             {
-              "edit_history_tweet_ids": [
-                "1964240350798569850"
-              ],
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -331,24 +569,59 @@
                 "bookmark_count": 1,
                 "impression_count": 552
               },
-              "created_at": "2025-09-06T08:12:48.000Z",
               "text": "🍏팬싸컷 상담💝\n\n📌문닫+최저~평균컷 기반 안내\n음반사별 특징(줄세/랜덤 비율)추천비추⭕️\n\n📢마감까지 1:1 변동 확인\nhttps://t.co/nufR7nXZ4w\n\n모든 그룹 후기 보유중🔎\n\n2PM 장우영 아이덴티티\n이펙스 승한 더보이즈\n세븐틴 SEVENTEEN\n몬스타엑스 MONSTAX\n제베원 크래비티\n라이즈 코르티스 CORTIS",
-              "id": "1964240350798569850"
+              "id": "1964240350798569850",
+              "created_at": "2025-09-06T08:12:48.000Z",
+              "edit_history_tweet_ids": [
+                "1964240350798569850"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 225
+              },
+              "text": "장우영 Simple dance\n음중&amp;엠카 사녹\n2025.06.26.",
+              "id": "1962081142422872379",
+              "created_at": "2025-08-31T09:12:52.000Z",
+              "edit_history_tweet_ids": [
+                "1962081142422872379"
+              ]
+            },
+            {
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 247
+              },
+              "text": "준케이닉쿤옥택연장우영이준호황찬성\n#새앨범들고돌아와\n17년전처음봤던너희모습잊지못해\n#2PM_17thAnniversary\n내인생에최고아이돌언제까지나사랑해",
+              "id": "1963275053702787228",
+              "created_at": "2025-09-03T16:17:03.000Z",
+              "edit_history_tweet_ids": [
+                "1963275053702787228"
+              ]
             }
           ],
           "meta": {
             "newest_id": "1964373848754897366",
-            "oldest_id": "1963779337163006092",
-            "result_count": 11
+            "oldest_id": "1962081142422872379",
+            "result_count": 28
           }
         }
       ],
-      "count": 11,
+      "count": 28,
       "has_next_token": false
     },
     "lag2w": {
       "request": {
-        "query": "\"2PM 장우영\" lang:ko -is:retweet -is:nullcast",
+        "query": "2PM 장우영 lang:ko -is:retweet -is:nullcast",
         "start_time": "2025-08-24T00:00:00Z",
         "end_time": "2025-08-31T00:00:00Z",
         "max_results": 50,
@@ -360,19 +633,19 @@
         ]
       },
       "rate_limit": {
-        "x-rate-limit-remaining": "271",
-        "x-rate-limit-reset": "1772035484"
+        "x-rate-limit-remaining": "295",
+        "x-rate-limit-reset": "1772036940"
       },
       "pages": [
         {
           "data": [
             {
-              "text": "2PM 장우영, 청청패션마저 완벽하게…3개월 만 컴백\nhttps://t.co/DW2SQLr9fz\n\n2PM 장우영, 데뷔 17년차에도 청량美 폭발..'아임 인투' 마지막 티저 오픈\nhttps://t.co/1HDjt9OCXh\n\n청청 패션 장우영…감각적이고 쓸쓸한 초가을 무드로 컴백\nhttps://t.co/NBz0ti08TQ\n\n‘9월 컴백’ 장우영, 쓸쓸한 https://t.co/yVwr0UA4kF",
               "edit_history_tweet_ids": [
                 "1960844690351395131",
                 "1960846175663481048",
                 "1960849265758233081"
               ],
+              "created_at": "2025-08-27T23:37:50.000Z",
               "public_metrics": {
                 "retweet_count": 33,
                 "reply_count": 0,
@@ -381,14 +654,46 @@
                 "bookmark_count": 2,
                 "impression_count": 2018
               },
-              "created_at": "2025-08-27T23:37:50.000Z",
-              "id": "1960849265758233081"
+              "id": "1960849265758233081",
+              "text": "2PM 장우영, 청청패션마저 완벽하게…3개월 만 컴백\nhttps://t.co/DW2SQLr9fz\n\n2PM 장우영, 데뷔 17년차에도 청량美 폭발..'아임 인투' 마지막 티저 오픈\nhttps://t.co/1HDjt9OCXh\n\n청청 패션 장우영…감각적이고 쓸쓸한 초가을 무드로 컴백\nhttps://t.co/NBz0ti08TQ\n\n‘9월 컴백’ 장우영, 쓸쓸한 https://t.co/yVwr0UA4kF"
             },
             {
-              "text": "‘솔로 컴백’ 2PM 장우영, 힙하고 트렌디한 매력 https://t.co/1O4MDhYGp8 https://t.co/KfPsVQ8GO3",
+              "edit_history_tweet_ids": [
+                "1960852572115493073"
+              ],
+              "created_at": "2025-08-27T23:50:58.000Z",
+              "public_metrics": {
+                "retweet_count": 30,
+                "reply_count": 0,
+                "like_count": 72,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 2140
+              },
+              "id": "1960852572115493073",
+              "text": "투피엠(2PM) 멤버 장우영이 새 미니 앨범 마지막 티저 이미지를 공개하고 컴백 열기를 높였다.\n#2PM #투피엠 #우영 #장우영 #WOOYOUNG  #JANGWOOYOUNG #ウヨン\nhttps://t.co/dh96ayOdUS"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1959637811797385590"
+              ],
+              "created_at": "2025-08-24T15:23:57.000Z",
+              "public_metrics": {
+                "retweet_count": 14,
+                "reply_count": 0,
+                "like_count": 32,
+                "quote_count": 1,
+                "bookmark_count": 1,
+                "impression_count": 2393
+              },
+              "id": "1959637811797385590",
+              "text": "장우영(Jang Wooyoung) \"I'm into\"\n\n#장우영 #JangWooyoung\n#Im_into https://t.co/ZBABIuiwpG https://t.co/liC70OAjZv"
+            },
+            {
               "edit_history_tweet_ids": [
                 "1960567637622317308"
               ],
+              "created_at": "2025-08-27T04:58:45.000Z",
               "public_metrics": {
                 "retweet_count": 14,
                 "reply_count": 1,
@@ -397,14 +702,30 @@
                 "bookmark_count": 0,
                 "impression_count": 2825
               },
-              "created_at": "2025-08-27T04:58:45.000Z",
-              "id": "1960567637622317308"
+              "id": "1960567637622317308",
+              "text": "‘솔로 컴백’ 2PM 장우영, 힙하고 트렌디한 매력 https://t.co/1O4MDhYGp8 https://t.co/KfPsVQ8GO3"
             },
             {
-              "text": "2PM 장우영, 데뷔 17년차에도 청량美 폭발..'아임 인투' 마지막 티저 오픈\n\nhttps://t.co/XEo5KCqxBe\nhttps://t.co/e9Le3VxlWf\nhttps://t.co/RTvt39it0E\nhttps://t.co/D8kkfOxIGc\nhttps://t.co/8dv3qgFjpE\n\n#2PM우영 #장우영 #JANGWOOYOUNG\n#우영 #WOOYOUNG #ウヨン #Im_into https://t.co/GRhaOHyNin",
+              "edit_history_tweet_ids": [
+                "1961336325136650672"
+              ],
+              "created_at": "2025-08-29T07:53:14.000Z",
+              "public_metrics": {
+                "retweet_count": 38,
+                "reply_count": 0,
+                "like_count": 8,
+                "quote_count": 0,
+                "bookmark_count": 3,
+                "impression_count": 3811
+              },
+              "id": "1961336325136650672",
+              "text": "🍏장우영 솔콘 &lt;half half&gt;🍏\n좌석 교환 구해봅니다.\n\n저 : 토요일 27일 공연 C구역 2열 사이드\n님💙 : 토요일 27일 공연 A구역 2-3열 사이드\n\n이틀 둘 다 C구역으로 잡아서 하루는 반대쪽에서 보고싶어요🥹 현장에서 확인 후 교환 원합니다\nDM으로 연락 주세요!!\n양도❌️❌️ https://t.co/Uho544pK7D"
+            },
+            {
               "edit_history_tweet_ids": [
                 "1960865365027881368"
               ],
+              "created_at": "2025-08-28T00:41:48.000Z",
               "public_metrics": {
                 "retweet_count": 13,
                 "reply_count": 0,
@@ -413,16 +734,48 @@
                 "bookmark_count": 0,
                 "impression_count": 1030
               },
-              "created_at": "2025-08-28T00:41:48.000Z",
-              "id": "1960865365027881368"
+              "id": "1960865365027881368",
+              "text": "2PM 장우영, 데뷔 17년차에도 청량美 폭발..'아임 인투' 마지막 티저 오픈\n\nhttps://t.co/XEo5KCqxBe\nhttps://t.co/e9Le3VxlWf\nhttps://t.co/RTvt39it0E\nhttps://t.co/D8kkfOxIGc\nhttps://t.co/8dv3qgFjpE\n\n#2PM우영 #장우영 #JANGWOOYOUNG\n#우영 #WOOYOUNG #ウヨン #Im_into https://t.co/GRhaOHyNin"
             },
             {
-              "text": "2PM 장우영, 청청패션마저 완벽하게…3개월 만 컴백\nhttps://t.co/DW2SQLr9fz\n\n2PM 장우영, 데뷔 17년차에도 청량美 폭발..'아임 인투' 마지막 티저 오픈\nhttps://t.co/1HDjt9OCXh\n\n청청 패션 장우영…감각적이고 쓸쓸한 초가을 무드로 컴백\nhttps://t.co/NBz0ti08TQ\n\n#장우영 #JangWooyoung\n#Im_into https://t.co/AURfWcRlRd",
+              "edit_history_tweet_ids": [
+                "1961305203790983190"
+              ],
+              "created_at": "2025-08-29T05:49:34.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 27,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 1245
+              },
+              "id": "1961305203790983190",
+              "text": "사녹 후 칫솔님과 뒤푸리 대구탕🐟\n맑은 느낌! 맛있네\n\n#장우영 #김숙맛집 https://t.co/2nl4Clzhw4"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1959913413699678386"
+              ],
+              "created_at": "2025-08-25T09:39:05.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 43,
+                "quote_count": 0,
+                "bookmark_count": 2,
+                "impression_count": 1651
+              },
+              "id": "1959913413699678386",
+              "text": "방 잘 지키고 있어🩵🖤🩵🖤🩵🖤\n\n#장우영 #우영 #jangwooyoung #ウヨン\n#chocomoo #jyppopup https://t.co/YaONKXgB6A"
+            },
+            {
               "edit_history_tweet_ids": [
                 "1960844690351395131",
                 "1960846175663481048",
                 "1960849265758233081"
               ],
+              "created_at": "2025-08-27T23:25:33.000Z",
               "public_metrics": {
                 "retweet_count": 3,
                 "reply_count": 0,
@@ -431,16 +784,32 @@
                 "bookmark_count": 0,
                 "impression_count": 217
               },
-              "created_at": "2025-08-27T23:25:33.000Z",
-              "id": "1960846175663481048"
+              "id": "1960846175663481048",
+              "text": "2PM 장우영, 청청패션마저 완벽하게…3개월 만 컴백\nhttps://t.co/DW2SQLr9fz\n\n2PM 장우영, 데뷔 17년차에도 청량美 폭발..'아임 인투' 마지막 티저 오픈\nhttps://t.co/1HDjt9OCXh\n\n청청 패션 장우영…감각적이고 쓸쓸한 초가을 무드로 컴백\nhttps://t.co/NBz0ti08TQ\n\n#장우영 #JangWooyoung\n#Im_into https://t.co/AURfWcRlRd"
             },
             {
-              "text": "2PM 장우영, 청청패션마저 완벽하게…3개월 만 컴백\nhttps://t.co/DW2SQLr9fz\n\n2PM 장우영, 데뷔 17년차에도 청량美 폭발..'아임 인투' 마지막 티저 오픈\nhttps://t.co/1HDjt9OCXh\n\n#장우영 #JangWooyoung\n#Im_into https://t.co/XdBvQLzx8I",
+              "edit_history_tweet_ids": [
+                "1960350980526297168"
+              ],
+              "created_at": "2025-08-26T14:37:49.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 14,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 369
+              },
+              "id": "1960350980526297168",
+              "text": "장우영이 23, 24, 25, 26 버블을 왔다는게믿기지않음..."
+            },
+            {
               "edit_history_tweet_ids": [
                 "1960844690351395131",
                 "1960846175663481048",
                 "1960849265758233081"
               ],
+              "created_at": "2025-08-27T23:19:39.000Z",
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -449,14 +818,30 @@
                 "bookmark_count": 0,
                 "impression_count": 80
               },
-              "created_at": "2025-08-27T23:19:39.000Z",
-              "id": "1960844690351395131"
+              "id": "1960844690351395131",
+              "text": "2PM 장우영, 청청패션마저 완벽하게…3개월 만 컴백\nhttps://t.co/DW2SQLr9fz\n\n2PM 장우영, 데뷔 17년차에도 청량美 폭발..'아임 인투' 마지막 티저 오픈\nhttps://t.co/1HDjt9OCXh\n\n#장우영 #JangWooyoung\n#Im_into https://t.co/XdBvQLzx8I"
             },
             {
-              "text": "💙 뉴스엔:https://t.co/LEjqb0YumU\n‘솔로 컴백’ 2PM 장우영, 힙하고 트렌디한 매력 https://t.co/NK1EzGKNBD",
+              "edit_history_tweet_ids": [
+                "1961313881642733584"
+              ],
+              "created_at": "2025-08-29T06:24:03.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 615
+              },
+              "id": "1961313881642733584",
+              "text": "투피엠 포카 2pm poka Photo card sell \n투피엠 2PM 15주년 기념 콘서트  포카 포토카드 \n2PM 2PM 15th Anniversary Concert Photocard poka\n\n준케이 닉쿤 택연 우영 준호 찬성 김민준 옥택연 장우영 이준호 황찬성 jun. k nichkhun taecyeon wooyoung chansung https://t.co/On3wwtvyBE"
+            },
+            {
               "edit_history_tweet_ids": [
                 "1960579109425455369"
               ],
+              "created_at": "2025-08-27T05:44:20.000Z",
               "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 1,
@@ -465,23 +850,71 @@
                 "bookmark_count": 0,
                 "impression_count": 33
               },
-              "created_at": "2025-08-27T05:44:20.000Z",
-              "id": "1960579109425455369"
+              "id": "1960579109425455369",
+              "text": "💙 뉴스엔:https://t.co/LEjqb0YumU\n‘솔로 컴백’ 2PM 장우영, 힙하고 트렌디한 매력 https://t.co/NK1EzGKNBD"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1959997080879178184"
+              ],
+              "created_at": "2025-08-25T15:11:33.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 183
+              },
+              "id": "1959997080879178184",
+              "text": "흐앙 떡밥 몰아친다ㅜㅜㅜㅜ방금전까지 흐아앙 민주나ㅜㅜㅜㅠ이러고 있었는데 지금은 ㅁㅊ장우영ㅜㅜㅠㅜ이러고있음..."
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1959623766134378621"
+              ],
+              "created_at": "2025-08-24T14:28:08.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 90
+              },
+              "id": "1959623766134378621",
+              "text": "#우영버블\n장우영이 너무 귀엽다"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1959634477233393841"
+              ],
+              "created_at": "2025-08-24T15:10:42.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 80
+              },
+              "id": "1959634477233393841",
+              "text": "@followwooyoung 장우영최고💙"
             }
           ],
           "meta": {
-            "newest_id": "1960865365027881368",
-            "oldest_id": "1960567637622317308",
-            "result_count": 6
+            "newest_id": "1961336325136650672",
+            "oldest_id": "1959623766134378621",
+            "result_count": 16
           }
         }
       ],
-      "count": 6,
+      "count": 16,
       "has_next_token": false
     },
     "lag3w": {
       "request": {
-        "query": "\"2PM 장우영\" lang:ko -is:retweet -is:nullcast",
+        "query": "2PM 장우영 lang:ko -is:retweet -is:nullcast",
         "start_time": "2025-08-17T00:00:00Z",
         "end_time": "2025-08-24T00:00:00Z",
         "max_results": 50,
@@ -493,17 +926,53 @@
         ]
       },
       "rate_limit": {
-        "x-rate-limit-remaining": "270",
-        "x-rate-limit-reset": "1772035484"
+        "x-rate-limit-remaining": "294",
+        "x-rate-limit-reset": "1772036940"
       },
       "pages": [
         {
+          "data": [
+            {
+              "text": "장우영 “2PM 완전체 컴백? 꽤 가까이 왔다” [스타@스타일] &lt; 인터뷰 &lt; 스타@스타일 &lt; STAR &lt; 기사본문 - 앳스타일 https://t.co/CedfNk859F",
+              "id": "1959048765513638253",
+              "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 25,
+                "quote_count": 0,
+                "bookmark_count": 1,
+                "impression_count": 1236
+              },
+              "edit_history_tweet_ids": [
+                "1959048765513638253"
+              ],
+              "created_at": "2025-08-23T00:23:17.000Z"
+            },
+            {
+              "text": "투피엠 포카 2pm poka Photo card sell \n투피엠 2PM 15주년 기념 콘서트  포카 포토카드 \n2PM 2PM 15th Anniversary Concert Photocard poka\n\n준케이 닉쿤 택연 우영 준호 찬성 김민준 옥택연 장우영 이준호 황찬성 jun. k nichkhun taecyeon wooyoung chansung https://t.co/vFQsm1vLTk",
+              "id": "1958362831361110506",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 605
+              },
+              "edit_history_tweet_ids": [
+                "1958362831361110506"
+              ],
+              "created_at": "2025-08-21T02:57:38.000Z"
+            }
+          ],
           "meta": {
-            "result_count": 0
+            "newest_id": "1959048765513638253",
+            "oldest_id": "1958362831361110506",
+            "result_count": 2
           }
         }
       ],
-      "count": 0,
+      "count": 2,
       "has_next_token": false
     }
   },

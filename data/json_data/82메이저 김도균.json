@@ -1,8 +1,8 @@
 {
   "name": "82메이저 김도균",
   "start_date": "2024-04-21",
-  "search_query": "\"82메이저 김도균\" lang:ko -is:retweet -is:nullcast",
-  "counts_query": "\"82메이저 김도균\" lang:ko -is:retweet -is:nullcast",
+  "search_query": "82메이저 김도균 lang:ko -is:retweet -is:nullcast",
+  "counts_query": "82메이저 김도균 lang:ko -is:retweet -is:nullcast",
   "windows": {
     "lag1_start_time": "2024-04-14T00:00:00Z",
     "lag1_end_time": "2024-04-21T00:00:00Z",
@@ -13,17 +13,17 @@
     "counts_start_time": "2024-03-31T00:00:00Z",
     "counts_end_time": "2024-04-21T00:00:00Z"
   },
-  "collected_at_utc": "2026-02-25T15:49:55Z",
+  "collected_at_utc": "2026-02-25T16:14:12Z",
   "counts": {
     "request": {
-      "query": "\"82메이저 김도균\" lang:ko -is:retweet -is:nullcast",
+      "query": "82메이저 김도균 lang:ko -is:retweet -is:nullcast",
       "start_time": "2024-03-31T00:00:00Z",
       "end_time": "2024-04-21T00:00:00Z",
       "granularity": "day"
     },
     "rate_limit": {
       "x-rate-limit-remaining": "296",
-      "x-rate-limit-reset": "1772035482"
+      "x-rate-limit-reset": "1772036939"
     },
     "response": {
       "data": [
@@ -75,7 +75,7 @@
         {
           "end": "2024-04-10T00:00:00.000Z",
           "start": "2024-04-09T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 2
         },
         {
           "end": "2024-04-11T00:00:00.000Z",
@@ -85,12 +85,12 @@
         {
           "end": "2024-04-12T00:00:00.000Z",
           "start": "2024-04-11T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 1
         },
         {
           "end": "2024-04-13T00:00:00.000Z",
           "start": "2024-04-12T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 1
         },
         {
           "end": "2024-04-14T00:00:00.000Z",
@@ -100,12 +100,12 @@
         {
           "end": "2024-04-15T00:00:00.000Z",
           "start": "2024-04-14T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 1
         },
         {
           "end": "2024-04-16T00:00:00.000Z",
           "start": "2024-04-15T00:00:00.000Z",
-          "tweet_count": 0
+          "tweet_count": 1
         },
         {
           "end": "2024-04-17T00:00:00.000Z",
@@ -134,14 +134,14 @@
         }
       ],
       "meta": {
-        "total_tweet_count": 0
+        "total_tweet_count": 6
       }
     }
   },
   "search": {
     "lag1w": {
       "request": {
-        "query": "\"82메이저 김도균\" lang:ko -is:retweet -is:nullcast",
+        "query": "82메이저 김도균 lang:ko -is:retweet -is:nullcast",
         "start_time": "2024-04-14T00:00:00Z",
         "end_time": "2024-04-21T00:00:00Z",
         "max_results": 50,
@@ -154,21 +154,57 @@
       },
       "rate_limit": {
         "x-rate-limit-remaining": "290",
-        "x-rate-limit-reset": "1772035484"
+        "x-rate-limit-reset": "1772036940"
       },
       "pages": [
         {
+          "data": [
+            {
+              "edit_history_tweet_ids": [
+                "1779752688315769333"
+              ],
+              "id": "1779752688315769333",
+              "text": "에이티투메이저 82major 대면 영통 팬싸컷 \n\n💰1.5\n\nForeigner ⭕️\n 마감까지 3번 변동 알려드리겠습니다\n\n팬싸컷❣️\nhttps://t.co/9yNFCpVgaN\n\n양도 거래 교환 판매 포카 미공포 에이티투메이저 82메이저 조성일 남성모 황성빈 박석준 윤예찬 김도균 82major https://t.co/L0RvdfdX5v",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 2,
+                "bookmark_count": 0,
+                "impression_count": 1451
+              },
+              "created_at": "2024-04-15T06:04:41.000Z"
+            },
+            {
+              "edit_history_tweet_ids": [
+                "1779383114470691180"
+              ],
+              "id": "1779383114470691180",
+              "text": "에이티투메이저 82major 대면 영통 팬싸컷 \n\n💰1.5\n\nForeigner ⭕️\n 마감까지 3번 변동 알려드리겠습니다\n\n팬싸컷❣️\nhttps://t.co/9yNFCpVgaN\n\n양도 거래 교환 판매 포카 미공포 에이티투메이저 82메이저 조성일 남성모 황성빈 박석준 윤예찬 김도균 82major https://t.co/qCsV4FfCrm",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 744
+              },
+              "created_at": "2024-04-14T05:36:08.000Z"
+            }
+          ],
           "meta": {
-            "result_count": 0
+            "newest_id": "1779752688315769333",
+            "oldest_id": "1779383114470691180",
+            "result_count": 2
           }
         }
       ],
-      "count": 0,
+      "count": 2,
       "has_next_token": false
     },
     "lag2w": {
       "request": {
-        "query": "\"82메이저 김도균\" lang:ko -is:retweet -is:nullcast",
+        "query": "82메이저 김도균 lang:ko -is:retweet -is:nullcast",
         "start_time": "2024-04-07T00:00:00Z",
         "end_time": "2024-04-14T00:00:00Z",
         "max_results": 50,
@@ -181,21 +217,73 @@
       },
       "rate_limit": {
         "x-rate-limit-remaining": "289",
-        "x-rate-limit-reset": "1772035484"
+        "x-rate-limit-reset": "1772036940"
       },
       "pages": [
         {
+          "data": [
+            {
+              "id": "1778666446186529057",
+              "edit_history_tweet_ids": [
+                "1778666446186529057"
+              ],
+              "text": "에이티투메이저 82major 대면 영통 팬싸컷 \n\n💰1.5\n\nForeigner ⭕️\n 마감까지 3번 변동 알려드리겠습니다\n\n팬싸컷❣️\nhttps://t.co/9yNFCpVgaN\n\n양도 거래 교환 판매 포카 미공포 에이티투메이저 82메이저 조성일 남성모 황성빈 박석준 윤예찬 김도균 82major https://t.co/1xKj9uqlwt",
+              "created_at": "2024-04-12T06:08:21.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 1,
+                "bookmark_count": 0,
+                "impression_count": 850
+              }
+            },
+            {
+              "id": "1778303521718432148",
+              "edit_history_tweet_ids": [
+                "1778303521718432148"
+              ],
+              "text": "에이티투메이저 82major 대면 영통 팬싸컷 \n\n💰1.5\n\nForeigner ⭕️\n 마감까지 3번 변동 알려드리겠습니다\n\n팬싸컷❣️\nhttps://t.co/9yNFCpVgaN\n\n양도 거래 교환 판매 포카 미공포 에이티투메이저 82메이저 조성일 남성모 황성빈 박석준 윤예찬 김도균 82major https://t.co/xTHO1GDTDJ",
+              "created_at": "2024-04-11T06:06:13.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0,
+                "bookmark_count": 0,
+                "impression_count": 641
+              }
+            },
+            {
+              "id": "1777608696589164943",
+              "edit_history_tweet_ids": [
+                "1777608696589164943"
+              ],
+              "text": "82MAJOR 포카 앨포 양도\n\n일괄 5.0\nDM주세요!♡\n시세보다 낮게 양도합니다💗\n네고 가능!\n\n82메이저 에이티투메이저 에투메 예스24 예사 SHOWCASE PHOCA PHOTOCARD\n남성모 박석준 윤예찬 조성일 황성빈 김도균\nSUNGMO SEOKJOON YECHAN SEONGIL SUNGBIN DOGYUN 미공포 과잠 분철 받아요 사요 구해요 https://t.co/diTKsSJ8Y8",
+              "created_at": "2024-04-09T08:05:14.000Z",
+              "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 2,
+                "quote_count": 0,
+                "bookmark_count": 4,
+                "impression_count": 1271
+              }
+            }
+          ],
           "meta": {
-            "result_count": 0
+            "newest_id": "1778666446186529057",
+            "oldest_id": "1777608696589164943",
+            "result_count": 3
           }
         }
       ],
-      "count": 0,
+      "count": 3,
       "has_next_token": false
     },
     "lag3w": {
       "request": {
-        "query": "\"82메이저 김도균\" lang:ko -is:retweet -is:nullcast",
+        "query": "82메이저 김도균 lang:ko -is:retweet -is:nullcast",
         "start_time": "2024-03-31T00:00:00Z",
         "end_time": "2024-04-07T00:00:00Z",
         "max_results": 50,
@@ -208,7 +296,7 @@
       },
       "rate_limit": {
         "x-rate-limit-remaining": "288",
-        "x-rate-limit-reset": "1772035484"
+        "x-rate-limit-reset": "1772036940"
       },
       "pages": [
         {
