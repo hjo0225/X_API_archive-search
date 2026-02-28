@@ -14,6 +14,8 @@ if str(SCRIPT_DIR) not in sys.path:
 
 import X_count_pipeline as xp
 
+DEFAULT_COST_PER_REQUEST_USD = 0.010
+
 
 def load_df_for_test() -> tuple[pd.DataFrame, str]:
     try:
@@ -59,8 +61,8 @@ def main() -> None:
     parser.add_argument(
         "--cost-per-request-usd",
         type=float,
-        default=None,
-        help="Optional unit price in USD for one counts/all request",
+        default=DEFAULT_COST_PER_REQUEST_USD,
+        help="Unit price in USD for one counts/all request (default: 0.010)",
     )
     args = parser.parse_args()
 
@@ -91,10 +93,8 @@ def main() -> None:
         str(row.get("collab_start_week")), weekly_counts
     )
 
-    request_count = 1
-    estimated_cost = None
-    if args.cost_per_request_usd is not None:
-        estimated_cost = request_count * args.cost_per_request_usd
+    request_count = int(payload.get("page_count", 1) or 1)
+    estimated_cost = request_count * args.cost_per_request_usd
 
     print("=== ONE-IP COST TEST ===")
     print(f"source={source}")
@@ -104,15 +104,13 @@ def main() -> None:
     print(f"window_end={end_iso}")
     print(f"elapsed_sec={elapsed:.3f}")
     print(f"requests={request_count}")
+    print(f"unit_cost_usd={args.cost_per_request_usd:.6f}")
     print(f"rate_limit={rate_meta}")
     print(f"daily_buckets={len(payload.get('data', []) or [])}")
     print(f"weekly_keys={len(weekly_counts)}")
     print(f"total_count_2to6m={total_count_2to6m}")
     print(f"sample_lag_9w={lag_features.get('count_lag_9w')}")
-    if estimated_cost is None:
-        print("estimated_cost_usd=None (pass --cost-per-request-usd to calculate)")
-    else:
-        print(f"estimated_cost_usd={estimated_cost:.6f}")
+    print(f"estimated_cost_usd={estimated_cost:.6f}")
 
 
 if __name__ == "__main__":

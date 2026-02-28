@@ -12,7 +12,7 @@ import requests
 from dateutil.relativedelta import relativedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-INPUT_PATH = BASE_DIR / "data" / "Unique_Celebrity_Keyword.X.xlsx"
+INPUT_PATH = BASE_DIR / "raw" / "Unique_Celebrity_Keyword.X.csv"
 OUTPUT_PATH = BASE_DIR / "data" / "Celebrity_count.xlsx"
 JSON_DIR = BASE_DIR / "data" / "json"
 COUNTS_ALL_URL = "https://api.x.com/2/tweets/counts/all"
@@ -35,12 +35,34 @@ def now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def _resolve_input_path(input_path: Path) -> Path:
+    candidates = [
+        input_path,
+        BASE_DIR / "data" / "Unique_Celebrity_Keyword.X.xlsx",
+        BASE_DIR / "data" / "Unique_Celebrity_Keyword.X.csv",
+        BASE_DIR / "raw" / "Unique_Celebrity_Keyword.X.csv",
+    ]
+    for p in candidates:
+        if p.exists():
+            return p
+    raise FileNotFoundError(
+        "Input file not found. Tried: " + ", ".join(str(p) for p in candidates)
+    )
+
+
+def _read_table(path: Path) -> pd.DataFrame:
+    if path.suffix.lower() == ".csv":
+        return pd.read_csv(path)
+    return pd.read_excel(path)
+
+
 def load_dataframe(input_path: Path, output_path: Path) -> tuple[pd.DataFrame, str]:
     if output_path.exists():
         df = pd.read_excel(output_path)
         source = "resume"
     else:
-        df = pd.read_excel(input_path)
+        resolved_input = _resolve_input_path(input_path)
+        df = _read_table(resolved_input)
         source = "fresh"
 
     required_cols = ["variants_joined", "group.nd.name", "collab_start_week"]
@@ -63,6 +85,7 @@ def parse_iso_week(s: str) -> tuple[int, int]:
         r"^(\d{4})-W(\d{1,2})$",
         r"^(\d{4})W(\d{1,2})$",
         r"^(\d{4})-(\d{1,2})$",
+        r"^(\d{4})(\d{2})$",
     ]
     for pattern in patterns:
         m = re.match(pattern, text, flags=re.IGNORECASE)
@@ -100,7 +123,9 @@ def compute_collab_start_date(df: pd.DataFrame) -> pd.DataFrame:
         raw_week = out.at[idx, "collab_start_week"]
         try:
             year, week = parse_iso_week(str(raw_week))
+            normalized_week = f"{year:04d}-W{week:02d}"
             monday = iso_week_monday(year, week)
+            out.at[idx, "collab_start_week"] = normalized_week
             out.at[idx, "collab_start_date"] = monday.strftime("%Y-%m-%d")
         except Exception as e:
             out.at[idx, "status"] = "ERROR"
@@ -157,7 +182,16 @@ def build_query(variants_joined: str) -> str:
     if not text:
         raise ValueError("variants_joined is empty")
 
-    query = f"({text}) lang:ko -is:retweet -is:nullcast"
+    # CSV stores variants as "a | b | c"; X query syntax requires "OR".
+    parts = [p.strip().replace('"', "") for p in text.split("|")]
+    parts = [p for p in parts if p]
+    if not parts:
+        raise ValueError("No valid query variants after parsing variants_joined")
+
+    # Deduplicate while preserving order.
+    deduped = list(dict.fromkeys(parts))
+    clause = deduped[0] if len(deduped) == 1 else f"({' OR '.join(deduped)})"
+    query = f"{clause} lang:ko -is:retweet -is:nullcast"
     if len(query) > 1024:
         raise ValueError(f"Query too long: {len(query)} > 1024")
 
@@ -172,22 +206,42 @@ def fetch_counts_all_day(
     timeout: int = 30,
 ) -> tuple[dict, dict]:
     headers = {"Authorization": f"Bearer {bearer_token}"}
-    params = {
-        "query": query,
-        "start_time": start_iso,
-        "end_time": end_iso,
-        "granularity": "day",
-    }
-    response = requests.get(COUNTS_ALL_URL, headers=headers, params=params, timeout=timeout)
-    response.raise_for_status()
+    all_data: list[dict] = []
+    next_token: str | None = None
+    page_count = 0
+    last_meta: dict | None = None
+    rate_meta = {"limit": None, "remaining": None, "reset": None}
 
-    payload = response.json()
-    rate_meta = {
-        "limit": response.headers.get("x-rate-limit-limit"),
-        "remaining": response.headers.get("x-rate-limit-remaining"),
-        "reset": response.headers.get("x-rate-limit-reset"),
-    }
-    return payload, rate_meta
+    while True:
+        params = {
+            "query": query,
+            "start_time": start_iso,
+            "end_time": end_iso,
+            "granularity": "day",
+        }
+        if next_token:
+            params["next_token"] = next_token
+
+        response = requests.get(COUNTS_ALL_URL, headers=headers, params=params, timeout=timeout)
+        response.raise_for_status()
+        payload = response.json()
+
+        all_data.extend(payload.get("data", []) or [])
+        last_meta = payload.get("meta", {}) or {}
+        page_count += 1
+
+        rate_meta = {
+            "limit": response.headers.get("x-rate-limit-limit"),
+            "remaining": response.headers.get("x-rate-limit-remaining"),
+            "reset": response.headers.get("x-rate-limit-reset"),
+        }
+
+        next_token = last_meta.get("next_token")
+        if not next_token:
+            break
+
+    combined_payload = {"data": all_data, "meta": last_meta, "page_count": page_count}
+    return combined_payload, rate_meta
 
 
 def aggregate_daily_to_iso_week(counts_data) -> dict[str, int]:
@@ -286,14 +340,23 @@ def process_one_ip(df, idx, bearer_token) -> tuple[pd.DataFrame, bool]:
     row = df.loc[idx]
 
     group_name = row.get("group.nd.name")
+    collab_n = row.get("collab_n")
     variants_joined = row.get("variants_joined")
     collab_start_week = row.get("collab_start_week")
     collab_start_date = row.get("collab_start_date")
     window_start = row.get("window_start")
     window_end = row.get("window_end")
+    print(
+        f"[START] idx={idx} group={group_name} collab_n={collab_n} "
+        f"window={window_start}~{window_end}"
+    )
 
     try:
+        y, w = parse_iso_week(str(collab_start_week))
+        normalized_collab_start_week = f"{y:04d}-W{w:02d}"
+        df.at[idx, "collab_start_week"] = normalized_collab_start_week
         query = build_query(variants_joined)
+        print(f"[REQUEST] idx={idx} counts/all query={query}")
         payload, rate_meta = fetch_counts_all_day(
             query=query,
             start_iso=str(window_start),
@@ -302,7 +365,7 @@ def process_one_ip(df, idx, bearer_token) -> tuple[pd.DataFrame, bool]:
         )
         weekly_counts_dict = aggregate_daily_to_iso_week(payload.get("data", []))
         lag_features_dict, total_count_2to6m = build_lag_features(
-            collab_start_week_str=str(collab_start_week),
+            collab_start_week_str=normalized_collab_start_week,
             weekly_counts_dict=weekly_counts_dict,
         )
 
@@ -326,7 +389,7 @@ def process_one_ip(df, idx, bearer_token) -> tuple[pd.DataFrame, bool]:
         ip_payload = make_ip_payload(
             group_name=group_name,
             query=query,
-            collab_start_week=collab_start_week,
+            collab_start_week=normalized_collab_start_week,
             collab_start_date=collab_start_date,
             window_start=window_start,
             window_end=window_end,
@@ -335,7 +398,12 @@ def process_one_ip(df, idx, bearer_token) -> tuple[pd.DataFrame, bool]:
             total_count_2to6m=total_count_2to6m,
             rate_meta=rate_meta,
         )
-        save_ip_json(JSON_DIR, group_name, ip_payload)
+        file_name = f"{group_name}({collab_n}회차)"
+        save_ip_json(JSON_DIR, file_name, ip_payload)
+        print(
+            f"[OK] idx={idx} saved={safe_filename(file_name)}.json "
+            f"total_count_2to6m={total_count_2to6m}"
+        )
 
         remaining_raw = rate_meta.get("remaining")
         try:
@@ -343,6 +411,10 @@ def process_one_ip(df, idx, bearer_token) -> tuple[pd.DataFrame, bool]:
         except (TypeError, ValueError):
             remaining = None
         should_stop_soon_flag = bool(remaining is not None and remaining <= 10)
+        if remaining is not None:
+            print(f"[RATE] idx={idx} remaining={remaining}")
+        if should_stop_soon_flag:
+            print("[RATE] remaining <= 10, will stop soon.")
 
     except Exception as e:
         if "status" not in df.columns:
@@ -353,6 +425,7 @@ def process_one_ip(df, idx, bearer_token) -> tuple[pd.DataFrame, bool]:
         error_line = re.sub(r"[\r\n]+", " ", str(e)).strip()
         df.at[idx, "status"] = "ERROR"
         df.at[idx, "error_message"] = error_line
+        print(f"[ERROR] idx={idx} group={group_name} collab_n={collab_n} msg={error_line}")
 
         try:
             error_payload = {
@@ -361,7 +434,9 @@ def process_one_ip(df, idx, bearer_token) -> tuple[pd.DataFrame, bool]:
                 "error_message": error_line,
                 "saved_at_utc": now_iso(),
             }
-            save_ip_json(JSON_DIR, group_name, error_payload)
+            file_name = f"{group_name}({collab_n}회차)"
+            save_ip_json(JSON_DIR, file_name, error_payload)
+            print(f"[ERROR-SAVED] idx={idx} saved={safe_filename(file_name)}.json")
         except Exception:
             pass
     finally:
@@ -388,6 +463,10 @@ def main() -> None:
         df["error_message"] = pd.NA
 
     target_idxs = [idx for idx in df.index if str(df.at[idx, "status"]).strip().upper() != "OK"]
+    print(
+        f"[INIT] source={_source} total_rows={len(df)} pending_rows={len(target_idxs)} "
+        f"output={OUTPUT_PATH}"
+    )
 
     stop_soon = False
     stop_after_one_more = False
@@ -398,14 +477,18 @@ def main() -> None:
         df, should_stop_soon_flag = process_one_ip(df, idx, bearer_token)
         OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
         df.to_excel(OUTPUT_PATH, index=False)
+        print(f"[CHECKPOINT] idx={idx} workbook_saved={OUTPUT_PATH}")
 
         if break_after_this:
+            print("[STOP] stopping after one more item due to low remaining rate limit.")
             break
 
         if should_stop_soon_flag:
             stop_soon = True
         if stop_soon:
             stop_after_one_more = True
+
+    print("[DONE] pipeline finished.")
 
 
 if __name__ == "__main__":
