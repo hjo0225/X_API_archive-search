@@ -16,6 +16,7 @@ INPUT_PATH = BASE_DIR / "raw" / "Unique_Celebrity_Keyword.X.csv"
 OUTPUT_PATH = BASE_DIR / "data" / "Celebrity_count.xlsx"
 JSON_DIR = BASE_DIR / "data" / "json"
 COUNTS_ALL_URL = "https://api.x.com/2/tweets/counts/all"
+KST = timezone(timedelta(hours=9))
 JSON_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -33,6 +34,10 @@ def safe_filename(value: str) -> str:
 
 def now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def format_kst(dt: datetime) -> str:
+    return dt.astimezone(KST).strftime("%Y-%m-%d %H:%M:%S KST")
 
 
 def _resolve_input_path(input_path: Path) -> Path:
@@ -182,13 +187,30 @@ def build_query(variants_joined: str) -> str:
     if not text:
         raise ValueError("variants_joined is empty")
 
+    def _is_wrapped_in_quotes(value: str) -> bool:
+        return len(value) >= 2 and value.startswith('"') and value.endswith('"')
+
+    def _needs_quotes(value: str) -> bool:
+        # Quote tokens containing punctuation that can be parsed as operators.
+        return bool(re.search(r"[:.&'/+-]", value))
+
+    def _normalize_variant(raw_part: str) -> str:
+        part = raw_part.strip()
+        if not part:
+            return ""
+        if _is_wrapped_in_quotes(part):
+            return part
+        if _needs_quotes(part):
+            escaped = part.replace('"', '\\"')
+            return f'"{escaped}"'
+        return part
+
     # CSV stores variants as "a | b | c"; X query syntax requires "OR".
-    parts = [p.strip().replace('"', "") for p in text.split("|")]
+    parts = [_normalize_variant(p) for p in text.split("|")]
     parts = [p for p in parts if p]
     if not parts:
         raise ValueError("No valid query variants after parsing variants_joined")
 
-    # Deduplicate while preserving order.
     deduped = list(dict.fromkeys(parts))
     clause = deduped[0] if len(deduped) == 1 else f"({' OR '.join(deduped)})"
     query = f"{clause} lang:ko -is:retweet -is:nullcast"
@@ -446,6 +468,7 @@ def process_one_ip(df, idx, bearer_token) -> tuple[pd.DataFrame, bool]:
 
 
 def main() -> None:
+    init_time_utc = datetime.now(timezone.utc)
     bearer_token = get_bearer_token()
     df, _source = load_dataframe(INPUT_PATH, OUTPUT_PATH)
     df = compute_collab_start_date(df)
@@ -488,6 +511,7 @@ def main() -> None:
         if stop_soon:
             stop_after_one_more = True
 
+    print(f"[INIT-TIME] initialized_at_kst={format_kst(init_time_utc)}")
     print("[DONE] pipeline finished.")
 
 

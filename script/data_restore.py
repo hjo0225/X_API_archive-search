@@ -8,12 +8,16 @@ import pandas as pd
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+INPUT_PATH = BASE_DIR / "raw" / "Unique_Celebrity_Keyword.X.csv"
 WORKBOOK_PATH = BASE_DIR / "data" / "Celebrity_count.xlsx"
 JSON_DIR = BASE_DIR / "data" / "json"
 
 LAG_COLUMNS = [f"count_lag_{k}w" for k in range(9, 27)]
 RESTORE_COLUMNS = LAG_COLUMNS + [
     "total_count_2to6m",
+    "collab_start_date",
+    "window_start",
+    "window_end",
     "status",
     "error_message",
 ]
@@ -24,6 +28,41 @@ def parse_json_filename(path: Path) -> tuple[str, int]:
     if not m:
         raise ValueError(f"Invalid json filename format: {path.name}")
     return m.group(1).strip(), int(m.group(2))
+
+
+def _resolve_input_path(input_path: Path) -> Path:
+    candidates = [
+        input_path,
+        BASE_DIR / "data" / "Unique_Celebrity_Keyword.X.xlsx",
+        BASE_DIR / "data" / "Unique_Celebrity_Keyword.X.csv",
+        BASE_DIR / "raw" / "Unique_Celebrity_Keyword.X.csv",
+    ]
+    for p in candidates:
+        if p.exists():
+            return p
+    raise FileNotFoundError(
+        "Input file not found. Tried: " + ", ".join(str(p) for p in candidates)
+    )
+
+
+def _read_table(path: Path) -> pd.DataFrame:
+    if path.suffix.lower() == ".csv":
+        return pd.read_csv(path)
+    return pd.read_excel(path)
+
+
+def load_or_create_workbook(workbook_path: Path) -> pd.DataFrame:
+    if workbook_path.exists():
+        return pd.read_excel(workbook_path)
+
+    resolved_input = _resolve_input_path(INPUT_PATH)
+    df = _read_table(resolved_input)
+    df["status"] = "PENDING"
+    df["error_message"] = pd.NA
+    workbook_path.parent.mkdir(parents=True, exist_ok=True)
+    df.to_excel(workbook_path, index=False)
+    print(f"[CREATE] workbook_created={workbook_path} source={resolved_input}")
+    return df
 
 
 def ensure_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -55,6 +94,12 @@ def restore_ok_payload(df: pd.DataFrame, idx: int, payload: dict) -> None:
         df.at[idx, col] = lag_features.get(col, pd.NA)
 
     df.at[idx, "total_count_2to6m"] = payload.get("total_count_2to6m", pd.NA)
+    df.at[idx, "collab_start_date"] = payload.get(
+        "collab_start_date",
+        payload.get("collab_startdate", pd.NA),
+    )
+    df.at[idx, "window_start"] = payload.get("window_start", pd.NA)
+    df.at[idx, "window_end"] = payload.get("window_end", pd.NA)
     df.at[idx, "status"] = "OK"
     df.at[idx, "error_message"] = ""
 
@@ -87,6 +132,16 @@ def verify_row(df: pd.DataFrame, idx: int, payload: dict) -> list[str]:
             issues.append(col)
     if not values_equal(df.at[idx, "total_count_2to6m"], payload.get("total_count_2to6m", pd.NA)):
         issues.append("total_count_2to6m")
+    expected_collab_start_date = payload.get(
+        "collab_start_date",
+        payload.get("collab_startdate", pd.NA),
+    )
+    if not values_equal(df.at[idx, "collab_start_date"], expected_collab_start_date):
+        issues.append("collab_start_date")
+    if not values_equal(df.at[idx, "window_start"], payload.get("window_start", pd.NA)):
+        issues.append("window_start")
+    if not values_equal(df.at[idx, "window_end"], payload.get("window_end", pd.NA)):
+        issues.append("window_end")
     if not values_equal(df.at[idx, "status"], "OK"):
         issues.append("status")
     if not values_equal(df.at[idx, "error_message"], ""):
@@ -95,12 +150,10 @@ def verify_row(df: pd.DataFrame, idx: int, payload: dict) -> list[str]:
 
 
 def main() -> None:
-    if not WORKBOOK_PATH.exists():
-        raise FileNotFoundError(f"Workbook not found: {WORKBOOK_PATH}")
     if not JSON_DIR.exists():
         raise FileNotFoundError(f"JSON directory not found: {JSON_DIR}")
 
-    df = pd.read_excel(WORKBOOK_PATH)
+    df = load_or_create_workbook(WORKBOOK_PATH)
     df = ensure_columns(df)
     row_index = build_row_index(df)
 
